@@ -1,0 +1,68 @@
+.site { 
+  width: 54%; margin: 0 auto; 
+}
+.bio { 
+  width: 90%; 
+}
+body {
+  margin: 0;
+  background: #F2F1F1;
+  color: #373737; 
+}
+div { 
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif; 
+  font-weight: 300;
+}
+.masthead-name { 
+  font-size: 8.5em; 
+  font-weight: 400;
+  margin: 0 auto;
+}
+h1, h2, h3, footer { 
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif; 
+}
+.job-roles { 
+  font-size: 2em; 
+  font-weight: 700; 
+  color: #BD3612; 
+  text-transform: uppercase;
+  margin: 0 auto 1.5em; 
+}
+p { 
+  font-size: 1.25em;
+  line-height: 1.75em;
+  margin-bottom: 1.75em;
+}
+.bio a:link { 
+  color: #2075C7; 
+  text-decoration: none;
+}
+.bio a:hover, .bio a:visited { 
+  color: #BD3612;
+}
+
+footer { 
+  display: block;
+}
+footer a:link { 
+  padding-left: 10px; 
+  margin-top: 6px; 
+  font-size: 1.25em;
+  font-weight: normal;
+  letter-spacing: 0.5pt;
+  display: block;
+  background: #BD3612;
+  -webkit-transition: background 0.3s ease; 
+  -moz-transition: background 0.3s ease; 
+  -o-transition: background 0.3s ease; 
+  transition: background 0.3s ease;
+  color: #F2F1F1; 
+  text-decoration: none;
+}
+footer a:hover, a:visited { color: #FFF; }
+footer a:hover { background: #F44516; }
+footer ul { margin-left: -40px; }
+footer li {
+  display: inline-block; 
+  width: 8.75em;
+}

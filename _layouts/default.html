@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <script type="text/javascript">
+        (function() {
+          var config = {
+            kitId: 'cnn0xlm',
+            scriptTimeout: 3000
+          };
+          var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+        })();
+      </script>
+
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/base.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+  <div class="site">
+
+    {{ content }}
+
+      <footer>
+        <ul>
+          <li><a href="https://twitter.com/kevinSuttle" title="You should follow me on Twitter.">Twitter</a></li>
+          <li><a href="https://lanyrd.com/profile/kevinSuttle/" title="My conference and book appearances. Hint: one of them isn't Twilight.">Lanyrd</a></li>
+          <li><a href="https://github.com/kevinSuttle" title="Check out my code on Github. See what I did there.">Github</a></li>
+          <li><a href="https://quora.com/kevin-Suttle" title="Ask me a question on Quora.">Quora</a></li>
+          <li><a href="https://dribbble.com/kevinSuttle" title="Sometimes I design stuff.">Dribbble</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Google Analytics: --> 
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35514615-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </body>
+</html>

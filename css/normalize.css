@@ -1,0 +1,88 @@
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+ul {
+    margin: 1em 0;
+}

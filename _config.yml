@@ -1,0 +1,6 @@
+site_name: Kevin Suttle
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+pygments: [true]
+permalink: /posts/:title
