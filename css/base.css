@@ -195,19 +195,19 @@ p {
   }
   .masthead-name {
     text-align: left; 
-    font-size: 6.5em; 
+    font-size: 7.5em; 
     line-height: 1.1em;
     font-weight: 800;
     margin: 1em auto 0;
   }
   .job-roles {
     text-align: left; 
-    font-size: 1.9em; 
+    font-size: 2em; 
     font-weight: 600; 
     margin: 0 auto 3.25em; 
   }
   p { 
-    font-size: 1.45em;
+    font-size: 1.475em;
     line-height: 1.65em;
     margin-bottom: 1.65em;
   }
