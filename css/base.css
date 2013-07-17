@@ -3,23 +3,18 @@ body {
     background: #F2F1F1;
     color: #373737;
     margin: 0;
+    font-family: "proxima-nova", Avenir Next, Avenir, Gill Sans, Futura, Myriad Pro, Corbel, Tahoma, Verdana, sans-serif; 
 }
 .site {
   width: 90%;
   margin: 0 auto;
-}
-
-div { 
-  font-family: "proxima-nova", Helvetica, Arial, sans-serif; 
-}
-
-h1, h2, h3, footer { 
-  font-family: "proxima-nova", Helvetica, Arial, sans-serif; 
+  padding-bottom: 2em;
 }
 
 .masthead-name {
   font-weight: 400;
   margin: 0 auto;
+  line-height: 1.1em;
   text-align: center;
 }
 .job-roles { 
@@ -94,49 +89,46 @@ p {
 .job-roles { 
   font-size: 1em; 
   font-weight: 600; 
-  margin: 0 auto 1.2em; 
+  margin: 0 auto 2em; 
 }
 
 /* Smartphone portrait*/
 @media all and (min-width: 320px){
   .site {
-    width: 94%;
+    width: 90%;
   }
 
   p { 
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-bottom: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.35em;
+    margin-bottom: 1.35em;
   }
 
   .masthead-name { 
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 1em auto 0;
   }
   .job-roles { 
-    font-size: 1.5em; 
-    margin: 0 auto 1.2em; 
+    font-size: 1.25em;
   }
 }
 
 /* Small tablet */
 @media all and (min-width: 480px) { 
   .bio { 
-    width: 96%; 
+    width: 100%; 
   }
   .masthead-name { 
-    font-size: 4em; 
-    line-height: 1.1em;
+    font-size: 3.5em; 
     margin: 0.5em auto 0;
   }
   .job-roles { 
-    font-size: 2em; 
-    margin: 0 auto 1.5em; 
+    font-size: 1.75em;
   }
   p { 
-    font-size: 1.2em;
-    line-height: 1.5em;
-    margin-bottom: 1.5em;
+    font-size: 1.35em;
+    line-height: 1.65em;
+    margin-bottom: 1.65em;
   }
 }
 
@@ -144,27 +136,28 @@ p {
 @media all and (min-width: 768px) {
   .site { 
     width: 90%;
+    padding-bottom: 3em;
   }
   .bio { 
-    width: 96%;
+    width: 99%;
   }
   .masthead-name {
     text-align: left; 
-    font-size: 7.3em; 
+    font-size: 6.2em; 
     line-height: 1.1em;
     font-weight: 800;
     margin: 1em auto 0;
   }
   .job-roles {
     text-align: left; 
-    font-size: 2em; 
+    font-size: 1.8em; 
     font-weight: 600; 
-    margin: 0 auto 3.25em; 
+    margin: 0 auto 2.5em; 
   }
   p { 
-    font-size: 1.33em;
-    line-height: 1.73em;
-    margin-bottom: 1.73em;
+    font-size: 1.4em;
+    line-height: 1.75em;
+    margin-bottom: 1.75em;
   }
   footer a:link { 
     font-size: 1.25em;
@@ -180,24 +173,26 @@ p {
     width: 8.75em;
   }
 }
-/* Laptop */
+
+/* Tablet - Landscape */
 @media all and (min-width: 1024px) {
   .site { 
-    width: 70%;
+    width: 66%;
+    padding-bottom: 3em;
   }
   .bio { 
-    width: 96%;
+    width: 100%;
   }
   .masthead-name {
     text-align: left; 
-    font-size: 7.3em; 
+    font-size: 6.5em; 
     line-height: 1.1em;
     font-weight: 800;
     margin: 1em auto 0;
   }
   .job-roles {
     text-align: left; 
-    font-size: 2em; 
+    font-size: 1.9em; 
     font-weight: 600; 
     margin: 0 auto 3.25em; 
   }
@@ -220,29 +215,31 @@ p {
     width: 8.75em;
   }
 }
-/* Desktop */
-@media all and (min-width: 1024px) {
+
+/* Laptop */
+@media all and (min-width: 1280px) {
   .site { 
     width: 55%;
+    padding-bottom: 4em;
   }
   .bio { 
     width: 90%;
   }
   .masthead-name {
     text-align: left; 
-    font-size: 7.3em; 
+    font-size: 6.5em; 
     line-height: 1.1em;
     font-weight: 800;
     margin: 1em auto 0;
   }
   .job-roles {
     text-align: left; 
-    font-size: 2em; 
+    font-size: 1.9em; 
     font-weight: 600; 
     margin: 0 auto 3.25em; 
   }
   p { 
-    font-size: 1.4em;
+    font-size: 1.45em;
     line-height: 1.65em;
     margin-bottom: 1.65em;
   }
