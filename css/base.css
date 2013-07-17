@@ -46,7 +46,7 @@ footer {
   padding: 1em;
 }
 
-footer a:link {
+footer a:link, a:visited {
   font-weight: normal;
   color: #F2F1F1; 
   text-decoration: none;
@@ -187,7 +187,7 @@ p {
 /* Laptop */
 @media all and (min-width: 1280px) {
   .site { 
-    width: 55%;
+    width: 57%;
     padding-bottom: 4em;
   }
   .bio { 
@@ -215,10 +215,6 @@ p {
     font-size: 1.25em;
     font-weight: normal;
     display: block;
-    -webkit-transition: background 0.3s ease; 
-    -moz-transition: background 0.3s ease; 
-    -o-transition: background 0.3s ease; 
-    transition: background 0.3s ease;
   }
   footer li {
     display: inline-block; 
