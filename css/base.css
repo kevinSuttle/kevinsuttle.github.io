@@ -52,16 +52,6 @@ footer a:link {
   text-decoration: none;
 }
 
-footer a:hover, a:visited { color: #FFF; }
-footer a:hover { background: #111; }
-
-footer li {
-  margin: 0;
-  padding: 0;
-  font-size: 1.5em;
-  display: inline-block;
-}
-
 ul { 
   list-style-type: none; 
   margin: 0;
@@ -69,10 +59,6 @@ ul {
 }
 
 /* Dumbphone-first */
-
-div {
-    font-weight: 400;
-}
 
 p { 
   font-size: 14px;
@@ -163,14 +149,6 @@ p {
     font-size: 1.25em;
     font-weight: normal;
     display: block;
-    -webkit-transition: background 0.3s ease; 
-    -moz-transition: background 0.3s ease; 
-    -o-transition: background 0.3s ease; 
-    transition: background 0.3s ease;
-  }
-  footer li {
-    display: inline-block; 
-    width: 8.75em;
   }
 }
 
@@ -203,16 +181,6 @@ p {
   }
   footer a:link { 
     font-size: 1.25em;
-    font-weight: normal;
-    display: block;
-    -webkit-transition: background 0.3s ease; 
-    -moz-transition: background 0.3s ease; 
-    -o-transition: background 0.3s ease; 
-    transition: background 0.3s ease;
-  }
-  footer li {
-    display: inline-block; 
-    width: 8.75em;
   }
 }
 
