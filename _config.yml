@@ -4,3 +4,4 @@ rdiscount:
   extensions: [smart]
 pygments: [true]
 permalink: /posts/:title
+exclude: ["CNAME", "README.md"]
