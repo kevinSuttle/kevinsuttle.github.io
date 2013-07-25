@@ -126,7 +126,6 @@ p {
     width: 99%;
   }
   .masthead-name {
-    text-align: left; 
     font-size: 6.2em; 
     line-height: 1.1em;
     font-weight: 800;
@@ -159,14 +158,12 @@ p {
     width: 100%;
   }
   .masthead-name {
-    text-align: left; 
     font-size: 6.5em; 
     line-height: 1.1em;
     font-weight: 800;
     margin: 1em auto 0;
   }
   .job-roles {
-    text-align: left; 
     font-size: 1.9em; 
     font-weight: 600; 
     margin: 0 auto 3.25em; 
@@ -191,14 +188,12 @@ p {
     width: 90%;
   }
   .masthead-name {
-    text-align: left; 
     font-size: 7em; 
     line-height: 1.1em;
     font-weight: 800;
     margin: 1em auto 0;
   }
   .job-roles {
-    text-align: left; 
     font-size: 2em; 
     font-weight: 600; 
     margin: 0 auto 3.25em; 
