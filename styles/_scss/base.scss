@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   line-height: 1.1em;
 }
-.job-roles { 
+.job-roles {
   color: #BD3612; 
   text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ p {
   margin: 1em auto 0;
 }
 .job-roles { 
-  font-size: 0.8em; 
+  font-size: 1em; 
   font-weight: 600; 
   margin: 0 auto 2em; 
 }
@@ -94,7 +94,11 @@ p {
     font-size: 2.5em;
     margin: 1em auto 0;
   }
-
+    .job-roles { 
+      font-size: 0.79em; 
+      font-weight: 600; 
+      margin: 0 auto 2em; 
+    }
 }
 
 /* Small tablet */
@@ -107,7 +111,7 @@ p {
     margin: 0.5em auto 0;
   }
     .job-roles { 
-      font-size: 1.2em; 
+      font-size: 1.1em; 
       font-weight: 600; 
       margin: 0 auto 2em; 
     }
@@ -166,7 +170,7 @@ p {
     margin: 1em auto 0;
   }
   .job-roles {
-    font-size: 1.9em; 
+    font-size: 1.8em; 
     font-weight: 600; 
     margin: 0 auto 3.25em; 
   }
