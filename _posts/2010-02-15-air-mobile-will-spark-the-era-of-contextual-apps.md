@@ -3,7 +3,7 @@ layout: post
 title: AIR Mobile Will Spark the Era of Contextual Applications
 ---
 
-<p style="text-align: center;"><img class="posterous_download_image" title="AIRMobileDemo" src="http://kevinsuttle.com/wp-content/uploads/2010/02/AIRMobileDemo.jpg" alt="" width="515" height="361" /></p>
+<p style="text-align: center;"><img class="posterous_download_image" title="AIRMobileDemo" src="/images/AIRMobileDemo.jpg" alt="" width="515" height="361" /></p>
 <p>In case you've grown accustomed to the cool dampness of the underside of a rock, you've heard the news. AIR Mobile for&nbsp;Android&nbsp;has been announced, bringing Flash to even more devices in the future. With the already imminent release of Flash Player 10.1 on mobile devices, and Flash CS5's back door into the iPhone App Store, it's hard to deny the potential effects on our computing habits in the future. <!--more--> Check out the video demos on the Motorola Droid with Kevin Hoyt:</p>
 <p style="text-align: center;">
 <object width="425" height="256" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">

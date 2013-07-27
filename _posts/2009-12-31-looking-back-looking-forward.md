@@ -3,7 +3,7 @@ layout: post
 title: Looking back, looking forward
 ---
 
-<p style="text-align: left;"><a href="http://kevinsuttle.com/wp-content/uploads/2009/12/MeAndChuck1.jpg"><img class="posterous_download_image" title="Chuck Freedman and ME!" src="http://kevinsuttle.com/wp-content/uploads/2009/12/MeAndChuck1.jpg" alt="Chuck Freedman and ME!" width="515" height="280" /></a></p>
+<p style="text-align: left;"><a href="/images/MeAndChuck1.jpg"><img class="posterous_download_image" title="Chuck Freedman and ME!" src="/images/MeAndChuck1.jpg" alt="Chuck Freedman and ME!" width="515" height="280" /></a></p>
 <p>2009 has been the best year of my professional career. In 2009, my name has become known within the Flash Platform community and I couldn't be more humbled. This post is not a show piece by any means. This is merely a personal reflection and public thank you to all who have helped me this year.<!--more--> Here are some of the highlights of this year.</p>
 <ul>
 <li> <strong>I started a blog</strong>, but not before consulting my first few articles with a few veterans who were awesome enough to help guide my viewpoint. You know who you are, and thank you. I have received some unexpectedly great feedback and am really grateful for the readership I have.</li>
