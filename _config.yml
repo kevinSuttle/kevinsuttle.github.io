@@ -1,7 +1,7 @@
-site_name: Kevin Suttle
+name: Kevin Suttle
+tagline: Designer. Developer. Writer. Presenter.
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
 pygments: [true]
 permalink: /posts/:title
-exclude: ["CNAME", "README.md"]

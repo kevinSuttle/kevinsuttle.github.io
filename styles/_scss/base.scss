@@ -7,10 +7,25 @@ body {
     margin: 0;
     font-family: "proxima-nova", Avenir Next, Avenir, Gill Sans, Futura, Myriad Pro, Corbel, Tahoma, Verdana, sans-serif; 
 }
-.site {
+.page_default {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 2em;
+}
+
+h1 {
+    color: #000;
+}
+.home_link {
+ color: #BD3612;   
+}
+
+a:link, a:visited { 
+  color: #2075C7; 
+  text-decoration: none;
+}
+a:hover, a:focus { 
+  color: #259185;
 }
 
 .masthead-name {
@@ -22,13 +37,8 @@ body {
   color: #BD3612; 
   text-transform: uppercase;
 }
-
-.bio a:link { 
-  color: #2075C7; 
-  text-decoration: none;
-}
-.bio a:hover, .bio a:visited, .bio a:focus { 
-  color: #195EA1;
+footer-post-nav {
+  background: #BD3612;
 }
 
 footer { 
@@ -40,13 +50,13 @@ footer {
   padding-bottom: 0.5em;
 }
 
-.footer-link {
+.external-link {
   display: inline-block;
   text-align: center;
   padding: 1em;
 }
 
-footer a:link, a:visited {
+footer a:link, footer a:visited {
   font-weight: normal;
   color: #F2F1F1; 
   text-decoration: none;
@@ -59,7 +69,6 @@ ul {
 }
 
 /* Dumbphone-first */
-
 p { 
   font-size: 14px;
   line-height: 1.3em;
@@ -80,7 +89,7 @@ p {
 
 /* Smartphone portrait*/
 @media all and (min-width: 320px){
-  .site {
+  .page_default {
     width: 90%;
   }
 
@@ -124,7 +133,7 @@ p {
 
 /* Large tablet */
 @media all and (min-width: 768px) {
-  .site { 
+  .page_default { 
     width: 90%;
     padding-bottom: 3em;
   }
@@ -147,7 +156,7 @@ p {
     line-height: 1.75em;
     margin-bottom: 1.75em;
   }
-  footer a:link { 
+  footer { 
     font-size: 1.25em;
     font-weight: normal;
     display: block;
@@ -156,7 +165,7 @@ p {
 
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {
-  .site { 
+  .page_default { 
     width: 66%;
     padding-bottom: 3em;
   }
@@ -179,14 +188,14 @@ p {
     line-height: 1.65em;
     margin-bottom: 1.65em;
   }
-  footer a:link { 
+  footer { 
     font-size: 1.25em;
   }
 }
 
 /* Laptop */
 @media all and (min-width: 1280px) {
-  .site { 
+  .page_default { 
     width: 57%;
     padding-bottom: 4em;
   }
@@ -209,7 +218,7 @@ p {
     line-height: 1.65em;
     margin-bottom: 1.65em;
   }
-  footer a:link { 
+  footer { 
     font-size: 1.25em;
     font-weight: normal;
     display: block;
