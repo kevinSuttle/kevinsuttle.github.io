@@ -5,5 +5,5 @@ rdiscount:
   extensions: [smart]
 pygments: [true]
 permalink: /posts/:title
-exclude: ["CNAME", "README.md", "viewports.html"]
+exclude: ["CNAME", "README.md"]
 url: KevinSuttle.com
