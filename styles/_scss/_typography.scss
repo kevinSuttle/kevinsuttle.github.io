@@ -1,0 +1,41 @@
+$base-font-size: 1.25em;
+$base-line-height: 1.618em;
+$body-copy-font: "proxima-nova", "rosario", Avenir Next, Avenir, Gill Sans, Futura, Myriad Pro, Corbel, Tahoma, Verdana, sans-serif;
+
+
+body {
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	margin-bottom: $base-line-height;
+	font-family: $body-copy-font;
+}
+
+h2 { margin-top: $base-line-height; }
+
+blockquote {
+	font-style: italic;
+	margin-bottom: $base-line-height;
+}
+
+header {
+	margin-top: 1em;
+}
+
+
+/* Dumbphone-first */
+.masthead-name { 
+  font-size: 2em; 
+  font-weight: 800;
+  line-height: 1.1em;
+}
+
+.job-roles { 
+  font-size: 1em; 
+  line-height: $base-line-height;
+  text-transform: uppercase;
+  margin: 0 auto $base-line-height;
+}
+
+.post-listing-item {
+  margin-bottom: $base-line-height;
+}

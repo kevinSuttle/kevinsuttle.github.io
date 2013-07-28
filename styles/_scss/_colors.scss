@@ -1,0 +1,58 @@
+/* Base styles */
+$light-sand: #F2F1F1;
+$graphite: #373737;
+$solarized-orange: #BD3612;
+$solarized-blue: #2075C7;
+$solarized-cyan: #259185;
+$background-color: $light-sand;
+$body-copy-color: $graphite;
+$secondary-color: $solarized-orange;
+$body-link-color: $solarized-blue; 
+$darkened-bg: darken($light-sand, 5%);
+
+body {
+    background: $background-color;
+    color: $graphite;
+}
+
+blockquote {
+  color: #708183;
+}
+
+h1 {
+    color: #000;
+}
+
+a:link, a:visited { 
+  color: $body-link-color; 
+  text-decoration: none;
+}
+a:hover, a:focus { 
+  background: $darkened-bg;
+}
+
+footer { 
+  background: $body-copy-color;
+  border-top: 2px solid #111;
+}
+
+footer a:link {
+  color: $light-sand; 
+}
+
+footer-post-nav {
+  background: $secondary-color;
+}
+
+.home_link {
+ color: $secondary-color;   
+}
+
+.job-roles {
+  color: $secondary-color; 
+}
+
+.external-post-link {
+  background: $darkened-bg;
+}
+
