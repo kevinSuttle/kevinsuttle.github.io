@@ -3,7 +3,7 @@ $light-sand: #F2F1F1;
 $graphite: #373737;
 $solarized-orange: #BD3612;
 $solarized-blue: #2075C7;
-$solarized-cyan: #259185;
+
 $background-color: $light-sand;
 $body-copy-color: $graphite;
 $secondary-color: $solarized-orange;
@@ -16,16 +16,15 @@ body {
 }
 
 blockquote {
-  color: #708183;
+  color: $darkened-bg;
 }
 
 h1 {
     color: #000;
 }
-h3 { 
-  color: $secondary-color; 
+h2 {
+  color: #B3B3B3;
 }
-
 
 a:link, a:visited { 
   color: $body-link-color; 
@@ -41,7 +40,13 @@ footer {
 }
 
 footer a:link, footer a:visited {
-  color: $light-sand; 
+  color: $light-sand;
+  background: none;
+}
+
+footer a:hover {
+  color:  lighten($graphite, 50%);
+  background: none;
 }
 
 footer-post-nav {

@@ -1,24 +1,35 @@
-$base-font-size: 1.25em;
-$base-line-height: 1.618em;
-$body-copy-font: "proxima-nova", "rosario", Avenir Next, Avenir, Gill Sans, Futura, Myriad Pro, Corbel, Tahoma, Verdana, sans-serif;
+$base-font-size: 1.125em; /* 18px */
+$base-line-height: 1.618em; /* 29.124px */
+/* http://modularscale.com/scale/?px1=18&px2=0&ra1=1.618&ra2=0 */
+$body-copy-font: "proxima-nova", Avenir Next, Avenir, Gill Sans, Futura, Myriad Pro, Corbel, Tahoma, Verdana, sans-serif;
 
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 100%;
+	text-rendering: optimizeLegibility;
+}
 
 body {
+	font-family: $body-copy-font;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
-	font-family: $body-copy-font;
 }
 
-p { margin: 0 0 $base-line-height; }
+p { 
+	margin: 0 0 $base-line-height; 
+}
 
-h2,h3 { 
-	margin: $base-line-height auto $base-line-height/2; 
+section h2 { 
 	line-height: 1;
+	font-size: 1em;
+	color: #81908F;
 	font-weight: 600;
-}
-
-h3 {
-	font-size: $base-font-size;
+	margin: ($base-line-height * 2) auto $base-line-height/2;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: .125em;
 }
 
 blockquote {
@@ -30,22 +41,26 @@ header {
 	margin-top: 1em;
 }
 
-
 /* Dumbphone-first */
 .masthead-name { 
-  font-size: 2em; 
+  font-size: 2em; /* 36px */
   font-weight: 800;
   line-height: 1.1em;
 }
 
 .job-roles { 
-  font-size: 1em; 
-  line-height: $base-line-height;
+  font-size: 1.166666667em; /* 24px */ 
   font-weight: 600;
-  text-transform: uppercase;
+  padding-bottom: 0.5em;
   margin: 0 auto $base-line-height;
+  border-bottom: 1px solid #B9BFBF;
+}
+
+.career-highlights-list li {
+  margin-bottom: $base-line-height * 0.5;
 }
 
 .post-listing-item {
   margin-bottom: $base-line-height;
 }
+
