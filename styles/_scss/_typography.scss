@@ -6,11 +6,20 @@ $body-copy-font: "proxima-nova", "rosario", Avenir Next, Avenir, Gill Sans, Futu
 body {
 	font-size: $base-font-size;
 	line-height: $base-line-height;
-	margin-bottom: $base-line-height;
 	font-family: $body-copy-font;
 }
 
-h2 { margin-top: $base-line-height; }
+p { margin: 0 0 $base-line-height; }
+
+h2,h3 { 
+	margin: $base-line-height auto $base-line-height/2; 
+	line-height: 1;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: $base-font-size;
+}
 
 blockquote {
 	font-style: italic;
@@ -32,6 +41,7 @@ header {
 .job-roles { 
   font-size: 1em; 
   line-height: $base-line-height;
+  font-weight: 600;
   text-transform: uppercase;
   margin: 0 auto $base-line-height;
 }

@@ -3,26 +3,12 @@
 @import "colors";
 
 /* Base styles */
-.page_default {
-  width: 90%;
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
-
-.masthead-name {
-  margin: 0 auto;
-}
 
 footer { 
   margin: 0 auto;
   text-align: center;
   width: 100%;
   padding-bottom: 0.5em;
-}
-
-.external-link {
-  display: inline-block;
-  padding: 1em;
 }
 
 ul { 
@@ -33,6 +19,24 @@ ul {
 
 time { display: block; }
 
+.page_default {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.masthead-name {
+  margin: 0 auto;
+}
+
+.external-link {
+  display: inline-block;
+  padding: 1em;
+}
+
+.career-highlights-list li {
+  margin-bottom: $base-line-height * 0.5;
+}
 /* Smartphone portrait*/
 @media all and (min-width: 320px){
   .page_default {

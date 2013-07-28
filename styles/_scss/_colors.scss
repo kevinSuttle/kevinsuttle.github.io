@@ -22,6 +22,10 @@ blockquote {
 h1 {
     color: #000;
 }
+h3 { 
+  color: $secondary-color; 
+}
+
 
 a:link, a:visited { 
   color: $body-link-color; 
