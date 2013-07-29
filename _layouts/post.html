@@ -2,24 +2,24 @@
 layout: default
 ---
 
-  <main class="post" role="main">
+<main class="post" role="main">
     <article>
         <h1>{{ page.title }}</h1>
         {{ content }}
     </article>
-  </main>
+</main>
 
 <nav class="footer-post-nav">
     <div>
-    {% if page.previous.url %} 
+        {% if page.previous.url %} 
         Previous article: <a href={{ page.previous.url }}>{{ page.previous.title }}</a>
-    {% endif %}
-    {% if page.previous.url and page.next.url %} 
-    {% endif %}
+        {% endif %}
+        {% if page.previous.url and page.next.url %} 
+        {% endif %}
     </div>
     <div>
-    {% if page.next.url %} 
-      Next article: <a href={{ page.next.url }}> {{ page.next.title }}</a>
-    {% endif %}
+        {% if page.next.url %} 
+        Next article: <a href={{ page.next.url }}> {{ page.next.title }}</a>
+        {% endif %}
     </div>
 </nav>
