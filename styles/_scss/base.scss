@@ -30,11 +30,18 @@ time { display: block; }
 }
 
 .external-link {
-  display: inline-block;
-  padding: 1em;
+  display: inline;
+    padding: 0.5em;
 }
 
-/* Smartphone portrait*/
+@media all and (min-width: 241px) {
+    .external-link {
+      display: inline-block;
+        padding: 1em;
+    }
+}
+
+/* Smartphone portrait */
 @media all and (min-width: 320px){
   .page_default {
     width: 90%;
