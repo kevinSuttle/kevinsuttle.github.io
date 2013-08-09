@@ -19,7 +19,7 @@ ul {
 
 time { display: block; }
 
-.page_default {
+.page {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 2em;
@@ -43,7 +43,7 @@ time { display: block; }
 
 /* Smartphone portrait */
 @media all and (min-width: 320px){
-  .page_default {
+  .page {
     width: 90%;
   }
 }
@@ -57,7 +57,7 @@ time { display: block; }
 
 /* Large tablet */
 @media all and (min-width: 768px) {
-  .page_default { 
+  .page { 
     width: 90%;
     padding-bottom: 3em;
   }
@@ -68,7 +68,7 @@ time { display: block; }
 
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {
-  .page_default { 
+  .page { 
     width: 66%;
     padding-bottom: 3em;
   }
@@ -79,7 +79,7 @@ time { display: block; }
 
 /* Laptop */
 @media all and (min-width: 1280px) {
-  .page_default { 
+  .page { 
     width: 57%;
     padding-bottom: 4em;
   }
