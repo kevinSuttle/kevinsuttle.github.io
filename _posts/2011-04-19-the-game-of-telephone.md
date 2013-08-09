@@ -10,7 +10,7 @@ title: The Game of Telephone
 <ol>
 	<li><strong> could be searched, and have each instance of the word "HTML5" replaced with "HTML" or "the web" and written 5 years ago</strong></li>
 	<li><strong>doesn't mention any specific implementations involving elements or functionality added in the HTML5 spec</strong></li>
-	<li><strong>consisently points to faster iterations as a benefit of HTML5</strong></li>
+	<li><strong>consistently points to faster iterations as a benefit of HTML5</strong></li>
 	<li><strong>makes references to "HTML5 UI" and "UX" </strong>and</li>
 	<li><strong>confused their custom Webkit instance for "HTML5"</strong></li>
 </ol>
@@ -38,9 +38,16 @@ title: The Game of Telephone
 
 <p>See point #2 above. "...<em>speaks for itself</em>" is Corporatese for<em> "I don't really know how it works or what it does."</em></p>
 
-<p>You might be asking yourself, "what's the big deal? I thought you were all about the web and HTML5 now?" <br />I am, however, the problem is one of misinformation. Apple has 100% proprietary Safari code that it calls "HTML5." Netflix sees that the web can skip Apple's review process and allows for code reuse on a number of devices and calls it "HTML5." Their engineers don't use Flash and by default, it must be an "HTML5 UI." Do you see a pattern here? We're taking something so powerful and muddying the waters by lumping a ton of buzzwords together.</p>
+<p>You might be asking yourself, "what's the big deal? I thought you were all about the web and HTML5 now?" I am, however, the problem is one of misinformation. Apple has 100% proprietary Safari code that it calls "HTML5." Netflix sees that the web can skip Apple's review process and allows for code reuse on a number of devices and calls it "HTML5." Their engineers don't use Flash and by default, it must be an "HTML5 UI." Do you see a pattern here? We're taking something so powerful and muddying the waters by lumping a ton of buzzwords together.</p>
+
 <p>Earlier this evening I was helping a friend who is super intelligent, but not totally familiar with the latest and greatest in web development, dig in and figure out how he could trigger some animations in CSS3 based on a demo whose source we'd been perusing. At one point he sent this IM:</p>
+
 <p><em>"this is frustrating.. yay html5 ;)" </em></p>
+
 <p>And it's not his fault. It's the kind of game-of-telephone fact-checking that gets an article published in a "tech blog" these days. This is how misinformation spreads and eventually money changes hands. I'm petrified to think that modern executives are operating based on this kind of hearsay and lack of research.</p>
-<p>I LOVE what the HTML5 (now just HTML) spec has brought to the table and the kinds of things we're able to do. I just wish that folks knew how to appropriately describe and label them. <br /><br />To be honest, it's not the authors, Netflix, or tech blogs' fault. The W3C couldn't even <a href="http://adactio.com/journal/4289/">make up their minds</a> about what "HTML5" was and wasn't. <br /><br />The point is, that this kind of loose talk is blurring the lines of something great, and undermining just how powerful and flexible the web is as a deployment platform. Do your research, read the specs, and then and only then can you speak about "HTML5."</p>
-<p>&nbsp;</p>
+
+<p>I LOVE what the HTML5 (now just HTML) spec has brought to the table and the kinds of things we're able to do. I just wish that folks knew how to appropriately describe and label them.</p> 
+
+<p>To be honest, it's not the authors, Netflix, or tech blogs' fault. The W3C couldn't even <a href="http://adactio.com/journal/4289/">make up their minds</a> about what "HTML5" was and wasn't.</p>
+
+<p>The point is, that this kind of loose talk is blurring the lines of something great, and undermining just how powerful and flexible the web is as a deployment platform. Do your research, read the specs, and then and only then can you speak about "HTML5."</p>
