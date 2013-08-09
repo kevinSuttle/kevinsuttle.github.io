@@ -18,6 +18,9 @@ sans-serif;
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
+}
+
+html {
 	font-size: 100%;
 	text-rendering: optimizeLegibility;
 }
@@ -26,6 +29,10 @@ body {
 	font-family: $body-copy-font;
 	font-size: $base-font-size;
 	line-height: $base-line-height;
+}
+
+.container {
+	max-width: 600px;
 }
 
 p, li { 
@@ -41,6 +48,12 @@ section h2 {
 	padding: 0;
 	text-transform: uppercase;
 	letter-spacing: .125em;
+}
+
+aside h2 { 
+	color: black; 
+	font-weight: 600;
+	font-size: 1rem;
 }
 
 blockquote {

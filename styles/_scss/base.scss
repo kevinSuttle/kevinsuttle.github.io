@@ -17,7 +17,7 @@ ul {
   padding: 0;
 }
 
-.page {
+.container {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 2em;
@@ -41,48 +41,37 @@ ul {
 
 /* Smartphone portrait */
 @media all and (min-width: 320px){
-  .page {
+  .container {
     width: 90%;
   }
 }
 
 /* Small tablet */
 @media all and (min-width: 480px) { 
-  .bio { 
-    width: 100%; 
-  }
+  
 }
 
 /* Large tablet */
 @media all and (min-width: 768px) {
-  .page { 
+  .container { 
     width: 90%;
     padding-bottom: 3em;
-  }
-  .bio { 
-    width: 99%;
   }
 }
 
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {
-  .page { 
+  .container { 
     width: 66%;
     padding-bottom: 3em;
-  }
-  .bio { 
-    width: 100%;
   }
 }
 
 /* Laptop */
 @media all and (min-width: 1280px) {
-  .page { 
+  .container { 
     width: 57%;
     padding-bottom: 4em;
-  }
-  .bio { 
-    width: 90%;
   }
   footer li {
     display: inline-block; 

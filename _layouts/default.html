@@ -22,59 +22,59 @@
   <link rel="stylesheet" href="/styles/css/base.min.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+            <![endif]-->
 
+    <div class="page">
+      <div class="container">
+     
+      <header role="banner">
+        <h1 class="masthead-name">{{ site.name }}</h1>
+        <h2 class="job-roles">{{ site.tagline }}</h2>
+      </header>
 
-        <div class="page">
-         
-          <header role="banner">
-            <h1 class="masthead-name">{{ site.name }}</h1>
-            <h2 class="job-roles">{{ site.tagline }}</h2>
-          </header>
+      {{ content }}
+      
+    </div>
 
-          {{ content }}
-          
+    <footer role="contentinfo">
+      <section class="external-links">
+        <div class="external-link">
+          <a href="https://twitter.com/kevinSuttle" title="You should follow me on Twitter.">
+            <i class="icon-twitter icon-3x"></i>
+          </a>
         </div>
-
-        <footer role="contentinfo">
-          <section class="external-links">
-            <div class="external-link">
-              <a href="https://twitter.com/kevinSuttle" title="You should follow me on Twitter.">
-                <i class="icon-twitter icon-3x"></i>
-              </a>
-            </div>
-            
-            <div class="external-link">
-              <a href="https://github.com/kevinSuttle" title="Check out my code on Github. See what I did there.">
-                <i class="icon-github icon-3x"></i>
-              </a>
-            </div>
-            
-            <div class="external-link">
-              <a href="https://dribbble.com/kevinSuttle" title="Sometimes I design stuff.">
-                <i class="icon-dribbble icon-3x"></i>
-              </a>
-            </div>
-          </section>
-        </footer>
-
-        <script type="text/javascript" src="//use.typekit.net/cnn0xlm.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         
-        <!-- Google Analytics: --> 
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-35514615-1']);
-          _gaq.push(['_trackPageview']);
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
+        <div class="external-link">
+          <a href="https://github.com/kevinSuttle" title="Check out my code on Github. See what I did there.">
+            <i class="icon-github icon-3x"></i>
+          </a>
+        </div>
+        
+        <div class="external-link">
+          <a href="https://dribbble.com/kevinSuttle" title="Sometimes I design stuff.">
+            <i class="icon-dribbble icon-3x"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+  </div>
+    <script type="text/javascript" src="//use.typekit.net/zbx5fta.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-      </body>
-      </html>
+    <!-- Google Analytics: --> 
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35514615-1']);
+      _gaq.push(['_trackcontainerview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    </body>
+</html>
