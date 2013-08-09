@@ -28,7 +28,7 @@ body {
 	line-height: $base-line-height;
 }
 
-p { 
+p, li { 
 	margin: 0 0 $base-line-height; 
 }
 
@@ -65,10 +65,6 @@ header {
   padding-bottom: 0.5em;
   margin: 0 auto $base-line-height;
   border-bottom: 1px solid #B9BFBF;
-}
-
-.career-highlights-list li {
-  margin-bottom: $base-line-height * 0.5;
 }
 
 .post-listing-item {
