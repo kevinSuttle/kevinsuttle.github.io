@@ -16,7 +16,7 @@ ul {
 }
 
 .container {
-  width: 90%;
+  max-width: 640px;
   margin: 0 auto;
   padding-bottom: 2em;
 }
@@ -47,7 +47,6 @@ ul {
 /* Large tablet */
 @media all and (min-width: 768px) {
   .container { 
-    width: 90%;
     padding-bottom: 3em;
   }
 }
