@@ -1,6 +1,6 @@
-$base-font-size: 1.125em; /* 18px */
-$base-line-height: 1.618em; /* 29.124px */
-/* http://modularscale.com/scale/?px1=18&px2=0&ra1=1.618&ra2=0 */
+$base-font-size: 1.3125em; /* 21px */
+$base-line-height: 1.618em; /* 33.978px */
+
 $body-copy-font: "ff-dagny-web-pro", 
 "Source Sans Pro", 
 "Franklin Gothic Book", 
@@ -27,12 +27,11 @@ html {
 
 body {
 	font-family: $body-copy-font;
-	font-size: $base-font-size;
 	line-height: $base-line-height;
 }
 
 .container {
-	max-width: 600px;
+	max-width: 680px;
 }
 
 p, li { 
@@ -53,7 +52,7 @@ section h2 {
 aside h2 { 
 	color: black; 
 	font-weight: 600;
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 blockquote {
@@ -65,16 +64,13 @@ header {
 	margin-top: 1em;
 }
 
-/* Dumbphone-first */
 .masthead-name { 
-  font-size: 2em; /* 36px */
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.1em;
 }
 
 .job-roles { 
-  font-size: 1.2em; /* 22px */
-  font-weight: 600;
+  font-weight: 400;
   padding-bottom: 0.5em;
   margin: 0 auto $base-line-height;
   border-bottom: 1px solid #B9BFBF;
@@ -88,5 +84,16 @@ article h1 {
 	line-height: 1.3;
 	font-family: $body-copy-font;
 	font-weight: 600;
+}
+
+/* Mobile + */
+@media screen and (min-width: 480px) { 
+  body {
+  	font-size: $base-font-size;
+  }
+  .job-roles { 
+  	font-size: 1.5em;
+   }
+  .masthead-name { font-size: 2em; }
 }
 
