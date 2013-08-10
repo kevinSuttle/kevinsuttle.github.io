@@ -1,18 +1,15 @@
-/* Base styles */
-$light-sand: #F2F1F1;
-$graphite: #373737;
 $solarized-orange: #BD3612;
 $solarized-blue: #2075C7;
 
-$background-color: $light-sand;
-$body-copy-color: $graphite;
+$background-color: #FDFDFD;
+$body-copy-color: #111;
 $secondary-color: $solarized-orange;
 $body-link-color: $solarized-blue; 
-$darkened-bg: darken($light-sand, 5%);
+$darkened-bg: darken($background-color, 7%);
 
 body {
-    background: $background-color;
-    color: $graphite;
+    background-color: $background-color;
+    color: $body-copy-color;
 }
 
 blockquote {
@@ -40,12 +37,12 @@ footer {
 }
 
 footer a:link, footer a:visited {
-  color: $light-sand;
+  color: $background-color;
   background: none;
 }
 
 footer a:hover {
-  color:  lighten($graphite, 50%);
+  color:  $darkened-bg;
   background: none;
 }
 
