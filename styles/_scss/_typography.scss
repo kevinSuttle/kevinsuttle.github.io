@@ -87,7 +87,14 @@ article h1 {
 	font-weight: 600;
 }
 
+
 /* Mobile + */
+@media screen and (max-width: 320px) { 
+	.bio, .career-highlights, .contact, .article-list {
+		font-size: 1.1em;
+	}
+}
+
 @media screen and (min-width: 480px) { 
   body {
   	font-size: $base-font-size;
