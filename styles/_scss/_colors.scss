@@ -31,12 +31,12 @@ a:hover, a:focus {
   background: $darkened-bg;
 }
 
-footer { 
+.site-footer { 
   background: $body-copy-color;
   border-top: 2px solid #111;
 }
 
-footer a:link, footer a:visited {
+.site-footer a:link, .site-footer a:visited {
   color: $background-color;
   background: none;
 }
@@ -46,12 +46,18 @@ footer a:hover {
   background: none;
 }
 
-footer-post-nav {
-  background: $secondary-color;
+.post-footer {
+  background-color: $body-copy-color;
+  color: $background-color;
+  padding: 0.2em 0.35em;
+
+  a.previous-post-link, a.next-post-link {
+    color: $body-link-color;
+  }
 }
 
-.home_link {
- color: $secondary-color;   
+.masthead-name a {
+ color: $body-copy-color;   
 }
 
 .job-roles {
