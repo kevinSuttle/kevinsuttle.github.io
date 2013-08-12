@@ -3,16 +3,16 @@ layout: post
 title: The Game of Telephone
 ---
 
-<p><img src="/images/spiderman-thread-lol.png" alt="" width="775" height="489" />Late this evening, I saw a <a title="Bill Scott on Twitter" href="http://twitter.com/billwscott/status/60193547114123264">tweet</a> from Netflix UI engineer and interaction design guru Bill Scott linking to an <a title="Function Source - Netflix Feature" href="http://functionsource.com/post/netflix-feature">article</a> about Netflix using "HTML5" to deliver "amazing User Interfaces". <em>"OK. I'll bite"</em> I thought.</p>
+<p>Late this evening, I saw a <a title="Bill Scott on Twitter" href="http://twitter.com/billwscott/status/60193547114123264">tweet</a> from Netflix UI engineer and interaction design guru Bill Scott linking to an <a title="Function Source - Netflix Feature" href="http://functionsource.com/post/netflix-feature">article</a> about Netflix using "HTML5" to deliver "amazing User Interfaces". <em>"OK. I'll bite"</em> I thought.</p>
 
 <p>Reading through the article, and <a title="Netflix Tech Blog" href="http://techblog.netflix.com/2010/12/why-we-choose-html5-for-user.html">others</a> <a title="Mashable" href="http://on.mash.to/fmBTZ2">like</a> it, I noticed more than a few troubling patterns. Each one:</p>
 
 <ol>
-	<li><strong> could be searched, and have each instance of the word "HTML5" replaced with "HTML" or "the web" and written 5 years ago</strong></li>
-	<li><strong>doesn't mention any specific implementations involving elements or functionality added in the HTML5 spec</strong></li>
-	<li><strong>consistently points to faster iterations as a benefit of HTML5</strong></li>
-	<li><strong>makes references to "HTML5 UI" and "UX" </strong>and</li>
-	<li><strong>confused their custom Webkit instance for "HTML5"</strong></li>
+	<li>could be searched, and have each instance of the word "HTML5" replaced with "HTML" or "the web" and written 5 years ago</li>
+	<li>doesn't mention any specific implementations involving elements or functionality added in the HTML5 spec</li>
+	<li>consistently points to faster iterations as a benefit of HTML5</li>
+	<li>makes references to "HTML5 UI" and "UX"and</li>
+	<li>confused their custom Webkit instance for "HTML5"</li>
 </ol>
 
 <p>Some notable quotes from these posts:</p>
