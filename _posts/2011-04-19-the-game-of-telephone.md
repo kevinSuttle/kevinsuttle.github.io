@@ -17,22 +17,22 @@ title: The Game of Telephone
 
 <p>Some notable quotes from these posts:</p>
 
-<p><em>"Of course, with HTML5 interfaces..."<br /></em></p>
+<p><em>"Of course, with HTML5 interfaces..."</em></p>
 
 <p>What exactly is an "HTML5 interface"? Canvas? Drag and Drop? HTML5 is mainly about semantics, and very little was added outside of messaging and media elements for "UI".</p>
 
-<p>"...<em>such animation usually involves making  changes to the properties of  the elements on the screen, such as their  position, size, etc."</em><br />Isn't that&nbsp;<em>&nbsp;</em>how every animation works in any language?</p>
+<p>"...<em>such animation usually involves making changes to the properties of the elements on the screen, such as their position, size, etc."</em>Isn't that how every animation works in any language?</p>
 
-<p><em>"The system leverages tools like Ant, YUI Compressor, and Juicer and  incorporates popular HTML5 frameworks like LESS, in addition to  Netflix-specific code."</em></p>
-<p><a href="http://lesscss.org/">LESS</a> has <span style="text-decoration: underline;">nothing</span> to do with HTML5. It's a CSS preprocessor and dynamic CSS library. <a title="Apache Ant" href="http://ant.apache.org/">Ant</a> is a powerful build automation tool. <a title="YUI" href="http://developer.yahoo.com/yui/3/">YUI</a> is a solid JS-based UI library built by Yahoo. <a title="Juicer" href="http://cjohansen.no/en/ruby/juicer_a_css_and_javascript_packaging_tool">Juicer</a> is a JavaScript packaging tool. Not one of those is based on HTML5. Notice there is no discussion as to what exactly "Netflix-specific code" is.</p>
+<p><em>"The system leverages tools like Ant, YUI Compressor, and Juicer and incorporates popular HTML5 frameworks like LESS, in addition to Netflix-specific code."</em></p>
+<p><a href="http://lesscss.org/">LESS</a> has nothing to do with HTML5. It's a CSS preprocessor and dynamic CSS library. <a title="Apache Ant" href="http://ant.apache.org/">Ant</a> is a powerful build automation tool. <a title="YUI" href="http://developer.yahoo.com/yui/3/">YUI</a> is a solid JS-based UI library built by Yahoo. <a title="Juicer" href="http://cjohansen.no/en/ruby/juicer_a_css_and_javascript_packaging_tool">Juicer</a> is a JavaScript packaging tool. Not one of those is based on HTML5. Notice there is no discussion as to what exactly "Netflix-specific code" is.</p>
 
-<p><em>"That&rsquo;s what HTML5 brings to the table, the freedom to create rich,  dynamic and interactive experiences for any platform with a web browser."<br /></em></p>
+<p><em>"That&rsquo;s what HTML5 brings to the table, the freedom to create rich, dynamic and interactive experiences for any platform with a web browser."</em></p>
 
-<p><em>"That&rsquo;s where HTML5 comes in. The technology is delivered from Netflix  servers every time you launch our application. This means we can  constantly update, test and improve the experience we offer."</em></p>
+<p><em>"That&rsquo;s where HTML5 comes in. The technology is delivered from Netflix servers every time you launch our application. This means we can constantly update, test and improve the experience we offer."</em></p>
 
 <p><em>"Our customers don&rsquo;t have to go through a manual process to install new software every time we make a change, it &ldquo;just happens.&rdquo;</em></p>
 
-<p>See points #1 and #3 above. HTML5, has <strong>no effect</strong> on how quickly you iterate. Iteration is a methodology, not a language. I get that it circumvents the app store update process, but there's a difference between "iteration" and "on our timetable."<br />As for it "<em>just happen</em>"-ing, and being "<em>delivered from Netflix  servers every time you launch our application", </em>that's how the <strong>entire internet</strong> has worked since day 1.</p>
+<p>See points #1 and #3 above. HTML5, has <strong>no effect</strong> on how quickly you iterate. Iteration is a methodology, not a language. I get that it circumvents the app store update process, but there's a difference between "iteration" and "on our timetable."As for it "<em>just happen</em>"-ing, and being "<em>delivered from Netflix servers every time you launch our application", </em>that's how the <strong>entire internet</strong> has worked since day 1.</p>
 
 <p><em>"What HTML5 is capable of speaks for itself, but there are other reasons HTML5 is the right choice for us."</em></p>
 
