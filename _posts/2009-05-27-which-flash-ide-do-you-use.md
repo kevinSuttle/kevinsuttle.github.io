@@ -11,7 +11,7 @@ Update: [The poll][5] is now closed with a rather paltry 369 votes. I must say I
 
 However, the most interesting tidbit was which program was in the 2nd place slot. [FlashDevelop][6] came in with almost 18% of the votes, and while I have definitely heard of it, I myself have not taken the time to see why so many developers enjoy working in it. I'll set aside some time soon to give it a test drive and report my results here. In the meantime, you can see the InsideRIA poll findings [here][7]. 
 
-Thanks again to [Rich Treolta][8] for picking my poll idea! 
+Thanks again to [Rich Tretola][8] for picking my poll idea! 
 
    [1]: http://kevinsuttle.com/posts/found-and-lost-the-flash-ide/ (Found and Lost: The Flash IDE)
    [2]: http://twitter.com/richtretola/statuses/1846624356 (Twitter- Rich Treolta)
