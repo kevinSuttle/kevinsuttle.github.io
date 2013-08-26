@@ -9,6 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="author" content="Kevin Suttle">
   <link rel="author" href="https://plus.google.com/101864004062601305859">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>
     {% if page.title %}
@@ -16,12 +18,11 @@
     {% else %}
     {{ site.name }}. {{ site.tagline }}
     {% endif %}
-
   </title>
 
-  <link rel="stylesheet" href="/styles/css/base.min.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-</head>
+  <link rel="stylesheet" href="/styles/index.css">
+
+  </head>
     <body>
         <!--[if lt IE 10]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -30,8 +31,7 @@
     <div class="container">
      
       <header role="banner">
-        <h1 class="masthead-name"><a href="/">{{ site.name }}</a></h1>
-        <h2 class="job-roles">{{ site.tagline }}</h2>
+        <h1 class="masthead-name"><a href="/">KS</a></h1>
       </header>
 
       {{ content }}
@@ -39,28 +39,28 @@
     </div>
 
     <footer class='site-footer' role="contentinfo">
-      <section class="external-links">
-        <div class="external-link">
-          <a href="https://twitter.com/kevinSuttle" title="You should follow me on Twitter.">
-            <i class="icon-twitter icon-3x"></i>
-          </a>
-        </div>
-        
-        <div class="external-link">
-          <a href="https://github.com/kevinSuttle" title="Check out my code on Github. See what I did there.">
-            <i class="icon-github icon-3x"></i>
-          </a>
-        </div>
-        
-        <div class="external-link">
-          <a href="https://dribbble.com/kevinSuttle" title="Sometimes I design stuff.">
-            <i class="icon-dribbble icon-3x"></i>
-          </a>
-        </div>
-      </section>
+      <aside class="footer-module elsewhere">
+      <h2>Elsewhere</h2>
+          <ul>
+              <li><a href="https://twitter.com/kevinSuttle" title="You should follow me on Twitter." rel="external">Twitter</a></li>  
+              <li><a href="https://github.com/kevinSuttle" title="Check out my code on Github. See what I did there?" rel="external">GitHub</a></li>
+              <li><a href="https://dribbble.com/kevinSuttle" title="Sometimes I design stuff." rel="external">Dribbble</a></li>
+          </ul>
+        </aside>
+
+      <aside class="footer-module about">
+          <h2>About me</h2>
+          <p>I'm Kevin Suttle. I'm a designer and writer based in Cincinnati, Ohio. <a href="/about.html">Learn more about me.</a></p>
+      </aside>
+
+      <aside class="footer-module contact">
+          <h2>Get in touch</h2>
+            <p>I am currently accepting offers for speaking engagements, writing projects, and consulting work. The best way to reach me is <a href="mailto:kevin@kevinsuttle.com">email</a>.</p>
+      </aside>
     </footer>
-  <script type="text/javascript" src="//use.typekit.net/cnn0xlm.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- Fonts.com -->
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/96553128-c07d-445f-b904-0e85f73985bc.js"></script>
 
     <!-- Google Analytics: --> 
     <script type="text/javascript">

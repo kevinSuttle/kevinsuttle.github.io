@@ -1,0 +1,80 @@
+$background-color: #FDFDFD;
+$body-copy-color: #1A1919;
+$body-link-color: #D01B24;
+$bright-grey: #B3B3B3;
+$medium-grey: #9E9E9E;
+
+html {
+  background-color: $body-copy-color;
+}
+
+body {
+    background-color: $background-color;
+    color: $body-copy-color;
+}
+
+blockquote {
+  color: $medium-grey;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+  color: $bright-grey;
+}
+
+a:link, a:visited { 
+  color: $body-copy-color;
+  transition: color 200ms linear;
+}
+
+a:hover, a:focus { 
+  color: $body-link-color;
+}
+
+[role="banner"] a {
+ color: $body-copy-color; 
+}
+
+time {
+  color: $medium-grey;
+}
+
+section h2,.post-footer nav {
+  color: $body-link-color;
+}
+
+.site-footer { 
+  background: $body-copy-color;
+  color: $background-color;
+  border-top: 2px solid #111;
+
+   a:link, .site-footer a:visited {
+    color: $background-color;
+    background: none;
+    transition: color 300ms linear;
+  }
+}
+
+.footer-module {
+  & a:link, & a:visited { 
+    color: $body-link-color;
+  }
+  & a:hover, & a:focus { 
+    color: lighten($body-link-color, 20%);
+  }
+}
+
+[rel="prev"], [rel="next"] {
+  color: $body-link-color;
+}
+
+.external-post-link {
+  background: lighten($bright-grey, 20%);
+  border-right: 2px solid black;
+  time {
+    color: darken($medium-grey, 10%);
+  } 
+}

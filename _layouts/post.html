@@ -12,13 +12,13 @@ layout: default
 <footer class="post-footer">
     <nav>
         {% if page.previous.url %} 
-        Previous article: <a href={{ page.previous.url }} class="previous-post-link">{{ page.previous.title }}</a>
+    Previous article: <a href={{ page.previous.url }} rel="prev" class="prev">{{ page.previous.title }}</a>
         {% endif %}
         {% if page.previous.url and page.next.url %} 
         {% endif %}
 
         {% if page.next.url %} 
-        Next article: <a href={{ page.next.url }} class="next-post-link"> {{ page.next.title }}</a>
+        Next article: <a href={{ page.next.url }} rel="next" class="next"> {{ page.next.title }}</a>
         {% endif %}
     </nav>
 </footer>
