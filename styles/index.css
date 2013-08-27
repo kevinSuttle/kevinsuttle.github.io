@@ -280,13 +280,13 @@ article {
 section h2 {
   line-height: 1;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: .125em; }
 
 aside h2 {
   font-family: "News Gothic MT W01 Bold";
-  font-weight: 600;
+  font-weight: normal;
   font-size: 1em; }
 
 blockquote {
@@ -307,7 +307,7 @@ blockquote {
 
 .footer-module h2 {
   font-family: "News Gothic MT W01 Bold";
-  font-weight: 600;
+  font-weight: normal;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px; }
@@ -355,13 +355,13 @@ article {
 section h2 {
   line-height: 1;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: .125em; }
 
 aside h2 {
   font-family: "News Gothic MT W01 Bold";
-  font-weight: 600;
+  font-weight: normal;
   font-size: 1em; }
 
 blockquote {
@@ -382,7 +382,7 @@ blockquote {
 
 .footer-module h2 {
   font-family: "News Gothic MT W01 Bold";
-  font-weight: 600;
+  font-weight: normal;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px; }
