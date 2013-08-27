@@ -64,6 +64,15 @@ article {
   &.elsewhere {
     margin: 0 0 $base-line-height 0;
   }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin: ($base-line-height / 3) auto;
+  }
 }
 
 .post-footer nav {
@@ -129,7 +138,6 @@ article {
     }
   }
 }
-
 
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {

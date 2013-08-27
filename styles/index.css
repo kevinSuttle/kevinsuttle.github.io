@@ -457,6 +457,11 @@ article {
   margin: 0 auto; }
   .footer-module.elsewhere {
     margin: 0 0 1.618em 0; }
+  .footer-module p {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .footer-module h2 {
+    margin: 0.53933em auto; }
 
 .post-footer nav {
   padding: 0.2em 0.35em 0.2em 0; }
