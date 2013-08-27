@@ -23,7 +23,13 @@ body {
 }
 
 article {
+	font-family: $content-font;
 	font-size: 1em;
+	h1 {
+		font-family: $body-copy-font;
+		line-height: 1.3;
+		font-size: 1.7em;
+	}
 }
 
 section h2 { 
@@ -56,21 +62,11 @@ blockquote {
 	h1 {
 	  font-family: $heading-font;
 	  line-height: 1.1em;
- 	  font-weight: 600;
+ 	  font-weight: normal;
 	  & a {
 		  text-decoration: none;
 		}
 	}
-}
-
-article {
-	font-family: $content-font;
-}
-
-article h1 {
-	font-family: $body-copy-font;
-	line-height: 1.3;
-	font-size: 1.7em;
 }
 
 .footer-module h2 {

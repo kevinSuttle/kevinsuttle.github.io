@@ -221,6 +221,8 @@ a:hover, a:focus {
 
 [role="banner"] a {
   color: #1a1919; }
+[role="banner"] a:hover {
+  color: #d01b24; }
 
 time {
   color: #9e9e9e; }
@@ -268,7 +270,12 @@ body {
   border-top: 0.14286em solid HSLA(352, 100%, 45%, 1); }
 
 article {
+  font-family: "Amasis ET W01 Regular", serif;
   font-size: 1em; }
+  article h1 {
+    font-family: "News Gothic MT W01", sans-serif;
+    line-height: 1.3;
+    font-size: 1.7em; }
 
 section h2 {
   line-height: 1;
@@ -294,17 +301,9 @@ blockquote {
 [role="banner"] h1 {
   font-family: "News Gothic MT W01 Bold";
   line-height: 1.1em;
-  font-weight: 600; }
+  font-weight: normal; }
   [role="banner"] h1 a {
     text-decoration: none; }
-
-article {
-  font-family: "Amasis ET W01 Regular", serif; }
-
-article h1 {
-  font-family: "News Gothic MT W01", sans-serif;
-  line-height: 1.3;
-  font-size: 1.7em; }
 
 .footer-module h2 {
   font-family: "News Gothic MT W01 Bold";
@@ -346,7 +345,12 @@ body {
   border-top: 0.14286em solid HSLA(352, 100%, 45%, 1); }
 
 article {
+  font-family: "Amasis ET W01 Regular", serif;
   font-size: 1em; }
+  article h1 {
+    font-family: "News Gothic MT W01", sans-serif;
+    line-height: 1.3;
+    font-size: 1.7em; }
 
 section h2 {
   line-height: 1;
@@ -372,17 +376,9 @@ blockquote {
 [role="banner"] h1 {
   font-family: "News Gothic MT W01 Bold";
   line-height: 1.1em;
-  font-weight: 600; }
+  font-weight: normal; }
   [role="banner"] h1 a {
     text-decoration: none; }
-
-article {
-  font-family: "Amasis ET W01 Regular", serif; }
-
-article h1 {
-  font-family: "News Gothic MT W01", sans-serif;
-  line-height: 1.3;
-  font-size: 1.7em; }
 
 .footer-module h2 {
   font-family: "News Gothic MT W01 Bold";

@@ -34,8 +34,13 @@ a:hover, a:focus {
   color: $body-link-color;
 }
 
-[role="banner"] a {
- color: $body-copy-color; 
+[role="banner"] {
+      a {
+     color: $body-copy-color; 
+    }
+    a:hover {
+      color: $body-link-color;
+    }
 }
 
 time {
