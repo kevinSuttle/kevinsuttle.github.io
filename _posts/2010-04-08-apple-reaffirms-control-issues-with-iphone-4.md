@@ -11,17 +11,17 @@ Essentially Apple is saying that they sat back and listened to the complaints of
 > &ldquo;Gaming is extremely popular on the iPhone and iPod touch. In fact, we have over 50k titles&hellip; let&rsquo;s look at the competition. If you look at dedicated gaming devices like the PSP and DS, this just blows them out of the water."
 > &ldquo;We wanted to make this even better &mdash; we&rsquo;ve added a social gaming network. We do automatic matchmaking, we&rsquo;ll find others with a similar ability and match them against you. You can see how you&rsquo;re progressing in a game with achievements.&rdquo;
 > "There are 50,000 game and &ldquo;entertainment&rdquo; titles. Compared to DS and PSP, there&rsquo;s 4321 games on the DS and 2477 on the PSP."
-Apple is not allowing Flash on their mobile devices because they're afraid of it's power and ubiquity. I'm not sure why more people aren't talking about this. [Ed. note: Sarcasm implied.] They want to add a social aspect to their gaming to rival Microsoft's <a title="XBOX Live" href="http://www.xbox.com/en-us/live/">XBOX Live</a> and Sony's <a title="PSN" href="http://us.playstation.com/psn/index.htm">Playstation Network</a>. 3. iAds Middle Finger DIRECTLY to: Adobe
+Apple is not allowing Flash on their mobile devices because they're afraid of it's power and ubiquity. I'm not sure why more people aren't talking about this. They want to add a social aspect to their gaming to rival Microsoft's <a title="XBOX Live" href="http://www.xbox.com/en-us/live/">XBOX Live</a> and Sony's <a title="PSN" href="http://us.playstation.com/psn/index.htm">Playstation Network</a>. 3. iAds Middle Finger DIRECTLY to: Adobe
 > &ldquo;We want to be even more interactive than the ads on the web, and we want to get some of that interactivity from video. The ads keep you in your app&hellip;&rdquo; People don&rsquo;t click on ads because you get yanked out of your app. Because iAd is in the OS itself, we&rsquo;ve figured out how to do interactive and video content without ever taking you out of your app!&rdquo;
 > &ldquo;The user can return to their app any time they want. We think the user will be much more interested in clicking on these things because they won&rsquo;t pay the penalty for doing so. You can add iAd opportunities in an afternoon &mdash; we&rsquo;re going to host and deliver the ads, and we&rsquo;ll give developers an industry standard 60% of the revenues.&rdquo;
-[Ed. note: So, the user can go back the app anytime they want, just like on the web? Or do you mean like when QuickTime or YouTube takes the user away from the app they're in?]
+So, the user can go back the app anytime they want, just like on the web? Or do you mean like when QuickTime or YouTube takes the user away from the app they're in?
 > &ldquo;They even included a game in this ad!"
-[Ed. note: How novel!]
+How novel!
 > &ldquo;Have you ever seen an ad like this?&rdquo; Silence. &ldquo;&hellip; anything even close?&rdquo;
-[Ed. note: Since 2003.]
+Since 2003.
 > &ldquo;That&rsquo;s an example of 3 ads that are very easy to make. In addition to ad agencies being able to make these things, there are hundreds of thousands of iPhone app devs who know how to make these things. Emotion plus interactivity. The ads keep you in your app, so you&rsquo;re much more likely to click on then and explore.&rdquo;
 > &ldquo;This is a pretty serious opportunity, and it&rsquo;s an incredible demographic. But we want to do more than that. We want to change the quality of the advertising. We&rsquo;re all familiar with interactive ads on the web. They&rsquo;re interactive, but they&rsquo;re not capable of delivering emotion.&rdquo;
-[Ed. note: Flat out lie. Delivering emotion is determined by marketing and user experience professionals, not development platform.]
+Well this is a flat out lie. Delivering emotion is determined by marketing and user experience professionals, not development platform.
 > &ldquo;The average user spends over 30 minutes using apps on their phone. If we said we wanted to put an ad up every 3 minutes, that&rsquo;d be 10 ads per device per day &mdash; about the same as a TV show. We&rsquo;re going to soon have 100m devices. That&rsquo;s a billion ad opportunities per day!&rdquo;
 > "What&rsquo;s happening is people spending a lot of time in apps. They&rsquo;re using apps to get to data on the internet, rather than a generalized search."
 > "All this stuff is done in HTML5, by the way.&rdquo; Bigger laughter. Ouch, Adobe."

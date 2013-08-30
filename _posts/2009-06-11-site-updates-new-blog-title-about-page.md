@@ -17,7 +17,7 @@ This shouldn't affect anyone, especially since I just set up FeedBurner two nigh
 
 But if there are any hiccups, feel free to contact me at [kevin@kevinsuttle.com][5] and I will do my best to patch it up. I also sent an update to [Adobe Feeds][6] and they, being the consummate professionals that they are, assured me it will be updated soon. 
 
-I also added a very recent [Ed. note: yesterday] professional headshot to my '[About][7]' page. The photographer I used is an absolute pro and a delight to work with. I would be happy to pass along her information if anyone would like it. 
+I also added a very recent professional headshot to my '[About][7]' page. The photographer I used is an absolute pro and a delight to work with. I would be happy to pass along her information if anyone would like it. 
 
 There are also some new links to some of the sites I belong to on the About page as well. Hope to see everyone on those too! Thanks everyone! 
 
