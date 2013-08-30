@@ -1,9 +1,7 @@
 name: Kevin Suttle
 tagline: Product Designer. UX. UI. IA.
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
 pygments: [true]
+markdown: redcarpet
 permalink: /posts/:title
 exclude: ["CNAME", "README.md"]
 url: KevinSuttle.com
