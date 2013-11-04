@@ -25,18 +25,18 @@ h2 {
   color: $bright-grey;
 }
 
-a:link, a:visited { 
+a:link, a:visited {
   color: $body-copy-color;
   transition: color 200ms linear;
 }
 
-a:hover, a:focus { 
+a:hover, a:focus {
   color: $body-link-color;
 }
 
 [role="banner"] {
       a {
-     color: $body-copy-color; 
+     color: $body-copy-color;
     }
     a:hover {
       color: $body-link-color;
@@ -51,7 +51,7 @@ section h2, .post-footer nav {
   color: $body-link-color;
 }
 
-.site-footer { 
+.site-footer {
   background: $body-copy-color;
   color: $background-color;
   border-top: 2px solid #111;
@@ -64,10 +64,10 @@ section h2, .post-footer nav {
 }
 
 .footer-module {
-  & a:link, & a:visited { 
+  & a:link, & a:visited {
     color: $body-link-color;
   }
-  & a:hover, & a:focus { 
+  & a:hover, & a:focus {
     color: lighten($body-link-color, 20%);
   }
 }
@@ -81,5 +81,5 @@ section h2, .post-footer nav {
   border-right: 2px solid black;
   time {
     color: darken($medium-grey, 10%);
-  } 
+  }
 }
