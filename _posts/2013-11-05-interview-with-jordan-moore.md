@@ -3,7 +3,7 @@ layout: post
 title: Interviewed for Jordan Moore's Transcripts Series
 ---
 
-Recently I sat down with my friend from Northern Ireland, [Jordan Moore](http://www.jordanm.co.uk/). Jordan is a brilliantly talented young designer, whose influence and creativity expands daily. Needless to say, I was honored when he asked me to share my story, and what design means to me, as part of the phenomenal [Transcript](http://www.jordanm.co.uk/members) series for members of his site. 
+Recently I [sat down](http://www.jordanm.co.uk/post/66089523887/interview-with-kevin-suttle) with my friend from Northern Ireland, [Jordan Moore](http://www.jordanm.co.uk/). Jordan is a brilliantly talented young designer, whose influence and creativity expands daily. Needless to say, I was honored when he asked me to share my story, and what design means to me, as part of the phenomenal [Transcript](http://www.jordanm.co.uk/members) series for members of his site. 
 
 [Why a membership?](http://www.jordanm.co.uk/post/43883511002/why-membership) Well, this isn't curated by just anyone—it's thoughtfully selected and orchestrated by Jordan himself. Jordan is among the superstars of our field, inlcuding pivotal thought leaders [Brad Frost](http://bradfrostweb.com), [Ethan Marcotte](http://unstoppablerobotninja.com), and [Trent Walton](http://trentwalton.com). This isn't just some web designer's blog. 
 
@@ -21,9 +21,9 @@ This is like having your favorite web designer running a highly-tailored 'read-i
 
 I realize that by now that I'm writing this to the smoke silhouettes of where you as the reader were once sitting, but if you haven't already, do yourself and your career a favor by signing up now at [http://www.jordanm.co.uk/members](http://www.jordanm.co.uk/members).
 
-Still not convinced? Well, because Jordan is such a generous fellow, he wants to give you a taste of the kind of top-notch, one-of-a-kind content a membership affords you by making *my* Transcripts interview available **for free**. Read my story [over at Jordan's site](http://www.jordanm.co.uk/post/63760192673/interview-with-kevin-suttle).
+Still not convinced? Well, because Jordan is such a generous fellow, he wants to give you a taste of the kind of top-notch, one-of-a-kind content a membership affords you by making *my* Transcripts interview available **for free**. Read my story [over at Jordan's site](http://www.jordanm.co.uk/post/66089523887/interview-with-kevin-suttle).
 
-Now, in the following order, grab your favorite beverage, head on over to Jordan's site to read [his interview with me](http://www.jordanm.co.uk/post/63760192673/interview-with-kevin-suttle), tell your friends how much you enjoyed it, and then [sign up](http://www.jordanm.co.uk/members) to gain private access to world-class content that you simply can't find anywhere else. 
+Now, in the following order, grab your favorite beverage, head on over to Jordan's site to read [his interview with me](http://www.jordanm.co.uk/post/66089523887/interview-with-kevin-suttle), tell your friends how much you enjoyed it, and then [sign up](http://www.jordanm.co.uk/members) to gain private access to world-class content that you simply can't find anywhere else. 
 
 ##Thanks Jordan
 I'd also like to take this opportunity to thank Jordan for allowing me to be involved with such top-tier content and interviews with the great pioneers of our time. It is *truly* an honor. 
