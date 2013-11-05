@@ -1,4 +1,4 @@
-[suttle.io](http://suttle.io)
+[kevinsuttle.com](kevinsuttle.com)
 ===
 
 This site is built with [Jekyll](http://jekyllrb.com), [Sass](http://sass-lang.com) and uses [Fonts.com](http://fonts.com) webfonts. It's hosted with [GitHub Pages](http://pages.github.com) and was registered at [Gandi.net](http://gandi.net).
