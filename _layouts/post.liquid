@@ -11,13 +11,13 @@ layout: index
 
 <footer class="post-footer">
     <nav>
-        {% if page.previous.url %} 
+        {% if page.previous.url %}
     Previous article: <a href={{ page.previous.url }} rel="prev" class="prev">{{ page.previous.title }}</a>
         {% endif %}
-        {% if page.previous.url and page.next.url %} 
+        {% if page.previous.url and page.next.url %}
         {% endif %}
 
-        {% if page.next.url %} 
+        {% if page.next.url %}
         Next article: <a href={{ page.next.url }} rel="next" class="next"> {{ page.next.title }}</a>
         {% endif %}
     </nav>
