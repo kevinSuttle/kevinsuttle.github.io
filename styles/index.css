@@ -197,14 +197,15 @@ img {
   max-height: 100%; }
 
 html {
-  background-color: #1a1919; }
+  background-color: #343232; }
 
 body {
   background-color: #fdfdfd;
-  color: #1a1919; }
+  color: #1a1919;
+  border-color: #505050; }
 
 blockquote {
-  color: #9e9e9e; }
+  color: #505050; }
 
 h1 {
   color: black; }
@@ -217,63 +218,55 @@ a:link, a:visited {
   transition: color 200ms linear; }
 
 a:hover, a:focus {
-  color: #d01b24; }
+  color: #df7835; }
 
 [role="banner"] a {
   color: #1a1919; }
 [role="banner"] a:hover {
-  color: #d01b24; }
+  color: #df7835; }
 
 time {
-  color: #9e9e9e; }
+  color: #505050; }
 
-section h2, .post-footer nav {
-  color: #d01b24; }
+.post-footer nav {
+  color: #df7835; }
 
 .site-footer {
-  background: #1a1919;
-  color: #fdfdfd;
-  border-top: 2px solid #111; }
+  color: #fdfdfd; }
   .site-footer a:link, .site-footer .site-footer a:visited {
-    color: #fdfdfd;
+    color: #df7835;
     background: none;
     transition: color 300ms linear; }
 
 .footer-module a:link, .footer-module a:visited {
-  color: #d01b24; }
+  color: #e69561; }
 .footer-module a:hover, .footer-module a:focus {
-  color: #eb666d; }
+  color: #edb38d; }
 
 [rel="prev"], [rel="next"] {
-  color: #d01b24; }
+  color: #df7835; }
 
 .external-post-link {
   background: #e6e6e6;
   border-right: 2px solid black; }
   .external-post-link time {
-    color: #858585; }
+    color: #373737; }
 
 /* 21px */
 /* 33.978px */
-/*
-font-family:'Amasis ET W01 Regular';
-font-family:'News Gothic MT W01';
-font-family:'News Gothic MT W01 Bold';
-*/
 html {
   font-size: 100%;
   text-rendering: optimizeLegibility; }
 
 body {
-  font-family: "News Gothic MT W01", sans-serif;
-  line-height: 1.618em;
-  border-top: 0.14286em solid HSLA(352, 100%, 45%, 1); }
+  font-family: "Monotype News Gothic W01", sans-serif;
+  line-height: 1.618em; }
 
 article {
-  font-family: "Amasis ET W01 Regular", serif;
+  font-family: "Amasis eText W01", sans-serif;
   font-size: 1em; }
   article h1 {
-    font-family: "News Gothic MT W01", sans-serif;
+    font-family: "Monotype News Gothic W01", sans-serif;
     line-height: 1.3;
     font-size: 1.7em; }
 
@@ -285,12 +278,13 @@ section h2 {
   letter-spacing: .125em; }
 
 aside h2 {
-  font-family: "News Gothic MT W01 Bold";
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: normal;
   font-size: 1em; }
 
 blockquote {
-  font-family: 'Amasis ET W01 Italic'; }
+  font-family: "Monotype News Gothic W01", sans-serif;
+  font-style: italic; }
 
 .article-list a:link {
   text-decoration: none; }
@@ -299,14 +293,17 @@ blockquote {
   text-decoration: none; }
 
 [role="banner"] h1 {
-  font-family: "News Gothic MT W01 Bold";
+  font-family: "Monotype News Gothic W01", sans-serif;
   line-height: 1.1em;
-  font-weight: normal; }
+  font-weight: 600; }
   [role="banner"] h1 a {
     text-decoration: none; }
 
+.site-footer {
+  font-size: 0.85em; }
+
 .footer-module h2 {
-  font-family: "News Gothic MT W01 Bold";
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: normal;
   font-size: 0.75em;
   text-transform: uppercase;
@@ -330,25 +327,19 @@ blockquote {
     font-size: 2em; } }
 /* 21px */
 /* 33.978px */
-/*
-font-family:'Amasis ET W01 Regular';
-font-family:'News Gothic MT W01';
-font-family:'News Gothic MT W01 Bold';
-*/
 html {
   font-size: 100%;
   text-rendering: optimizeLegibility; }
 
 body {
-  font-family: "News Gothic MT W01", sans-serif;
-  line-height: 1.618em;
-  border-top: 0.14286em solid HSLA(352, 100%, 45%, 1); }
+  font-family: "Monotype News Gothic W01", sans-serif;
+  line-height: 1.618em; }
 
 article {
-  font-family: "Amasis ET W01 Regular", serif;
+  font-family: "Amasis eText W01", sans-serif;
   font-size: 1em; }
   article h1 {
-    font-family: "News Gothic MT W01", sans-serif;
+    font-family: "Monotype News Gothic W01", sans-serif;
     line-height: 1.3;
     font-size: 1.7em; }
 
@@ -360,12 +351,13 @@ section h2 {
   letter-spacing: .125em; }
 
 aside h2 {
-  font-family: "News Gothic MT W01 Bold";
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: normal;
   font-size: 1em; }
 
 blockquote {
-  font-family: 'Amasis ET W01 Italic'; }
+  font-family: "Monotype News Gothic W01", sans-serif;
+  font-style: italic; }
 
 .article-list a:link {
   text-decoration: none; }
@@ -374,14 +366,17 @@ blockquote {
   text-decoration: none; }
 
 [role="banner"] h1 {
-  font-family: "News Gothic MT W01 Bold";
+  font-family: "Monotype News Gothic W01", sans-serif;
   line-height: 1.1em;
-  font-weight: normal; }
+  font-weight: 600; }
   [role="banner"] h1 a {
     text-decoration: none; }
 
+.site-footer {
+  font-size: 0.85em; }
+
 .footer-module h2 {
-  font-family: "News Gothic MT W01 Bold";
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: normal;
   font-size: 0.75em;
   text-transform: uppercase;
@@ -403,6 +398,9 @@ blockquote {
 
   [role="banner"] {
     font-size: 2em; } }
+body {
+  border-top: 0.14286em solid; }
+
 footer {
   margin: 0 auto;
   width: 100%;
@@ -450,7 +448,7 @@ article {
 .footer-module {
   display: block;
   padding: 0.5em;
-  margin: 0 auto; }
+  margin: 0 auto 1.25em; }
   .footer-module p {
     margin-top: 0;
     margin-bottom: 0; }
@@ -509,5 +507,3 @@ article {
   .container {
     width: 57%;
     padding-bottom: 4em; } }
-
-/*# sourceMappingURL=index.css.map */

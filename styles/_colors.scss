@@ -1,16 +1,18 @@
 $background-color: #FDFDFD;
 $body-copy-color: #1A1919;
-$body-link-color: #D01B24;
+$body-link-color: #DF7835;
 $bright-grey: #B3B3B3;
-$medium-grey: #9E9E9E;
+$medium-grey: #505050;
+$solarized-blue: #2075C7;
 
 html {
-  background-color: $body-copy-color;
+  background-color: lighten($body-copy-color, 10%);
 }
 
 body {
     background-color: $background-color;
     color: $body-copy-color;
+    border-color: $medium-grey;
 }
 
 blockquote {
@@ -47,17 +49,15 @@ time {
   color: $medium-grey;
 }
 
-section h2, .post-footer nav {
+.post-footer nav {
   color: $body-link-color;
 }
 
 .site-footer {
-  background: $body-copy-color;
   color: $background-color;
-  border-top: 2px solid #111;
 
    a:link, .site-footer a:visited {
-    color: $background-color;
+    color: $body-link-color;
     background: none;
     transition: color 300ms linear;
   }
@@ -65,7 +65,7 @@ section h2, .post-footer nav {
 
 .footer-module {
   & a:link, & a:visited {
-    color: $body-link-color;
+    color: lighten($body-link-color, 10%);
   }
   & a:hover, & a:focus {
     color: lighten($body-link-color, 20%);

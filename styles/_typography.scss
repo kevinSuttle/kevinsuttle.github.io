@@ -1,15 +1,9 @@
 $base-font-size: 1.3125em; /* 21px */
 $base-line-height: 1.618em; /* 33.978px */
 
-$body-copy-font: 'News Gothic MT W01', sans-serif;
-$heading-font: 'News Gothic MT W01 Bold';
-$content-font: 'Amasis ET W01 Regular', serif;
-
-/*
-font-family:'Amasis ET W01 Regular';
-font-family:'News Gothic MT W01';
-font-family:'News Gothic MT W01 Bold';
-*/
+$body-copy-font: "Monotype News Gothic W01", sans-serif;
+$heading-font: "Monotype News Gothic W01", sans-serif;
+$content-font: "Amasis eText W01", sans-serif;
 
 html {
 	font-size: 100%;
@@ -19,7 +13,6 @@ html {
 body {
 	font-family: $body-copy-font;
 	line-height: $base-line-height;
-	border-top: 0.14286em solid HSLA(352, 100%, 45%, 1);
 }
 
 article {
@@ -32,7 +25,7 @@ article {
 	}
 }
 
-section h2 { 
+section h2 {
 	line-height: 1;
 	font-size: 1em;
 	font-weight: normal;
@@ -47,7 +40,8 @@ aside h2 {
 }
 
 blockquote {
-	font-family: 'Amasis ET W01 Italic';
+	font-family: $body-copy-font;
+  font-style: italic;
 }
 
 .article-list a:link {
@@ -62,18 +56,22 @@ blockquote {
 	h1 {
 	  font-family: $heading-font;
 	  line-height: 1.1em;
- 	  font-weight: normal;
+ 	  font-weight: 600;
 	  & a {
 		  text-decoration: none;
 		}
 	}
 }
 
+.site-footer {
+  font-size: 0.85em;
+}
+
 .footer-module h2 {
 	font-family: $heading-font;
 	font-weight: normal;
     font-size: 0.75em;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
@@ -82,7 +80,7 @@ blockquote {
 }
 
 /* Mobile + */
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 320px) {
 	article {
   		font-size: 1em;
   		line-height: 1.5;
@@ -91,11 +89,11 @@ blockquote {
   }
 }
 
-@media screen and (min-width: 480px) { 
+@media screen and (min-width: 480px) {
   body {
   	font-size: $base-font-size;
   }
-    [role="banner"] { 
-    	font-size: 2em; 
+    [role="banner"] {
+    	font-size: 2em;
   }
 }
