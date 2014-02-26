@@ -16,8 +16,7 @@ hgroup,
 main,
 nav,
 section,
-summary,
-time {
+summary {
   display: block; }
 
 /**
@@ -205,20 +204,17 @@ body {
   border-color: #505050; }
 
 blockquote {
-  color: #505050; }
+  color: #9a9a9a; }
 
 h1 {
-  color: black; }
+  color: #9b9797; }
 
 h2 {
   color: #b3b3b3; }
 
 a:link, a:visited {
-  color: #1a1919;
+  color: #df7835;
   transition: color 200ms linear; }
-
-a:hover, a:focus {
-  color: #df7835; }
 
 [role="banner"] a {
   color: #1a1919; }
@@ -228,11 +224,15 @@ a:hover, a:focus {
 time {
   color: #505050; }
 
-.post-footer nav {
-  color: #df7835; }
+code,
+kbd,
+pre,
+samp {
+  color: #2075c7; }
 
 .site-footer {
-  color: #fdfdfd; }
+  color: #fdfdfd;
+  background-color: #1a1919; }
   .site-footer a:link, .site-footer .site-footer a:visited {
     color: #df7835;
     background: none;
@@ -244,7 +244,7 @@ time {
   color: #edb38d; }
 
 [rel="prev"], [rel="next"] {
-  color: #df7835; }
+  color: #505050; }
 
 .external-post-link {
   background: #e6e6e6;
@@ -252,15 +252,13 @@ time {
   .external-post-link time {
     color: #373737; }
 
-/* 21px */
-/* 33.978px */
 html {
   font-size: 100%;
   text-rendering: optimizeLegibility; }
 
 body {
   font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.618em; }
+  line-height: 1.5em; }
 
 article {
   font-family: "Amasis eText W01", sans-serif;
@@ -269,6 +267,20 @@ article {
     font-family: "Monotype News Gothic W01", sans-serif;
     line-height: 1.3;
     font-size: 1.7em; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Fira Mono', 'Source Code Pro', 'Inconsolata', 'Consolas', 'Monaco', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
+  font-style: normal;
+  font-size: 0.75rem;
+  font-size: 14px; }
+
+pre ul, pre li, pre p {
+  line-height: 1;
+  margin: 0;
+  padding: 0; }
 
 section h2 {
   line-height: 1;
@@ -284,7 +296,9 @@ aside h2 {
 
 blockquote {
   font-family: "Monotype News Gothic W01", sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  margin: 0;
+  font-size: 0.9em; }
 
 .article-list a:link {
   text-decoration: none; }
@@ -321,19 +335,17 @@ blockquote {
       font-size: 1.25em; } }
 @media screen and (min-width: 480px) {
   body {
-    font-size: 1.3125em; }
+    font-size: 1.2em; }
 
   [role="banner"] {
     font-size: 2em; } }
-/* 21px */
-/* 33.978px */
 html {
   font-size: 100%;
   text-rendering: optimizeLegibility; }
 
 body {
   font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.618em; }
+  line-height: 1.5em; }
 
 article {
   font-family: "Amasis eText W01", sans-serif;
@@ -342,6 +354,20 @@ article {
     font-family: "Monotype News Gothic W01", sans-serif;
     line-height: 1.3;
     font-size: 1.7em; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Fira Mono', 'Source Code Pro', 'Inconsolata', 'Consolas', 'Monaco', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
+  font-style: normal;
+  font-size: 0.75rem;
+  font-size: 14px; }
+
+pre ul, pre li, pre p {
+  line-height: 1;
+  margin: 0;
+  padding: 0; }
 
 section h2 {
   line-height: 1;
@@ -357,7 +383,9 @@ aside h2 {
 
 blockquote {
   font-family: "Monotype News Gothic W01", sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  margin: 0;
+  font-size: 0.9em; }
 
 .article-list a:link {
   text-decoration: none; }
@@ -394,7 +422,7 @@ blockquote {
       font-size: 1.25em; } }
 @media screen and (min-width: 480px) {
   body {
-    font-size: 1.3125em; }
+    font-size: 1.2em; }
 
   [role="banner"] {
     font-size: 2em; } }
@@ -407,7 +435,7 @@ footer {
   padding-bottom: 0.5em; }
 
 blockquote {
-  margin-bottom: 1.618em; }
+  margin-bottom: 1.5em; }
 
 ul {
   list-style-type: none;
@@ -418,13 +446,13 @@ ul li {
   margin: 0; }
 
 section p, section li {
-  margin: 0 0 1.618em 0; }
+  margin: 0 0 1.5em 0; }
 
 article h1 {
   padding-top: 2em; }
 
 section h2 {
-  margin: 3.236em auto 0.809em;
+  margin: 3em auto 0.75em;
   padding: 0; }
 
 article {
@@ -443,26 +471,26 @@ article {
   margin-left: -0.5em; }
 
 .post-listing-item {
-  margin-bottom: 1.618em; }
+  margin-bottom: 1.5em; }
 
 .footer-module {
   display: block;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 0.5em 1.5em;
   margin: 0 auto 1.25em; }
   .footer-module p {
     margin-top: 0;
     margin-bottom: 0; }
   .footer-module h2 {
-    margin: 0.53933em auto; }
+    margin: 0.5em auto; }
 
 .post-footer nav {
   padding: 0.2em 0.35em 0.2em 0; }
 
 article {
-  margin-bottom: 4.854em; }
+  margin-bottom: 4.5em; }
 
 [rel="prev"] {
-  margin-bottom: 1.618em; }
+  margin-bottom: 1.5em; }
 
 [rel="prev"], [rel="next"] {
   display: block; }
@@ -507,3 +535,5 @@ article {
   .container {
     width: 57%;
     padding-bottom: 4em; } }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,7 +1,7 @@
 .DS_Store
 _site/
+dist
 _drafts/
 .swp
-.sass-cache/
+*.sass-cache/
 .DS_Store
-/.sass-cache/

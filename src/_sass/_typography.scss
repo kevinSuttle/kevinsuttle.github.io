@@ -1,5 +1,5 @@
-$base-font-size: 1.3125em; /* 21px */
-$base-line-height: 1.618em; /* 33.978px */
+$base-font-size: 1.2em;
+$base-line-height: 1.5em;
 
 $body-copy-font: "Monotype News Gothic W01", sans-serif;
 $heading-font: "Monotype News Gothic W01", sans-serif;
@@ -25,6 +25,22 @@ article {
 	}
 }
 
+code,
+kbd,
+pre,
+samp {
+	font-family: 'Fira Mono', 'Source Code Pro', 'Inconsolata', 'Consolas', 'Monaco', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
+	font-style: normal;
+	font-size: 0.75rem;
+	font-size: 14px;
+}
+
+pre ul, pre li, pre p {
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
 section h2 {
 	line-height: 1;
 	font-size: 1em;
@@ -41,38 +57,41 @@ aside h2 {
 
 blockquote {
 	font-family: $body-copy-font;
-  font-style: italic;
+	font-style: italic;
+	margin: 0;
+	font-size: 0.9em;
 }
 
+
 .article-list a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .site-footer a:link, .site-footer a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 [role="banner"] {
 	h1 {
-	  font-family: $heading-font;
-	  line-height: 1.1em;
- 	  font-weight: 600;
-	  & a {
-		  text-decoration: none;
+		font-family: $heading-font;
+		line-height: 1.1em;
+		font-weight: 600;
+		& a {
+			text-decoration: none;
 		}
 	}
 }
 
 .site-footer {
-  font-size: 0.85em;
+	font-size: 0.85em;
 }
 
 .footer-module h2 {
 	font-family: $heading-font;
 	font-weight: normal;
-    font-size: 0.75em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .post-footer {
@@ -82,18 +101,18 @@ blockquote {
 /* Mobile + */
 @media screen and (max-width: 320px) {
 	article {
-  		font-size: 1em;
-  		line-height: 1.5;
+		font-size: 1em;
+		line-height: 1.5;
 
-  		h1 { font-size: 1.25em;  }
-  }
+		h1 { font-size: 1.25em;  }
+	}
 }
 
 @media screen and (min-width: 480px) {
-  body {
-  	font-size: $base-font-size;
-  }
-    [role="banner"] {
-    	font-size: 2em;
-  }
+	body {
+		font-size: $base-font-size;
+	}
+	[role="banner"] {
+		font-size: 2em;
+	}
 }
