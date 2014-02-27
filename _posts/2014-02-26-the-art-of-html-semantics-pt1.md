@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "The Art and Science of HTML Semantics: Part 1"
+title: "The Art of HTML Semantics: Part 1"
 ---
 
-When we think about HTML semantics in <time datetime="{{page.date}}" title="{{page.date}}">2014</time>, we're all pretty satisfied with our <progress></progress> and the <mark>marks</mark> we've made. Our contribution level was clearly pretty high: <meter min="1" max="10" value="8"></meter></p>
+When we think about HTML semantics in <time datetime="{{page.date}}" title="{{page.date}}">2014</time>, we're all pretty satisfied with the <mark>marks</mark> we've made.
 
 There is `section`, `header`, `aside`, `footer`, `main`, and even `menu`! We've got everything we need right? Then why are we still doing things like this?
 
@@ -75,16 +75,16 @@ The solution is to realise that a paragraph, in HTML terms, is not a logical con
 <p>and is further discussed below.</p>
 {% endhighlight %}
 
-In other words, "[there is no spoon](http://www.youtube.com/watch?v=XO0pcWxcROI)". 
+In other words, “[there is no spoon](http://www.youtube.com/watch?v=XO0pcWxcROI)”. 
 
-Mind = blown, yet? Of course it isn't. We're talking about the `p` tag. How about this, though? The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/). 
+Mind == blown, yet? Of course it isn't. We're talking about the `p` tag. How about this, though? The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/). 
 
 >
 Is a concept that lives in the HTML specification, but is essentially a fiction in the real world. It is a fiction because user agents have not implemented it and there is no indication that any will.
 -<cite> [Steve Faulkner](twitter.com/stevefaulkner)
 >
 
-"Wow, this is getting serious." I probably thought to myself, so I wouldn't be lying when I quoted it later. 
+“Wow, this is getting serious.” I probably thought to myself, so I wouldn't be lying when I quoted it later. 
 
 As I'm currently doing research on developer documentation, I thought I'd look into `pre` and `code` tags, to be sure I was using them correctly. `Code` for inline references, like in this paragraph, and `pre` for longer, `blockquote`-style code embeds. 
 
@@ -104,17 +104,17 @@ The figure element represents some flow content, optionally with a caption, that
 Notice nothing about images specifically was mentioned. The spec then goes on to demo a code snippet marked up with `figure`. 
 
 {% highlight html %}
-&lt;p&gt;In &lt;a href="#l4"&gt;listing 4&lt;/a&gt; we see the primary core interface
-API declaration.&lt;/p&gt;
-&lt;figure id="l4"&gt;
- &lt;figcaption&gt;Listing 4. The primary core interface API declaration.&lt;/figcaption&gt;
- &lt;pre&gt;&lt;code&gt;interface PrimaryCore {
+<p>In <a href="#l4">listing</a> we see the primary core interface
+> API declaration.</p>
+<figure id="l4">
+ <figcaption>Listing 4. The primary core interface API declaration.</figcaption>
+ <pre><code>interface PrimaryCore {
  boolean verifyDataLine();
- void sendData(in sequence&amp;lt;byte&gt; data);
+ void sendData(in sequence&amp;lt;byte> data);
  void initSelfDestruct();
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-&lt;p&gt;The API is designed to use UTF-8.&lt;/p&gt;
+}</code></pre>
+</figure>
+<p>The API is designed to use UTF-8.</p>
 {% endhighlight %}
 
 Wow, that totally makes sense, doesn't it? Think about how many books you've read that have [this little figure element](http://www.codinghorror.com/blog/2007/12/on-the-meaning-of-coding-horror.html) off to the side to point out a detail about a code snippet. 
