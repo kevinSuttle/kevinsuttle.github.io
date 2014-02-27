@@ -3,6 +3,7 @@ _site/
 _drafts/
 .swp
 *.sass-cache/
+.scssc
 /node_modules
 
-/css/index.css.map
+*.map
