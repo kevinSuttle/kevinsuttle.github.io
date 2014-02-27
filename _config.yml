@@ -1,9 +1,9 @@
 name: Kevin Suttle
 tagline: Designer. Developer. Writer. Presenter.
-pygments: [true]
+highlighter: pygments
 markdown: redcarpet
 permalink: /posts/:title
-exclude: ["CNAME", "README.md", "/node_modules"]
+exclude: ["CNAME", "README.md", "/node_modules", "gulpfile.js", "package.json"]
 url: KevinSuttle.com
 
 destination: _site
