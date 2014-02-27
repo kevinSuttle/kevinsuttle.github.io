@@ -147,11 +147,11 @@ a, a:visited {
   .post-header .post-title a {
     text-decoration: none; }
 
-[role="banner"] a {
+a.home-link {
   color: #1a1919; }
-[role="banner"] a:hover {
-  color: #b3b3b3;
-  transition: color 200ms linear; }
+  a.home-link:hover {
+    color: #b3b3b3;
+    transition: color 200ms linear; }
 
 code,
 kbd,
@@ -182,11 +182,10 @@ html {
   text-rendering: optimizeLegibility; }
 
 body {
-  font-family: "Monotype News Gothic W01", sans-serif;
   line-height: 1.5em; }
 
 article {
-  font-family: "Amasis eText W01", sans-serif;
+  font-family: "Amasis eText W01", serif;
   font-size: 1em; }
   article .post-title {
     font-family: "Monotype News Gothic W01", sans-serif;
@@ -220,23 +219,35 @@ blockquote {
   margin: 0;
   font-size: 0.9em; }
 
+.home-link {
+  font-family: "Monotype News Gothic W01", sans-serif;
+  line-height: 1.1em;
+  font-weight: 600; }
+  .home-link:hover {
+    text-decoration: none; }
+
+.article-list {
+  font-family: "Monotype News Gothic W01", sans-serif; }
+  .article-list .article-list-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .article-list .post-time {
+    font-family: "Monotype News Gothic W01", sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .article-list:last-child {
+    border-bottom: none; }
+
 hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
-.article-list .article-list-item {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-.article-list .post-time {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  font-weight: normal;
-  font-size: 11px;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
-
 .post-footer {
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: 600; }
 
 a {
@@ -248,15 +259,8 @@ a:hover {
   color: #6bb1cc;
   transition: color 200ms linear; }
 
-[role="banner"] h1 {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.1em; }
-  [role="banner"] h1 a {
-    font-weight: 600; }
-  [role="banner"] h1 a:hover {
-    text-decoration: none; }
-
 .site-footer {
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-size: 0.85em; }
 
 .footer-module-header {
@@ -280,18 +284,17 @@ a:hover {
   body {
     font-size: 1.2em; }
 
-  [role="banner"] {
+  .home-link {
     font-size: 2em; } }
 html {
   font-size: 100%;
   text-rendering: optimizeLegibility; }
 
 body {
-  font-family: "Monotype News Gothic W01", sans-serif;
   line-height: 1.5em; }
 
 article {
-  font-family: "Amasis eText W01", sans-serif;
+  font-family: "Amasis eText W01", serif;
   font-size: 1em; }
   article .post-title {
     font-family: "Monotype News Gothic W01", sans-serif;
@@ -325,23 +328,35 @@ blockquote {
   margin: 0;
   font-size: 0.9em; }
 
+.home-link {
+  font-family: "Monotype News Gothic W01", sans-serif;
+  line-height: 1.1em;
+  font-weight: 600; }
+  .home-link:hover {
+    text-decoration: none; }
+
+.article-list {
+  font-family: "Monotype News Gothic W01", sans-serif; }
+  .article-list .article-list-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .article-list .post-time {
+    font-family: "Monotype News Gothic W01", sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .article-list:last-child {
+    border-bottom: none; }
+
 hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
-.article-list .article-list-item {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-.article-list .post-time {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  font-weight: normal;
-  font-size: 11px;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
-
 .post-footer {
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: 600; }
 
 a {
@@ -353,15 +368,8 @@ a:hover {
   color: #6bb1cc;
   transition: color 200ms linear; }
 
-[role="banner"] h1 {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.1em; }
-  [role="banner"] h1 a {
-    font-weight: 600; }
-  [role="banner"] h1 a:hover {
-    text-decoration: none; }
-
 .site-footer {
+  font-family: "Monotype News Gothic W01", sans-serif;
   font-size: 0.85em; }
 
 .footer-module-header {
@@ -385,7 +393,7 @@ a:hover {
   body {
     font-size: 1.2em; }
 
-  [role="banner"] {
+  .home-link {
     font-size: 2em; } }
 body {
   border-top: 0.14286em solid; }
@@ -400,7 +408,7 @@ ul {
   ul li {
     margin: 0; }
 
-[role="banner"] {
+.home-link {
   margin: 1em auto 3em; }
 
 .post-header {
@@ -457,7 +465,8 @@ article {
     width: 90%; }
 
   article li {
-    margin-left: 6%; } }
+    margin-left: 6%;
+    padding-bottom: 1em; } }
 /* Smartphone landcape */
 @media screen and (min-width: 480px) {
   article li {

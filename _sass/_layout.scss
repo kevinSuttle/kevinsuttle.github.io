@@ -17,7 +17,7 @@ ul {
 	}
 }
 
-[role="banner"] {
+.home-link {
 	margin: 1em auto 3em;
 }
 
@@ -93,7 +93,10 @@ article {
 		width: 90%;
 	}
 
-	article li { margin-left: 6%; }
+	article li {
+		margin-left: 6%;
+		padding-bottom: 1em;
+	}
 }
 
 /* Smartphone landcape */

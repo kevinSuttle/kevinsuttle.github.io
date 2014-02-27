@@ -36,11 +36,10 @@ a, a:visited {
 	}
 }
 
-[role="banner"] {
-	a {
-		color: $body-copy-color;
-	}
-	a:hover {
+a.home-link {
+	color: $body-copy-color;
+
+	&:hover {
 		color: $bright-grey;
 		transition: color 200ms linear;
 	}
