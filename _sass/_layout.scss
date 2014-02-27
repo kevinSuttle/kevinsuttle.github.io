@@ -29,11 +29,15 @@ section p, section li {
 }
 
 .post-title {
-	padding-top: 2em;
-	margin-bottom: 0.5em;
+	margin: 0;
+	padding-bottom: 0.3em;
+	a {
+		font-weight: 600;
+	}
 }
 
 .post-header {
+	padding-top: 2em;
 	margin-bottom: 3em;
 }
 
@@ -90,10 +94,6 @@ article {
 
 [rel="prev"] {
 	margin-bottom: $base-line-height;
-}
-
-[rel="prev"], [rel="next"] {
-	display: block;
 }
 
 /* Smartphone portrait */

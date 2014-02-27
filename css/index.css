@@ -207,7 +207,7 @@ samp {
   color: #91c5d9; }
 
 [rel="prev"], [rel="next"] {
-  color: #505050; }
+  color: #459dbf; }
 
 html {
   font-size: 100%;
@@ -251,18 +251,29 @@ blockquote {
   margin: 0;
   font-size: 0.9em; }
 
-.article-list a:link {
-  text-decoration: none; }
-.article-list a:hover {
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.post-footer {
+  font-weight: 600; }
+
+a {
+  text-decoration: none;
+  font-weight: normal; }
+
+a:hover {
   text-decoration: underline;
-  color: #91c5d9;
+  color: #6bb1cc;
   transition: color 200ms linear; }
 
 [role="banner"] h1 {
   font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.1em;
-  font-weight: 600; }
+  line-height: 1.1em; }
   [role="banner"] h1 a {
+    font-weight: 600;
     text-decoration: none; }
 
 .site-footer {
@@ -333,18 +344,29 @@ blockquote {
   margin: 0;
   font-size: 0.9em; }
 
-.article-list a:link {
-  text-decoration: none; }
-.article-list a:hover {
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.post-footer {
+  font-weight: 600; }
+
+a {
+  text-decoration: none;
+  font-weight: normal; }
+
+a:hover {
   text-decoration: underline;
-  color: #91c5d9;
+  color: #6bb1cc;
   transition: color 200ms linear; }
 
 [role="banner"] h1 {
   font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.1em;
-  font-weight: 600; }
+  line-height: 1.1em; }
   [role="banner"] h1 a {
+    font-weight: 600;
     text-decoration: none; }
 
 .site-footer {
@@ -396,10 +418,13 @@ section p, section li {
   margin: 0 0 1.5em 0; }
 
 .post-title {
-  padding-top: 2em;
-  margin-bottom: 0.5em; }
+  margin: 0;
+  padding-bottom: 0.3em; }
+  .post-title a {
+    font-weight: 600; }
 
 .post-header {
+  padding-top: 2em;
   margin-bottom: 3em; }
 
 section h2 {
@@ -442,9 +467,6 @@ article {
 
 [rel="prev"] {
   margin-bottom: 1.5em; }
-
-[rel="prev"], [rel="next"] {
-  display: block; }
 
 /* Smartphone portrait */
 @media all and (min-width: 320px) {
