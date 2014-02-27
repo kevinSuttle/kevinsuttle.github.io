@@ -2,16 +2,15 @@
 layout: index
 ---
 
-<section class="article-list">
-	<ul class="list">
+<section>
+	<ul class="article-list">
 		{% for post in site.posts %}
-			{% if post.external %}
-			<li class="external-post-link post-listing-item">
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			</li>
-			{% else %}
-			<li class="post-listing-item">
-				<a href="{{ post.url }}">{{ post.title }}</a>
+			<li class="article-list-item">
+				<time class="post-time">{{ post.date | date: "%B %e, %Y" }}</time>
+				{% if post.external %}
+					<a class="external-post-link post-list-link" href="{{ post.url }}">{{ post.title }}</a>
+				{% else %}
+					<a class="post-list-link" href="{{ post.url }}">{{ post.title }}</a>
 			</li>
 			{% endif %}
 		{% endfor %}

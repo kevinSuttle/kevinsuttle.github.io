@@ -25,11 +25,8 @@ a, a:visited {
 	transition: color 200ms linear;
 }
 
+
 .post-header {
-	time {
-		color: lighten($body-copy-color, 50%);
-		color: $bright-grey;
-	}
 	.post-title {
 		color: lighten($body-copy-color, 50%);
 

@@ -108,11 +108,17 @@ Notice nothing about images specifically was mentioned. The spec then goes on to
 > API declaration.</p>
 <figure id="l4">
  <figcaption>Listing 4. The primary core interface API declaration.</figcaption>
- <pre><code>interface PrimaryCore {
+{% endhighlight %}
+
+<pre>
+ interface PrimaryCore {
  boolean verifyDataLine();
  void sendData(in sequence&amp;lt;byte> data);
  void initSelfDestruct();
-}</code></pre>
+}
+</pre>
+
+{% highlight html %}
 </figure>
 <p>The API is designed to use UTF-8.</p>
 {% endhighlight %}

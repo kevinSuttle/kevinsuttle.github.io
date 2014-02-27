@@ -4,12 +4,6 @@ body {
 	border-top: 0.14286em solid;
 }
 
-footer {
-	margin: 0 auto;
-	width: 100%;
-	padding-bottom: 0.5em;
-}
-
 blockquote {
 	margin-bottom: $base-line-height;
 }
@@ -18,14 +12,18 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	li {
+		margin: 0;
+	}
 }
 
-ul li {
-	margin: 0;
+[role="banner"] {
+	margin: 1em auto 3em;
 }
 
-section p, section li {
-	margin: 0 0 $base-line-height 0;
+.post-header {
+	padding-top: 2em;
+	margin-bottom: 3em;
 }
 
 .post-title {
@@ -36,37 +34,24 @@ section p, section li {
 	}
 }
 
-.post-header {
-	padding-top: 2em;
-	margin-bottom: 3em;
-}
-
-section h2 {
-	margin: ($base-line-height * 2) auto $base-line-height/2;
-	padding: 0;
-}
-
-article {
-	max-width: 680px;
-}
-
 .container {
-	max-width: 640px;
 	margin: 0 auto;
 	padding-bottom: 2em;
 }
 
-[role="banner"] {
-	margin: 1em auto 3em;
+.article-list {
+	.post-time {
+		display: block;
+	}
+	.article-list-item {
+		margin: 0 0 $base-line-height 0;
+		padding-bottom: 32px;
+		padding-bottom: 2rem;
+	}
 }
 
-.external-post-link {
-	padding: 0.5em;
-	margin-left: -0.5em;
-}
-
-.post-listing-item {
-	margin-bottom: $base-line-height;
+article {
+	margin-bottom: $base-line-height * 3;
 }
 
 .footer-module {
@@ -85,15 +70,17 @@ article {
 }
 
 .post-footer nav {
-		padding: 0.2em 0.35em 0.2em 0;
+	padding: 0.2em 0.35em 0.2em 0;
 }
 
-article {
-	margin-bottom: $base-line-height * 3;
-}
-
-[rel="prev"] {
+.prev-post-link {
 	margin-bottom: $base-line-height;
+}
+
+.site-footer {
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 0.5em;
 }
 
 /* Smartphone portrait */
@@ -114,11 +101,13 @@ article {
 @media all and (min-width: 768px) {
 	.container {
 		padding-bottom: 3em;
+		max-width: 620px;
+		max-width: 37.5rem;
 	}
 }
 
 @media screen and (min-width: 800px) {
-	 .footer-module {
+	.footer-module {
 		display: block;
 		width: 30%;
 		float: left;
@@ -147,7 +136,6 @@ article {
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {
 	.container {
-		width: 66%;
 		padding-bottom: 3em;
 	}
 }
@@ -155,7 +143,6 @@ article {
 /* Laptop */
 @media all and (min-width: 1280px) {
 	.container {
-		width: 57%;
 		padding-bottom: 4em;
 	}
 }
