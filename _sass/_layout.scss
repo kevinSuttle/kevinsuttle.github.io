@@ -21,15 +21,20 @@ ul {
 }
 
 ul li {
-			margin: 0;
+	margin: 0;
 }
 
 section p, section li {
 	margin: 0 0 $base-line-height 0;
 }
 
-article h1 {
+.post-title {
 	padding-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+.post-header {
+	margin-bottom: 3em;
 }
 
 section h2 {
@@ -48,7 +53,7 @@ article {
 }
 
 [role="banner"] {
-	margin: 1em auto 0;
+	margin: 1em auto 3em;
 }
 
 .external-post-link {

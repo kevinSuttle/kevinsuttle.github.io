@@ -1,7 +1,6 @@
 .DS_Store
 _site/
-dist
 _drafts/
 .swp
 *.sass-cache/
-.DS_Store
+/node_modules

@@ -1,9 +1,10 @@
 $background-color: #FDFDFD;
 $body-copy-color: #1A1919;
-$body-link-color: #DF7835;
+$body-link-color: #459dbf;
 $bright-grey: #B3B3B3;
 $medium-grey: #505050;
 $solarized-blue: #2075C7;
+$medium-orange: #dd731c;
 
 html {
 	background-color: lighten($body-copy-color, 10%);
@@ -19,17 +20,23 @@ blockquote {
 	color: darken($bright-grey, 10%);
 }
 
-h1 {
-	color: lighten($body-copy-color, 50%);
-}
-
-h2 {
-	color: $bright-grey;
-}
-
-a:link, a:visited {
+a, a:visited {
 	color: $body-link-color;
 	transition: color 200ms linear;
+}
+
+.post-header {
+	time {
+		color: lighten($body-copy-color, 50%);
+		color: $bright-grey;
+	}
+	.post-title {
+		color: lighten($body-copy-color, 50%);
+
+		a {
+			text-decoration: none;
+		}
+	}
 }
 
 [role="banner"] {
@@ -37,22 +44,23 @@ a:link, a:visited {
 		color: $body-copy-color;
 	}
 	a:hover {
-		color: $body-link-color;
+		color: $bright-grey;
+		transition: color 200ms linear;
 	}
-}
-
-time {
-	color: $medium-grey;
 }
 
 code,
 kbd,
 pre,
 samp {
-	color: $solarized-blue;
+	color: $medium-orange;
 }
 
 .site-footer {
+	.footer-module-header {
+		color: $bright-grey;
+	}
+
 	color: $background-color;
 	background-color: $body-copy-color;
 
@@ -74,12 +82,4 @@ samp {
 
 [rel="prev"], [rel="next"] {
 	color: $medium-grey;
-}
-
-.external-post-link {
-	background: lighten($bright-grey, 20%);
-	border-right: 2px solid black;
-	time {
-		color: darken($medium-grey, 10%);
-	}
 }

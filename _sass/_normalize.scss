@@ -43,16 +43,6 @@ audio:not([controls]) {
     height: 0;
 }
 
-/**
- * Address `[hidden]` styling not present in IE 8/9.
- * Hide the `template` element in IE, Safari, and Firefox < 22.
- */
-
-[hidden],
-template {
-    display: none;
-}
-
 /* ==========================================================================
    Base
    ========================================================================== */
@@ -121,14 +111,6 @@ h1 {
 }
 
 /**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-
-/**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
 
@@ -187,38 +169,6 @@ pre {
 /**
  * Set consistent quote types.
  */
-
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-
-small {
-    font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sup {
-    top: -0.5em;
-}
-
-sub {
-    bottom: -0.25em;
-}
 
 /* ==========================================================================
    Embedded content

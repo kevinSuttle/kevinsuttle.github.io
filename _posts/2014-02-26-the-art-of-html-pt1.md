@@ -3,7 +3,7 @@ layout: post
 title: "The Art and Science of HTML Semantics: Part 1"
 ---
 
-When we think about HTML semantics in <time datetime="02-20-2014">2014</time>, we're all pretty satisfied with our <progress></progress> and the <mark>marks</mark> we've made. Our contribution level was clearly pretty high: <meter min="1" max="10" value="8"></meter></p>
+When we think about HTML semantics in <time datetime="{{page.date}}" title="{{page.date}}">2014</time>, we're all pretty satisfied with our <progress></progress> and the <mark>marks</mark> we've made. Our contribution level was clearly pretty high: <meter min="1" max="10" value="8"></meter></p>
 
 There is `section`, `header`, `aside`, `footer`, `main`, and even `menu`! We've got everything we need right? Then why are we still doing things like this?
 

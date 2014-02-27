@@ -18,10 +18,18 @@ body {
 article {
 	font-family: $content-font;
 	font-size: 1em;
-	h1 {
+
+	.post-title {
 		font-family: $body-copy-font;
 		line-height: 1.3;
 		font-size: 1.7em;
+	}
+	.post-header time {
+		font-family: $heading-font;
+		font-weight: normal;
+		font-size: 0.75em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
 	}
 }
 
@@ -41,20 +49,6 @@ pre ul, pre li, pre p {
 	padding: 0;
 }
 
-section h2 {
-	line-height: 1;
-	font-size: 1em;
-	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: .125em;
-}
-
-aside h2 {
-	font-family: $heading-font;
-	font-weight: normal;
-	font-size: 1em;
-}
-
 blockquote {
 	font-family: $body-copy-font;
 	font-style: italic;
@@ -62,13 +56,15 @@ blockquote {
 	font-size: 0.9em;
 }
 
-
-.article-list a:link {
-	text-decoration: none;
-}
-
-.site-footer a:link, .site-footer a:visited {
-	text-decoration: none;
+.article-list {
+	a:link {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+		color: lighten($body-link-color, 20%);
+		transition: color 200ms linear;
+	}
 }
 
 [role="banner"] {
@@ -86,7 +82,7 @@ blockquote {
 	font-size: 0.85em;
 }
 
-.footer-module h2 {
+.footer-module-header {
 	font-family: $heading-font;
 	font-weight: normal;
 	font-size: 0.75em;
