@@ -4,3 +4,5 @@ _drafts/
 .swp
 *.sass-cache/
 /node_modules
+
+/css/index.css.map
