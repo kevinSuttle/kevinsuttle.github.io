@@ -70,9 +70,9 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
 
 /**
  * Address differences between Firefox and other browsers.
@@ -142,62 +142,54 @@ a, a:visited {
   color: #459dbf;
   transition: color 200ms linear; }
 
-.post-header .post-title {
-  color: #9b9797; }
-  .post-header .post-title a {
-    text-decoration: none; }
-
-a.home-link {
-  color: #1a1919; }
-  a.home-link:hover {
-    color: #b3b3b3;
-    transition: color 200ms linear; }
-
 code,
 kbd,
 pre,
 samp {
   color: #dd731c; }
 
-.site-footer {
-  color: #fdfdfd;
+a.home-link {
+  color: white;
   background-color: #1a1919; }
-  .site-footer .footer-module-header {
+  a.home-link:hover {
+    color: #e4e4e4;
+    transition: color 200ms linear; }
+
+.post-heading .post-title {
+  color: #9b9797; }
+  .post-heading .post-title a {
+    text-decoration: none; }
+.post-heading .post-time {
+  font-family: "Monotype News Gothic W01", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #b3b3b3; }
+
+.site-footer {
+  background-color: #343232;
+  color: #fdfdfd; }
+  .site-footer .footer-module-heading {
     color: #b3b3b3; }
   .site-footer a:link, .site-footer .site-footer a:visited {
     color: #459dbf;
-    background: none;
     transition: color 300ms linear; }
 
+.footer-module .footer-module-heading {
+  color: #b3b3b3; }
 .footer-module a:link, .footer-module a:visited {
   color: #6bb1cc; }
 .footer-module a:hover, .footer-module a:focus {
   color: #91c5d9; }
 
-[rel="prev"], [rel="next"] {
-  color: #459dbf; }
-
 html {
   font-size: 100%;
   text-rendering: optimizeLegibility; }
 
 body {
   line-height: 1.5em; }
-
-article {
-  font-family: "Amasis eText W01", serif;
-  font-size: 1em; }
-  article .post-title {
-    font-family: "Monotype News Gothic W01", sans-serif;
-    line-height: 1.3;
-    font-size: 1.7em; }
-  article .post-time {
-    font-family: "Monotype News Gothic W01", sans-serif;
-    font-weight: normal;
-    font-size: 11px;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
 
 code,
 kbd,
@@ -219,37 +211,6 @@ blockquote {
   margin: 0;
   font-size: 0.9em; }
 
-.home-link {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.1em;
-  font-weight: 600; }
-  .home-link:hover {
-    text-decoration: none; }
-
-.article-list {
-  font-family: "Monotype News Gothic W01", sans-serif; }
-  .article-list .article-list-item {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-  .article-list .post-time {
-    font-family: "Monotype News Gothic W01", sans-serif;
-    font-weight: normal;
-    font-size: 11px;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-  .article-list:last-child {
-    border-bottom: none; }
-
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
-
-.post-footer {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  font-weight: 600; }
-
 a {
   text-decoration: none;
   font-weight: normal; }
@@ -259,144 +220,77 @@ a:hover {
   color: #6bb1cc;
   transition: color 200ms linear; }
 
-.site-footer {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  font-size: 0.85em; }
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
-.footer-module-header {
+.home-link {
+  font-family: "Monotype News Gothic W01", sans-serif;
+  line-height: 1.1em;
+  font-weight: 600;
+  font-size: 2em; }
+  .home-link:hover {
+    text-decoration: none; }
+
+.article-list {
+  font-family: "Monotype News Gothic W01", sans-serif; }
+  .article-list .article-list-item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+.post-title {
+  font-family: "Monotype News Gothic W01", sans-serif;
+  line-height: 1.3;
+  font-size: 1.7em; }
+
+.post-time {
   font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: normal;
-  font-size: 0.75em;
+  font-size: 14px;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-.post-footer {
-  text-align: left; }
-
-/* Mobile + */
-@media screen and (max-width: 320px) {
-  article {
-    font-size: 1em;
-    line-height: 1.5; }
-    article h1 {
-      font-size: 1.25em; } }
-@media screen and (min-width: 480px) {
-  body {
-    font-size: 1.2em; }
-
-  .home-link {
-    font-size: 2em; } }
-html {
-  font-size: 100%;
-  text-rendering: optimizeLegibility; }
-
-body {
-  line-height: 1.5em; }
-
-article {
+.post-content {
   font-family: "Amasis eText W01", serif;
   font-size: 1em; }
-  article .post-title {
-    font-family: "Monotype News Gothic W01", sans-serif;
-    line-height: 1.3;
-    font-size: 1.7em; }
-  article .post-time {
-    font-family: "Monotype News Gothic W01", sans-serif;
-    font-weight: normal;
-    font-size: 11px;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-
-code,
-kbd,
-pre,
-samp {
-  font-family: 'Fira Mono', 'Source Code Pro', 'Inconsolata', 'Consolas', 'Monaco', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
-  font-style: normal;
-  font-size: 0.75rem;
-  font-size: 14px; }
-
-pre ul, pre li, pre p {
-  line-height: 1;
-  margin: 0;
-  padding: 0; }
-
-blockquote {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  font-style: italic;
-  margin: 0;
-  font-size: 0.9em; }
-
-.home-link {
-  font-family: "Monotype News Gothic W01", sans-serif;
-  line-height: 1.1em;
-  font-weight: 600; }
-  .home-link:hover {
-    text-decoration: none; }
-
-.article-list {
-  font-family: "Monotype News Gothic W01", sans-serif; }
-  .article-list .article-list-item {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-  .article-list .post-time {
-    font-family: "Monotype News Gothic W01", sans-serif;
-    font-weight: normal;
-    font-size: 11px;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-  .article-list:last-child {
-    border-bottom: none; }
-
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 .post-footer {
   font-family: "Monotype News Gothic W01", sans-serif;
-  font-weight: 600; }
-
-a {
-  text-decoration: none;
-  font-weight: normal; }
-
-a:hover {
-  text-decoration: underline;
-  color: #6bb1cc;
-  transition: color 200ms linear; }
+  font-weight: 600;
+  text-align: left; }
 
 .site-footer {
   font-family: "Monotype News Gothic W01", sans-serif;
   font-size: 0.85em; }
 
-.footer-module-header {
+.footer-module-heading {
   font-family: "Monotype News Gothic W01", sans-serif;
   font-weight: normal;
   font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
-.post-footer {
-  text-align: left; }
-
 /* Mobile + */
 @media screen and (max-width: 320px) {
-  article {
+  .post-content {
     font-size: 1em;
     line-height: 1.5; }
-    article h1 {
+    .post-content .post-heading {
       font-size: 1.25em; } }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   body {
-    font-size: 1.2em; }
+    font-size: 1.3em; }
 
   .home-link {
     font-size: 2em; } }
+/* Small tablet portrait */
+@media screen and (min-width: 580px) {
+  .footer-module {
+    font-size: 1em; } }
 body {
-  border-top: 0.14286em solid; }
+  border-top: 3px solid; }
 
 blockquote {
   margin-bottom: 1.5em; }
@@ -408,97 +302,113 @@ ul {
   ul li {
     margin: 0; }
 
-.home-link {
-  margin: 1em auto 3em; }
+.page-wrapper {
+  margin: 0 auto;
+  padding: 0 0.5em; }
 
-.post-header {
+.site-header {
+  display: block;
+  margin-bottom: 10%;
+  margin-top: 0;
+  padding-top: 0; }
+
+.home-link {
+  display: inline-block;
+  margin: 0;
+  padding: 0.2em;
+  padding-top: 0.5em; }
+
+.post-heading {
   padding-top: 2em;
   margin-bottom: 3em; }
 
 .post-title {
   margin: 0;
-  padding-bottom: 0.3em; }
+  padding-bottom: 6px; }
   .post-title a {
     font-weight: 600; }
 
-.container {
-  margin: 0 auto;
-  padding-bottom: 2em; }
+.post-content {
+  margin-top: 10%; }
+  .post-content h2 {
+    padding-top: 1.3em;
+    font-weight: normal;
+    font-style: italic; }
 
-.article-list .post-time {
-  display: block; }
-.article-list .article-list-item {
-  margin: 0 0 1.5em 0;
-  padding-bottom: 32px;
-  padding-bottom: 2rem; }
+.article-list {
+  margin-top: 15%; }
+  .article-list .post-time {
+    display: block; }
+  .article-list .article-list-item {
+    margin: 0 0 1.5em 0;
+    padding-bottom: 32px;
+    padding-bottom: 2rem; }
 
-article {
+.post-content {
   margin-bottom: 4.5em; }
-
-.footer-module {
-  display: block;
-  padding: 0.5em 0.5em 0.5em 1.5em;
-  margin: 0 auto 1.25em; }
-  .footer-module p {
-    margin-top: 0;
-    margin-bottom: 0; }
-  .footer-module h2 {
-    margin: 0.5em auto; }
+  .post-content li {
+    padding-left: 0; }
 
 .post-footer nav {
   padding: 0.2em 0.35em 0.2em 0; }
-  .post-footer nav .previous-post-link {
-    display: block;
-    padding-bottom: 2em; }
+  .post-footer nav .previous-post-link, .post-footer nav .next-post-link {
+    display: inline-block;
+    margin-bottom: 1.5em; }
+  .post-footer nav span {
+    display: block; }
 
-.prev-post-link {
-  margin-bottom: 1.5em; }
-
-.site-footer {
-  margin: 0 auto;
-  width: 100%;
-  padding-bottom: 0.5em; }
+.site-footer .footer-module {
+  padding: 1em 2em;
+  padding-bottom: 3em; }
+  .site-footer .footer-module .footer-module-heading {
+    margin: 0.5em auto; }
+  .site-footer .footer-module .footer-content {
+    margin-top: 0;
+    margin-bottom: 0; }
 
 /* Smartphone portrait */
 @media all and (min-width: 320px) {
-  .container {
+  .page-wrapper {
     width: 90%; }
 
-  article li {
-    margin-left: 6%;
+  .post-content li {
     padding-bottom: 1em; } }
 /* Smartphone landcape */
 @media screen and (min-width: 480px) {
-  article li {
-    margin-left: 6%; } }
+  .post-content li {
+    padding-left: 1em; } }
 /* Large tablet */
-@media all and (min-width: 768px) {
-  .container {
+@media all and (min-width: 670px) {
+  .page-wrapper {
     padding-bottom: 3em;
     max-width: 620px;
-    max-width: 37.5rem; } }
-@media screen and (min-width: 800px) {
+    max-width: 37.5rem; }
+
   .footer-module {
     display: block;
-    width: 30%;
-    float: left;
-    padding: 0.3em; }
-    .footer-module.elsewhere {
-      width: 19%; }
-    .footer-module.elsewhere, .footer-module.contact {
-      padding-left: 1.75em; } }
+    width: 37.5%;
+    float: left; }
+    .footer-module.footer-module--extra {
+      clear: both;
+      width: 15%; } }
+@media screen and (min-width: 800px) {
+  .home-link {
+    position: relative;
+    left: -60%; } }
 @media screen and (min-width: 960px) {
   .footer-module {
-    padding: 0.5em; }
-    .footer-module.elsewhere, .footer-module.contact {
-      padding-left: 2.5em; } }
+    width: 30%; }
+    .footer-module.footer-module--extra {
+      width: 15%;
+      clear: none;
+      float: left; } }
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {
-  .container {
+  .page-wrapper {
     padding-bottom: 3em; } }
 /* Laptop */
 @media all and (min-width: 1280px) {
-  .container {
+  .page-wrapper {
     padding-bottom: 4em; } }
 
 /*# sourceMappingURL=index.css.map */

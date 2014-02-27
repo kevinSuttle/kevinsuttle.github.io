@@ -1,17 +1,9 @@
-$background-color: #FDFDFD;
-$body-copy-color: #1A1919;
-$body-link-color: #459dbf;
-$bright-grey: #B3B3B3;
-$medium-grey: #505050;
-$solarized-blue: #2075C7;
-$medium-orange: #dd731c;
-
 html {
 	background-color: lighten($body-copy-color, 10%);
 }
 
 body {
-	background-color: $background-color;
+	background-color: $page-bg-color;
 	color: $body-copy-color;
 	border-color: $medium-grey;
 }
@@ -25,26 +17,6 @@ a, a:visited {
 	transition: color 200ms linear;
 }
 
-
-.post-header {
-	.post-title {
-		color: lighten($body-copy-color, 50%);
-
-		a {
-			text-decoration: none;
-		}
-	}
-}
-
-a.home-link {
-	color: $body-copy-color;
-
-	&:hover {
-		color: $bright-grey;
-		transition: color 200ms linear;
-	}
-}
-
 code,
 kbd,
 pre,
@@ -52,30 +24,52 @@ samp {
 	color: $medium-orange;
 }
 
+a.home-link {
+	color: lighten($page-bg-color, 15%);
+	background-color: $body-copy-color;
+
+	&:hover {
+		color: darken($page-bg-color, 10%);
+		transition: color 200ms linear;
+	}
+}
+
+.post-heading {
+	.post-title {
+		color: lighten($body-copy-color, 50%);
+
+		a {
+			text-decoration: none;
+		}
+	}
+	.post-time {
+		@include timeStyle;
+		color: $bright-grey;
+	}
+}
+
 .site-footer {
-	.footer-module-header {
+	background-color: lighten($body-copy-color, 10%);
+	color: $page-bg-color;
+
+	.footer-module-heading {
 		color: $bright-grey;
 	}
 
-	color: $background-color;
-	background-color: $body-copy-color;
-
 	a:link, .site-footer a:visited {
 		color: $body-link-color;
-		background: none;
 		transition: color 300ms linear;
 	}
 }
 
 .footer-module {
+	.footer-module-heading {
+		color: $bright-grey;
+	}
 	& a:link, & a:visited {
 		color: lighten($body-link-color, 10%);
 	}
 	& a:hover, & a:focus {
 		color: lighten($body-link-color, 20%);
 	}
-}
-
-[rel="prev"], [rel="next"] {
-	color: $body-link-color;
 }

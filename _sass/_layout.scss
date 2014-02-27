@@ -1,7 +1,5 @@
-@import "typography";
-
 body {
-	border-top: 0.14286em solid;
+	border-top: 3px solid;
 }
 
 blockquote {
@@ -17,32 +15,55 @@ ul {
 	}
 }
 
-.home-link {
-	margin: 1em auto 3em;
+.page-wrapper {
+	margin: 0 auto;
+	padding: 0 0.5em;
 }
 
-.post-header {
+.site-header {
+	display: block;
+	margin-bottom: 10%;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.home-link {
+	display: inline-block;
+	margin: 0;
+	padding: 0.2em;
+	padding-top: 0.5em;
+}
+
+.post-heading {
 	padding-top: 2em;
 	margin-bottom: 3em;
 }
 
 .post-title {
 	margin: 0;
-	padding-bottom: 0.3em;
+	padding-bottom: 6px;
 	a {
 		font-weight: 600;
 	}
 }
 
-.container {
-	margin: 0 auto;
-	padding-bottom: 2em;
+.post-content {
+	margin-top: 10%;
+
+	h2 {
+		padding-top: $base-font-size;
+		font-weight: normal;
+		font-style: italic;
+	}
 }
 
 .article-list {
+	margin-top: 15%;
+
 	.post-time {
 		display: block;
 	}
+
 	.article-list-item {
 		margin: 0 0 $base-line-height 0;
 		padding-bottom: 32px;
@@ -50,106 +71,101 @@ ul {
 	}
 }
 
-article {
+.post-content{
 	margin-bottom: $base-line-height * 3;
-}
-
-.footer-module {
-	display: block;
-	padding: 0.5em 0.5em 0.5em 1.5em;
-	margin: 0 auto 1.25em;
-
-	p {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	h2 {
-		margin: ($base-line-height / 3) auto;
+	li {
+		padding-left: 0;
 	}
 }
 
 .post-footer nav {
 	padding: 0.2em 0.35em 0.2em 0;
-	.previous-post-link {
-		display: block;
-		padding-bottom: 2em;
-	}
-}
 
-.prev-post-link {
-	margin-bottom: $base-line-height;
+	.previous-post-link, .next-post-link {
+		display: inline-block;
+		margin-bottom: $base-line-height;
+	}
+	span { display: block; }
 }
 
 .site-footer {
-	margin: 0 auto;
-	width: 100%;
-	padding-bottom: 0.5em;
+	.footer-module {
+		padding: 1em 2em;
+		padding-bottom: 3em;
+
+		.footer-module-heading {
+			margin: ($base-line-height / 3) auto;
+		}
+		.footer-content {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
 }
 
 /* Smartphone portrait */
 @media all and (min-width: 320px){
-	.container {
+	.page-wrapper {
 		width: 90%;
 	}
 
-	article li {
-		margin-left: 6%;
+	.post-content li {
 		padding-bottom: 1em;
 	}
 }
 
 /* Smartphone landcape */
 @media screen and (min-width: 480px) {
-	article li { margin-left: 6%; }
+	.post-content li { padding-left: 1em; }
 }
 
 /* Large tablet */
-@media all and (min-width: 768px) {
-	.container {
+@media all and (min-width: 670px) {
+	.page-wrapper {
 		padding-bottom: 3em;
 		max-width: 620px;
 		max-width: 37.5rem;
 	}
+	.footer-module {
+		display: block;
+		width: 37.5%;
+		float: left;
+
+		&.footer-module--extra {
+			clear: both;
+			width: 15%;
+		}
+	}
 }
 
 @media screen and (min-width: 800px) {
-	.footer-module {
-		display: block;
-		width: 30%;
-		float: left;
-		padding: 0.3em;
-
-		&.elsewhere {
-			width: 19%;
-		}
-
-		&.elsewhere, &.contact {
-			padding-left: 1.75em;
-		}
+	.home-link {
+		position: relative;
+		left: -60%;
 	}
 }
 
 @media screen and (min-width: 960px) {
 	.footer-module {
-		padding: 0.5em;
-
-		&.elsewhere, &.contact {
-			padding-left: 2.5em;
+		width: 30%;
+		&.footer-module--extra {
+			width: 15%;
+			clear: none;
+			float: left;
 		}
 	}
 }
 
 /* Tablet - Landscape */
 @media all and (min-width: 1024px) {
-	.container {
+	.page-wrapper {
 		padding-bottom: 3em;
 	}
 }
 
 /* Laptop */
 @media all and (min-width: 1280px) {
-	.container {
+	.page-wrapper {
 		padding-bottom: 4em;
 	}
 }

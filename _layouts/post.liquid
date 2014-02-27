@@ -2,9 +2,9 @@
 layout: index
 ---
 
-<main class="post" role="main">
+<main class="post-content" role="main">
 	<article>
-		<header class="post-header">
+		<header class="post-heading">
 			<h1 class="post-title"><a href="{{page.url}}">{{ page.title }}</a></h1>
 			<time class="post-time" datetime="{{page.date}}">{{ page.date | date: "%B %e, %Y" }}</time>
 		</header>
@@ -19,13 +19,11 @@ layout: index
 <footer class="post-footer">
 	<nav>
 		{% if page.previous.url %}
-		Previous article: <a href={{ page.previous.url }} rel="prev" class="previous-post-link">{{ page.previous.title }}</a>
-		{% endif %}
-		{% if page.previous.url and page.next.url %}
+			<span>Previous article:</span> <a href={{ page.previous.url }} rel="prev" class="previous-post-link">{{ page.previous.title }}</a>
 		{% endif %}
 
 		{% if page.next.url %}
-		Next article: <a href={{ page.next.url }} rel="next" class="next-post-link"> {{ page.next.title }}</a>
+			<span>Next article:</span> <a href={{ page.next.url }} rel="next" class="next-post-link"> {{ page.next.title }}</a>
 		{% endif %}
 	</nav>
 </footer>

@@ -1,18 +1,3 @@
-$base-font-size: 1.2em;
-$base-line-height: 1.5em;
-
-$ui-font: "Monotype News Gothic W01", sans-serif;
-$content-font: "Amasis eText W01", serif;
-
-@mixin timeStyle {
-	font-family: $ui-font;
-	font-weight: normal;
-	font-size: 11px;
-	font-size: 0.7rem;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-
 html {
 	font-size: 100%;
 	text-rendering: optimizeLegibility;
@@ -20,20 +5,6 @@ html {
 
 body {
 	line-height: $base-line-height;
-}
-
-article {
-	font-family: $content-font;
-	font-size: 1em;
-
-	.post-title {
-		font-family: $ui-font;
-		line-height: 1.3;
-		font-size: 1.7em;
-	}
-	.post-time {
-		@include timeStyle;
-	}
 }
 
 code,
@@ -59,40 +30,6 @@ blockquote {
 	font-size: 0.9em;
 }
 
-.home-link {
-	font-family: $ui-font;
-	line-height: 1.1em;
-	font-weight: 600;
-
-	&:hover {
-		text-decoration: none;
-	}
-}
-
-.article-list {
-	font-family: $ui-font;
-	.article-list-item {
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	}
-	.post-time {
-		@include timeStyle;
-	}
-	&:last-child {
-		border-bottom: none;
-	}
-}
-
-hr {
-	border: 0;
-	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.post-footer {
-	font-family: $ui-font;
-	font-weight: 600;
-}
 
 a {
 	text-decoration: none;
@@ -105,12 +42,58 @@ a:hover {
 	transition: color 200ms linear;
 }
 
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.home-link {
+	font-family: $ui-font;
+	line-height: 1.1em;
+	font-weight: 600;
+	font-size: 2em;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.article-list {
+	font-family: $ui-font;
+	.article-list-item {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+}
+
+.post-title {
+	font-family: $ui-font;
+	line-height: 1.3;
+	font-size: 1.7em;
+}
+
+.post-time {
+	@include timeStyle;
+}
+
+.post-content{
+	font-family: $content-font;
+	font-size: 1em;
+}
+
+.post-footer {
+	font-family: $ui-font;
+	font-weight: 600;
+	text-align: left;
+}
+
 .site-footer {
 	font-family: $ui-font;
 	font-size: 0.85em;
 }
 
-.footer-module-header {
+.footer-module-heading {
 	font-family: $ui-font;
 	font-weight: normal;
 	font-size: 0.75em;
@@ -118,25 +101,29 @@ a:hover {
 	letter-spacing: 1px;
 }
 
-.post-footer {
-	text-align: left;
-}
-
 /* Mobile + */
 @media screen and (max-width: 320px) {
-	article {
+	.post-content{
 		font-size: 1em;
 		line-height: 1.5;
 
-		h1 { font-size: 1.25em;  }
+		.post-heading { font-size: 1.25em;  }
 	}
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
 	body {
 		font-size: $base-font-size;
 	}
 	.home-link {
 		font-size: 2em;
+	}
+}
+
+
+/* Small tablet portrait */
+@media screen and (min-width: 580px) {
+	.footer-module {
+		font-size: 1em;
 	}
 }

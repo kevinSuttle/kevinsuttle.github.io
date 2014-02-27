@@ -1,0 +1,23 @@
+// Typography
+$base-font-size: 1.3em;
+$base-line-height: 1.5em;
+
+$ui-font: "Monotype News Gothic W01", sans-serif;
+$content-font: "Amasis eText W01", serif;
+
+// Colors
+$page-bg-color: #FDFDFD;
+$body-copy-color: #1A1919;
+$body-link-color: #459dbf;
+$bright-grey: #B3B3B3;
+$medium-grey: #505050;
+$medium-orange: #dd731c;
+
+@mixin timeStyle {
+	font-family: $ui-font;
+	font-weight: normal;
+	font-size: 14px;
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
