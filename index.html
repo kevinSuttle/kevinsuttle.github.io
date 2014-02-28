@@ -3,14 +3,14 @@ layout: index
 ---
 
 <section>
-	<ul class="article-list">
+	<ul class="article-collection">
 		{% for post in site.posts %}
-			<li class="article-list-item">
-				<time class="post-time">{{ post.date | date: "%B %e, %Y" }}</time>
+			<li class="article-collection-item">
+				<time class="article-pubdate">{{ post.date | date: "%B %e, %Y" }}</time>
 				{% if post.external %}
-					<a class="external-post-link post-list-link" href="{{ post.url }}">{{ post.title }}</a>
+					<a class="article-permalink" href="{{ post.url }}">{{ post.title }}</a>
 				{% else %}
-					<a class="post-list-link" href="{{ post.url }}">{{ post.title }}</a>
+					<a class="article-permalink" href="{{ post.url }}">{{ post.title }}</a>
 			</li>
 			{% endif %}
 		{% endfor %}

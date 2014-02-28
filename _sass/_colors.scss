@@ -1,20 +1,34 @@
 html {
 	background-color: lighten($body-copy-color, 10%);
+	line-height: 1.5;
 }
 
 body {
 	background-color: $page-bg-color;
 	color: $body-copy-color;
-	border-color: $medium-grey;
+	border-top: 0.025em solid $body-copy-color;
 }
 
-blockquote {
-	color: darken($bright-grey, 10%);
+blockquote  {
+	border-left: 0.15em solid $bright-grey;
+	color: lighten($medium-grey, 15%);
 }
 
-a, a:visited {
+a, a:visited, a code {
 	color: $body-link-color;
 	transition: color 200ms linear;
+}
+
+a:hover {
+	color: lighten($body-link-color, 10%);
+	transition: color 200ms linear;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 code,
@@ -34,18 +48,24 @@ a.home-link {
 	}
 }
 
-.post-heading {
-	.post-title {
+article header {
+	.article-title {
 		color: lighten($body-copy-color, 50%);
-		a {
+		.article-permalink {
 			text-decoration: none;
 		}
 	}
+	.article-pubdate {
+		color: darken($bright-grey, 15%);
+	}
 }
 
-.post-time {
-	@include timeStyle;
-	color: $medium-grey;
+.article-collection-item {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+	&:last-child {
+		border-bottom: none;
+	}
 }
 
 .site-footer {

@@ -2,11 +2,11 @@
 layout: index
 ---
 
-<main class="post-content" role="main">
+<main class="article-content" role="main">
 	<article>
-		<header class="post-heading">
-			<h1 class="post-title"><a href="{{page.url}}">{{ page.title }}</a></h1>
-			<time class="post-time">{{ page.date | date: "%B %e, %Y" }}</time>
+		<header>
+			<h1 class="article-title"><a class="article-permalink" href="{{page.url}}">{{ page.title }}</a></h1>
+			<time class="article-pubdate">{{ page.date | date: "%B %e, %Y" }}</time>
 		</header>
 
 		{{ content }}
@@ -16,14 +16,16 @@ layout: index
 
 <hr/>
 
-<footer class="post-footer">
+<footer class="article-footer">
 	<nav>
-		{% if page.previous.url %}
-			<span>Previous article:</span> <a href={{ page.previous.url }} rel="prev" class="previous-post-link">{{ page.previous.title }}</a>
-		{% endif %}
+		<dl>
+			{% if page.previous.url %}
+				<dt class="article-nav-label">Previous article:</dt> <dd><a href={{ page.previous.url }} rel="prev" class="article-nav-link">{{ page.previous.title }}</a></dd>
+			{% endif %}
 
-		{% if page.next.url %}
-			<span>Next article:</span> <a href={{ page.next.url }} rel="next" class="next-post-link"> {{ page.next.title }}</a>
-		{% endif %}
+			{% if page.next.url %}
+				<dt class="article-nav-label">Next article:</dt> <dd><a href={{ page.next.url }} rel="next" class="article-nav-link"> {{ page.next.title }}</a></dd>
+			{% endif %}
+		</dl>
 	</nav>
 </footer>

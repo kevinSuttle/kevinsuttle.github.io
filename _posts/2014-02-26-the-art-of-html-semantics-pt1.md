@@ -80,8 +80,8 @@ In other words, “[there is no spoon](http://www.youtube.com/watch?v=XO0pcWxcRO
 Mind == blown, yet? Of course it isn't. We're talking about the `p` tag. How about this, though? The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/). 
 
 >
-Is a concept that lives in the HTML specification, but is essentially a fiction in the real world. It is a fiction because user agents have not implemented it and there is no indication that any will.
--<cite> [Steve Faulkner](twitter.com/stevefaulkner)
+Is a concept that lives in the HTML specification, but is essentially a fiction in the real world. It is a fiction because user agents have not implemented it and there is no indication that any will.  
+<cite>- [Steve Faulkner](twitter.com/stevefaulkner)</cite>
 >
 
 “Wow, this is getting serious.” I probably thought to myself, so I wouldn't be lying when I quoted it later. 
