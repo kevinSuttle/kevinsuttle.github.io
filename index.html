@@ -6,7 +6,7 @@ layout: index
 	<ul class="article-collection">
 		{% for post in site.posts %}
 			<li class="article-collection-item">
-				<time class="article-pubdate">{{ post.date | date: "%B %e, %Y" }}</time>
+				<time class="article-pubdate" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %e, %Y" }}</time>
 				{% if post.external %}
 					<a class="article-permalink" href="{{ post.url }}">{{ post.title }}</a>
 				{% else %}

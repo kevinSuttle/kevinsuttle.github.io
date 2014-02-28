@@ -6,7 +6,7 @@ layout: index
 	<article>
 		<header>
 			<h1 class="article-title"><a class="article-permalink" href="{{page.url}}">{{ page.title }}</a></h1>
-			<time class="article-pubdate">{{ page.date | date: "%B %e, %Y" }}</time>
+			<time class="article-pubdate" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %e, %Y" }}</time>
 		</header>
 
 		{{ content }}
