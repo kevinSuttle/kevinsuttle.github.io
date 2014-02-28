@@ -37,15 +37,15 @@ a.home-link {
 .post-heading {
 	.post-title {
 		color: lighten($body-copy-color, 50%);
-
 		a {
 			text-decoration: none;
 		}
 	}
-	.post-time {
-		@include timeStyle;
-		color: $bright-grey;
-	}
+}
+
+.post-time {
+	@include timeStyle;
+	color: $medium-grey;
 }
 
 .site-footer {

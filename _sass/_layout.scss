@@ -1,5 +1,5 @@
 body {
-	border-top: 3px solid;
+	border-top: 0.25em solid;
 }
 
 blockquote {
@@ -10,14 +10,20 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+
 	li {
 		margin: 0;
 	}
 }
 
-.page-wrapper {
+.page-wrapper, .footer-wrapper {
 	margin: 0 auto;
 	padding: 0 0.5em;
+	width: 90%;
+}
+
+.page-wrapper {
+	padding-bottom: 3em;
 }
 
 .site-header {
@@ -42,6 +48,7 @@ ul {
 .post-title {
 	margin: 0;
 	padding-bottom: 6px;
+
 	a {
 		font-weight: 600;
 	}
@@ -54,6 +61,9 @@ ul {
 		padding-top: $base-font-size;
 		font-weight: normal;
 		font-style: italic;
+	}
+	li {
+		padding: 0 1em ;
 	}
 }
 
@@ -71,11 +81,8 @@ ul {
 	}
 }
 
-.post-content{
+.post-content {
 	margin-bottom: $base-line-height * 3;
-	li {
-		padding-left: 0;
-	}
 }
 
 .post-footer nav {
@@ -89,13 +96,10 @@ ul {
 }
 
 .site-footer {
-	.footer-module {
-		padding: 1em 2em;
-		padding-bottom: 3em;
 
-		.footer-module-heading {
-			margin: ($base-line-height / 3) auto;
-		}
+	.footer-module {
+		padding: 1em 0;
+
 		.footer-content {
 			margin-top: 0;
 			margin-bottom: 0;
@@ -103,69 +107,21 @@ ul {
 	}
 }
 
-/* Smartphone portrait */
-@media all and (min-width: 320px){
-	.page-wrapper {
-		width: 90%;
-	}
-
-	.post-content li {
-		padding-bottom: 1em;
-	}
-}
-
-/* Smartphone landcape */
-@media screen and (min-width: 480px) {
-	.post-content li { padding-left: 1em; }
-}
-
 /* Large tablet */
 @media all and (min-width: 670px) {
-	.page-wrapper {
-		padding-bottom: 3em;
+	.page-wrapper, .footer-wrapper {
 		max-width: 620px;
 		max-width: 37.5rem;
 	}
 	.footer-module {
-		display: block;
-		width: 37.5%;
-		float: left;
 
-		&.footer-module--extra {
-			clear: both;
-			width: 15%;
-		}
-	}
-}
-
-@media screen and (min-width: 800px) {
-	.home-link {
-		position: relative;
-		left: -60%;
-	}
-}
-
-@media screen and (min-width: 960px) {
-	.footer-module {
-		width: 30%;
-		&.footer-module--extra {
-			width: 15%;
-			clear: none;
+		&:first-child {
+			width: 70%;
+			padding-right: 10%;
 			float: left;
 		}
-	}
-}
-
-/* Tablet - Landscape */
-@media all and (min-width: 1024px) {
-	.page-wrapper {
-		padding-bottom: 3em;
-	}
-}
-
-/* Laptop */
-@media all and (min-width: 1280px) {
-	.page-wrapper {
-		padding-bottom: 4em;
+		&:last-child {
+			float: right;
+		}
 	}
 }
