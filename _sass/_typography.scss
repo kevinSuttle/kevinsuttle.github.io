@@ -25,14 +25,19 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
 	@include zeroOutSpacing;
+	font-family: $ui-font;
 }
 
 code,
 kbd,
 pre,
 samp {
-	font-family: 'Inconsolata', 'Consolas', 'Monaco', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
+	font-family: 'Droid Sans Mono', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
 	font-style: normal;
+	white-space: pre-wrap;
+	.highlight {
+		white-space: pre-wrap;
+	}
 }
 
 blockquote {
