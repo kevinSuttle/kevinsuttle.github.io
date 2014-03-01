@@ -70,6 +70,7 @@ dd {
 .site-header {
 	margin-left: -6%;
 }
+
 .home-link {
 	margin: 0;
 	width: 100%;
@@ -111,6 +112,13 @@ article {
 	ol, ul {
 		padding-left: 1em;
 	}
+	h2 {
+		padding-bottom: 0.5em;
+	}
+}
+
+.article-bio ul {
+	padding-left: 0;
 }
 
 .article-footer {

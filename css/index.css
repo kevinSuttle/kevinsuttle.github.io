@@ -253,6 +253,11 @@ article {
   margin-bottom: 3em; }
   article ol, article ul {
     padding-left: 1em; }
+  article h2 {
+    padding-bottom: 0.5em; }
+
+.article-bio ul {
+  padding-left: 0; }
 
 .article-footer {
   padding-top: 0.5em; }
