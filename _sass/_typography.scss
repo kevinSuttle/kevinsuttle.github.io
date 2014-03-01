@@ -1,6 +1,5 @@
 body {
 	font-family: $ui-font;
-	text-rendering: optimizeLegibility;
 	font-size: 1em;
 }
 
@@ -33,7 +32,7 @@ kbd,
 pre,
 samp,
 .highlight {
-	font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata'  monospace, serif;
+	font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata',  monospace, serif;
 	font-style: normal;
 	white-space: pre-wrap;
 }

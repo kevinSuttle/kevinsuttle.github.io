@@ -71,7 +71,6 @@ article header .article-pubdate {
 
 body {
   font-family: "Monotype News Gothic W01", "Damascus", "Droid Sans", "Calibri", sans-serif;
-  text-rendering: optimizeLegibility;
   font-size: 1em; }
 
 h1 {
@@ -102,7 +101,7 @@ kbd,
 pre,
 samp,
 .highlight {
-  font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata'  monospace, serif;
+  font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata',  monospace, serif;
   font-style: normal;
   white-space: pre-wrap; }
 
@@ -192,7 +191,7 @@ img {
   max-height: 100%; }
 
 blockquote {
-  margin-bottom: 1.5;
+  margin-bottom: 1.5em;
   padding: 0 0 0 1em; }
 
 pre, samp {
