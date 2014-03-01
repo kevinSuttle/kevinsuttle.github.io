@@ -35,8 +35,11 @@ samp,
 .highlight {
 	font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata'  monospace, serif;
 	font-style: normal;
-	font-size: smaller;
 	white-space: pre-wrap;
+}
+
+code, kbd {
+	font-size: smaller;
 }
 
 blockquote {
@@ -73,7 +76,7 @@ a:hover {
 
 article {
 	.article-title {
-		line-height: 1.2;
+		line-height: 1.3;
 	}
 	font-family: $content-font;
 }
