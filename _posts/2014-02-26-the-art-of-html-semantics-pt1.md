@@ -12,7 +12,7 @@ There is `section`, `header`, `aside`, `footer`, `main`, and even `menu`! We've 
 <div class="content">
 {% endhighlight %}
 
-Being guilty of this at times while laziness or deadlines got the better of me, I decided to reacquiant myself with the intended uses of our [trusty markup standard](). What better place to start than the old standby, the [div tag](http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-div-element). Right away, I saw the note in the spec:
+Being guilty of this at times while laziness or deadlines got the better of me, I decided to reacquiant myself with the intended uses of our [trusty markup standard](https://developer.mozilla.org/en-US/docs/Web/HTML). What better place to start than the old standby, the [div tag](http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-div-element). Right away, I saw the note in the spec:
 
 >
 Authors are strongly encouraged to view the div element as an element of last resort, for when no other element is suitable. Use of more appropriate elements instead of the div element leads to better accessibility for readers and easier maintainability for authors.
