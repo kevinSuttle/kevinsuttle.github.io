@@ -31,13 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 code,
 kbd,
 pre,
-samp {
-	font-family: 'Droid Sans Mono', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
+samp,
+.highlight {
+	font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata'  monospace, serif;
 	font-style: normal;
+	font-size: smaller;
 	white-space: pre-wrap;
-	.highlight {
-		white-space: pre-wrap;
-	}
 }
 
 blockquote {

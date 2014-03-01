@@ -31,11 +31,16 @@ hr {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-code,
-kbd,
-pre,
-samp {
+code, kbd {
 	color: $medium-orange;
+}
+
+pre, samp {
+	background-color: #505050;
+	color: #F5F5F5;
+	code {
+		color: #F5F5F5;
+	}
 }
 
 a.home-link {

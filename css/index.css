@@ -25,11 +25,14 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
-code,
-kbd,
-pre,
-samp {
+code, kbd {
   color: #dd731c; }
+
+pre, samp {
+  background-color: #505050;
+  color: #F5F5F5; }
+  pre code, samp code {
+    color: #F5F5F5; }
 
 a.home-link {
   color: white;
@@ -97,15 +100,12 @@ h1, h2, h3, h4, h5, h6 {
 code,
 kbd,
 pre,
-samp {
-  font-family: 'Droid Sans Mono', 'Menlo', 'Andale Mono', 'Ubuntu Mono', monospace, serif;
+samp,
+.highlight {
+  font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata'  monospace, serif;
   font-style: normal;
+  font-size: smaller;
   white-space: pre-wrap; }
-  code .highlight,
-  kbd .highlight,
-  pre .highlight,
-  samp .highlight {
-    white-space: pre-wrap; }
 
 blockquote {
   font-style: italic;
@@ -192,6 +192,11 @@ img {
 blockquote {
   margin-bottom: 1.5;
   padding: 0 0 0 1em; }
+
+pre, samp {
+  padding: 0.5em;
+  padding-left: 1em;
+  border-radius: 6px; }
 
 ul {
   list-style-type: none;

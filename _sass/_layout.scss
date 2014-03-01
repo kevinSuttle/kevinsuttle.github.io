@@ -35,6 +35,12 @@ blockquote {
 	padding: 0 0 0 1em;
 }
 
+pre, samp {
+	padding: 0.5em;
+	padding-left: 1em;
+	border-radius: 6px;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
