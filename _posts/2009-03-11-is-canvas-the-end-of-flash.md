@@ -2,6 +2,7 @@
 layout: post
 title: Re&#58; Is Canvas the End of Flash?
 ---
+
 I was kind of in the middle of deciding how I was going to design/publish/host my blog (had been for years) but I finally found something that made me really want to write. So, with the disclaimer of this being my first FULL blog post and the design being a little rough right now, let's get on with it. This is a response to [Is Canvas the End of Flash?][1], an article Sean Moore (@SeanTheFlexGuy) [shared][2] on Twitter. My responses are both for the the author and the commenters. 
 
 Ahem. Wow, I know very little about JavaScript, but the lack of understanding of Flash here amazes me. The Canvas tag is indeed powerful, and can do a lot of the same things Flash can do ...to a point. And as far as Flash being a "closed technology", check out [Tamarin][3] and [the Open Screen Project][4]. Nokia, BBC, Intel, Time Warner, HBO, Palm, are just a few of the major industry names that are [partnering with Adobe][5] to implement Flash on a wide array of devices. Adobe is getting more and more open sourced, including [using SWFObject inside of Dreamweaver][6], Flex Builder and Flash Catalyst are built on Eclipse, the [Flex SDK is open sourced][7] , the AIR HTML Rendering engine is [using Webkit][8], and [BlazeDS][9] is open sourced. 

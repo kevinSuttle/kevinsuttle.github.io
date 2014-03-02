@@ -86,7 +86,7 @@ Is a concept that lives in the HTML specification, but is essentially a fiction 
 
 “Wow, this is getting serious.” I probably thought to myself, so I wouldn't be lying when I quoted it later. 
 
-As I'm currently doing research on developer documentation, I thought I'd look into `pre` and `code` tags, to be sure I was using them correctly. `Code` for inline references, like in this paragraph, and `pre` for longer, `blockquote`-style code embeds. 
+As I'm currently doing research on developer documentation, I thought I'd look into `pre` and `code` tags, to be sure I was using them correctly. `code` for inline references, like in this paragraph, and `pre` for longer, `blockquote`-style code embeds. 
 
 Well, those assumptions are mostly true, but as we've seen, there is usually a better, more meaningful element to use. What I found was another pair of elements that were specifically created for code documentation, [`kbd`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-kbd-element) and [`samp`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-samp-element). Why these tags are so special to me is that they solve 2 problems: 
 

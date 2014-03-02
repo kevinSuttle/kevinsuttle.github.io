@@ -3,23 +3,35 @@ layout: post
 title: Apple Reaffirms Control Issues with iPhone 4
 ---
 
-<a href="/images/iphone-4-0-artwork.png"><img title="iphone-4-0-artwork" src="/images/iphone-4-0-artwork.png" width="500" height="363"/></a> Apple announced iPhone 4 today, a markedly more aggressive OS overhaul than the previous 3. "Aggressive" in that Steve Jobs pretty much gave the proverbial middle finger to Adobe, Google, Sony, Nintendo and Microsoft. I'll quickly go over a few of the iPhone 4 "tentpoles," an ironic term Apple is using in place of the word 'features'. The term "<a title="Brian Fling - Mobile Design and Development" href="http://my.safaribooksonline.com/9780596806231/the_mobile_design_tent-pole">tentpole</a>" in mobile development is defined here by <a title="Twitter - Brian Fling" href="http://twitter.com/fling">Brian Fling</a>, author of <a title="Mobile Design and Development" href="http://www.mobiledesign.org/book/">Mobile Design and Development</a> (review coming soon here):
+Apple announced iPhone 4 today, a markedly more aggressive OS overhaul than the previous 3. "Aggressive" in that Steve Jobs pretty much gave the proverbial middle finger to Adobe, Google, Sony, Nintendo and Microsoft. I'll quickly go over a few of the iPhone 4 "tentpoles," an ironic term Apple is using in place of the word 'features'. The term "<a title="Brian Fling - Mobile Design and Development" href="http://my.safaribooksonline.com/9780596806231/the_mobile_design_tent-pole">tentpole</a>" in mobile development is defined here by <a title="Twitter - Brian Fling" href="http://twitter.com/fling">Brian Fling</a>, author of <a title="Mobile Design and Development" href="http://www.mobiledesign.org/book/">Mobile Design and Development</a> (review coming soon here):
+
 > "In Hollywood, executives like to use the term &ldquo;tent-pole&rdquo; to describe their movies and television shows. The term has dual meanings: one is business, and the other creative. The business goal of a tent-pole production is to support or prop up the losses from other productions. However, to create a tent-pole production, the creators involved must make an artistic work that they know will appeal to the largest possible audience, providing something for everyone. You probably know tent-pole movies as &ldquo;blockbusters&rdquo;; in television, they are known as &ldquo;anchor&rdquo; shows."
 All quotes are from <a title="GDGT - iPhone 4 Coverage" href="http://live.gdgt.com/2010/04/08/live-iphone-os-4-0-event-coverage/">GDGT</a> and <a title="Gizmodo - iPhone 4 New Features" href="http://gizmodo.com/5512635/iphone-os-40-all-the-new-features">Gizmodo</a>'s live blogs. 1. Mutltitasking Middle Finger to: Google, Palm, Microsoft
+
 > &ldquo;We weren&rsquo;t the first to this party, but we&rsquo;re going to be the best. Like cut and paste &mdash; it&rsquo;s better than any other implementation. It&rsquo;s really easy to implement it in a way that really drains battery life. And, it&rsquo;s really easy to implement it in a way that reduces the performance of the foreground app and makes your phone feel sluggish. We figured out how to implement multitasking for third party apps and avoid those things. That&rsquo;s what took us a little longer, but I think we nailed it."
+> 
 Essentially Apple is saying that they sat back and listened to the complaints of modern mobile users (Android, WebOS, WinMo) and just one-upped them. Great reasoning. NOT. 2. "Game Center" Middle Finger to: Adobe, Microsoft, Sony, Nintendo
+
 > &ldquo;Gaming is extremely popular on the iPhone and iPod touch. In fact, we have over 50k titles&hellip; let&rsquo;s look at the competition. If you look at dedicated gaming devices like the PSP and DS, this just blows them out of the water."
+> 
 > &ldquo;We wanted to make this even better &mdash; we&rsquo;ve added a social gaming network. We do automatic matchmaking, we&rsquo;ll find others with a similar ability and match them against you. You can see how you&rsquo;re progressing in a game with achievements.&rdquo;
+
 > "There are 50,000 game and &ldquo;entertainment&rdquo; titles. Compared to DS and PSP, there&rsquo;s 4321 games on the DS and 2477 on the PSP."
 Apple is not allowing Flash on their mobile devices because they're afraid of it's power and ubiquity. I'm not sure why more people aren't talking about this. They want to add a social aspect to their gaming to rival Microsoft's <a title="XBOX Live" href="http://www.xbox.com/en-us/live/">XBOX Live</a> and Sony's <a title="PSN" href="http://us.playstation.com/psn/index.htm">Playstation Network</a>. 3. iAds Middle Finger DIRECTLY to: Adobe
+
 > &ldquo;We want to be even more interactive than the ads on the web, and we want to get some of that interactivity from video. The ads keep you in your app&hellip;&rdquo; People don&rsquo;t click on ads because you get yanked out of your app. Because iAd is in the OS itself, we&rsquo;ve figured out how to do interactive and video content without ever taking you out of your app!&rdquo;
+
 > &ldquo;The user can return to their app any time they want. We think the user will be much more interested in clicking on these things because they won&rsquo;t pay the penalty for doing so. You can add iAd opportunities in an afternoon &mdash; we&rsquo;re going to host and deliver the ads, and we&rsquo;ll give developers an industry standard 60% of the revenues.&rdquo;
 So, the user can go back the app anytime they want, just like on the web? Or do you mean like when QuickTime or YouTube takes the user away from the app they're in?
+
 > &ldquo;They even included a game in this ad!"
 How novel!
+
 > &ldquo;Have you ever seen an ad like this?&rdquo; Silence. &ldquo;&hellip; anything even close?&rdquo;
 Since 2003.
+
 > &ldquo;That&rsquo;s an example of 3 ads that are very easy to make. In addition to ad agencies being able to make these things, there are hundreds of thousands of iPhone app devs who know how to make these things. Emotion plus interactivity. The ads keep you in your app, so you&rsquo;re much more likely to click on then and explore.&rdquo;
+
 > &ldquo;This is a pretty serious opportunity, and it&rsquo;s an incredible demographic. But we want to do more than that. We want to change the quality of the advertising. We&rsquo;re all familiar with interactive ads on the web. They&rsquo;re interactive, but they&rsquo;re not capable of delivering emotion.&rdquo;
 Well this is a flat out lie. Delivering emotion is determined by marketing and user experience professionals, not development platform.
 > &ldquo;The average user spends over 30 minutes using apps on their phone. If we said we wanted to put an ad up every 3 minutes, that&rsquo;d be 10 ads per device per day &mdash; about the same as a TV show. We&rsquo;re going to soon have 100m devices. That&rsquo;s a billion ad opportunities per day!&rdquo;
