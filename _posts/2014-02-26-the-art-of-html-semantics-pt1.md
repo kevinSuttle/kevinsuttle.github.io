@@ -77,7 +77,7 @@ The solution is to realise that a paragraph, in HTML terms, is not a logical con
 
 In other words, “[there is no spoon](http://www.youtube.com/watch?v=XO0pcWxcROI)”. 
 
-##The singel h1-h6 model
+##The single h1-h6 model
 The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/). 
 
 >
@@ -187,3 +187,4 @@ If you've ever read an ebook that has footnote or index functionality, this is e
 While there is still [work to be done](http://alistapart.com/comments/battle-for-the-body-field#336421) on the available semantics and appropriate uses of markup, it's nice to know that we have more to work with than we sometimes allow ourselves to believe. 
 
 In my next post, we'll dive deeper into the HTML of tomorrow, and what it would look like if it were designed today. 
+
