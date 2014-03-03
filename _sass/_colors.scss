@@ -76,25 +76,16 @@ article header {
 .site-footer {
 	background-color: lighten($body-copy-color, 10%);
 	color: $page-bg-color;
-
-	.footer-module-heading {
-		color: $bright-grey;
-	}
-
-	a:link, .site-footer a:visited {
-		color: $body-link-color;
-		transition: color 300ms linear;
-	}
 }
 
 .footer-module {
 	.footer-module-heading {
 		color: $bright-grey;
 	}
-	& a:link, & a:visited {
-		color: lighten($body-link-color, 10%);
-	}
-	& a:hover, & a:focus {
+	a {
 		color: lighten($body-link-color, 20%);
+	}
+	a:hover {
+		color: $body-link-color;
 	}
 }
