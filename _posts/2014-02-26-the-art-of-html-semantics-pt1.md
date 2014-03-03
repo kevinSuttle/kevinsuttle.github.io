@@ -77,25 +77,45 @@ The solution is to realise that a paragraph, in HTML terms, is not a logical con
 
 In other words, “[there is no spoon](http://www.youtube.com/watch?v=XO0pcWxcROI)”. 
 
-Mind == blown, yet? Of course it isn't. We're talking about the `p` tag. How about this, though? The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/). 
+##The singel h1-h6 model
+The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/). 
 
 >
 Is a concept that lives in the HTML specification, but is essentially a fiction in the real world. It is a fiction because user agents have not implemented it and there is no indication that any will.  
 <cite>- [Steve Faulkner](twitter.com/stevefaulkner)</cite>
 >
 
-“Wow, this is getting serious.” I probably thought to myself, so I wouldn't be lying when I quoted it later. 
+To be honest, it's kind of a relief to hear this, because I never felt comfortable or totally grasped the concept of multiple `h1` or `h2` elements on a page. It quickly became unweildy when trying to remember which elements began a new [section context](http://www.w3.org/TR/html5/sections.html#outlines), and how many header elements I'd already used. Cheers for keeping things simple. 
 
+##Marking up documentation
 As I'm currently doing research on developer documentation, I thought I'd look into `pre` and `code` tags, to be sure I was using them correctly. `code` for inline references, like in this paragraph, and `pre` for longer, `blockquote`-style code embeds. 
 
 Well, those assumptions are mostly true, but as we've seen, there is usually a better, more meaningful element to use. What I found was another pair of elements that were specifically created for code documentation, [`kbd`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-kbd-element) and [`samp`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-samp-element). Why these tags are so special to me is that they solve 2 problems: 
 
-<ol>
-<li> I can now use a semantic element to distinguish between code that the user should enter: <code>kbd</code> and code that a machine outputs: <code>samp</code></li>
-<li>I now have 2 separate CSS hooks to use to help visually distinguish these two pieces of information in documentation. </li>
-</ol>
++ I can now use a semantic element to distinguish between code that the user should enter: `kbd` and code that a machine outputs: `samp`
++ I now have 2 separate CSS hooks to use to help visually distinguish these two pieces of information in documentation.
 
-I'd never seen those applied to documentation markup before, but now I can't imagine not using them. That same statement is also true when speaking of the `figure` element, and I'm not referring only to screenshots. 
+I'd never seen those applied to documentation markup before, but now I can't imagine not using them. 
+
+##Code granularity
+If we want to get really descriptive, there are a couple more elements we can leverage for both machine and human-readable code markup.
+The [`var`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-var-element) tag can be used for marking up variables in code, and the [`data`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-data-element) element is used to delineate pure data, such as the values needed in tabular information. 
+
+You might be asking what the `data` element offers over `data-*` attributes. With the `data` element's `value`  attribute present, browsers can use it with the [`sortable`](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#attr-table-sortable) attribute of the `table` element to provide [UI controls to sort tables](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#table-sorting-model). Here's an example from the spec:
+
+```
+<table sortable>
+ <thead> <tr> <th> Game <th> Corporations <th> Map Size
+ <tbody>
+  <tr> <td> 1830 <td> <data value="8">Eight</data> <td> <data value="93">19+74 hexes (93 total)</data>
+  <tr> <td> 1856 <td> <data value="11">Eleven</data> <td> <data value="99">12+87 hexes (99 total)</data>
+  <tr> <td> 1870 <td> <data value="10">Ten</data> <td> <data value="149">4+145 hexes (149 total)</data>
+</table>
+```
+
+**Note:** Not all browsers support the table sorting model yet, but if you do decide to include it, make sure you add the [`aria-sort`](http://www.w3.org/TR/wai-aria/states_and_properties#aria-sort) role to the appropriate table header element. 
+
+Another highly useful element in code documentation semanticsd is the `figure` element, and it can be used for much more than screenshots. 
 
 >
 The figure element represents some flow content, optionally with a caption, that is self-contained (like a complete sentence) and is typically referenced as a single unit from the main flow of the document.
@@ -125,6 +145,45 @@ Notice nothing about images specifically was mentioned. The spec then goes on to
 
 Wow, that totally makes sense, doesn't it? Think about how many books you've read that have [this little figure element](http://www.codinghorror.com/blog/2007/12/on-the-meaning-of-coding-horror.html) off to the side to point out a detail about a code snippet. 
 
+##Lists: the unsung workhorses
+My favorite HTML element, and in my opinion, the most underrated element in the spec, is the decription list ([`dl`](http://www.w3.org/TR/html5/grouping-content.html#the-dl-element)). It's intended for marking up name-value pairs of content. This could apply to anything from a list of services offered and their accompanying descriptions, to a simple 'previous article/next article' component, like the one at the bottom of every article on my blog here. It's perfect for documenting a page's edit history, causes and effects, or, surprisingly, any list data that needs a group heading. I had no idea before reading the spec, but it's entirely valid to have one `dt` (decription term) and multiple `dd`s (description definitions). Here's a great example from the spec, marking up variations in spelling across the English language, though the definition is the same. 
+
+```
+<dl>
+ <dt lang="en-US"> <dfn>color</dfn> </dt>
+ <dt lang="en-GB"> <dfn>colour</dfn> </dt>
+ <dd> A sensation which (in humans) derives from the ability of
+ the fine structure of the eye to distinguish three differently
+ filtered analyses of a view. </dd>
+</dl>
+```
+
+Astute readers and fellow HTML nerds may be wondering about the rarely-seen [`dfn`](http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element)
+element and where it fits into the semantic uses of description lists. A `dfn` is the element the spec describes as: "the defining instance of a term". In combination with the `abbr` and `a` elements, one can provide a really nice UX for finding the first instance of a definiton. See this example from the spec:
+
+>
+In the following fragment, the term "Garage Door Opener" is first defined in the first paragraph, then used in the second. In both cases, its abbreviation is what is actually displayed.
+>
+
+```
+<p>The <dfn><abbr title="Garage Door Opener">GDO</abbr></dfn>
+is a device that allows off-world teams to open the iris.</p>
+<!-- ... later in the document: -->
+<p>Teal'c activated his <abbr title="Garage Door Opener">GDO</abbr>
+and so Hammond ordered the iris to be opened.</p>
+With the addition of an a element, the reference can be made explicit:
+
+<p>The <dfn id=gdo><abbr title="Garage Door Opener">GDO</abbr></dfn>
+is a device that allows off-world teams to open the iris.</p>
+<!-- ... later in the document: -->
+<p>Teal'c activated his <a href=#gdo><abbr title="Garage Door Opener">GDO</abbr></a>
+and so Hammond ordered the iris to be opened.</p>
+```
+
+If you've ever read an ebook that has footnote or index functionality, this is exactly the same idea. 
+
+
+##Just the beginning
 While there is still [work to be done](http://alistapart.com/comments/battle-for-the-body-field#336421) on the available semantics and appropriate uses of markup, it's nice to know that we have more to work with than we sometimes allow ourselves to believe. 
 
 In my next post, we'll dive deeper into the HTML of tomorrow, and what it would look like if it were designed today. 
