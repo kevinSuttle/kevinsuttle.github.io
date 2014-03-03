@@ -145,7 +145,7 @@ Notice nothing about images specifically was mentioned. The spec then goes on to
 
 Wow, that totally makes sense, doesn't it? Think about how many books you've read that have [this little figure element](http://www.codinghorror.com/blog/2007/12/on-the-meaning-of-coding-horror.html) off to the side to point out a detail about a code snippet. 
 
-##Lists: the unsung workhorses
+##Description Lists: the unsung workhorses
 My favorite HTML element, and in my opinion, the most underrated element in the spec, is the decription list ([`dl`](http://www.w3.org/TR/html5/grouping-content.html#the-dl-element)). It's intended for marking up name-value pairs of content. This could apply to anything from a list of services offered and their accompanying descriptions, to a simple 'previous article/next article' component, like the one at the bottom of every article on my blog here. It's perfect for documenting a page's edit history, causes and effects, or, surprisingly, any list data that needs a group heading. I had no idea before reading the spec, but it's entirely valid to have one `dt` (decription term) and multiple `dd`s (description definitions). Here's a great example from the spec, marking up variations in spelling across the English language, though the definition is the same. 
 
 ```
