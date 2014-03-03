@@ -105,11 +105,15 @@ article header {
 article {
 	margin-top: 10%;
 	margin-bottom: 3em;
-	ol, ul {
-		padding-left: 1em;
+	p {
+		margin-top: 0;
+		margin-bottom: $base-line-height +em;
 	}
 	h2 {
-		padding-bottom: 0.5em;
+		padding-bottom: 0.25em;
+	}
+	ol, ul {
+		padding-left: 1em;
 	}
 }
 
