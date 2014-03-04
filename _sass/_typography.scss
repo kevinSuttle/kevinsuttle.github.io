@@ -1,3 +1,7 @@
+html  {
+	line-height: 1.5;
+}
+
 body {
 	font-family: $ui-font;
 	font-size: 1em;
@@ -31,7 +35,7 @@ kbd,
 pre,
 samp,
 .highlight {
-	font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata',  monospace, serif;
+	font-family: $code-font;
 	font-style: normal;
 	white-space: pre-wrap;
 }
