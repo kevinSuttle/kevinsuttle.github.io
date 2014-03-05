@@ -5,7 +5,7 @@ title: "The right questions to ask mobile-first deniers"
 
 If you've ever pushed for a mobile-first approach to product design in your organization, there's always at least one individual that I've dubbed the "mobile-first denier". I bet you're nodding to yourself, recalling a conversation   that sounds a lot like this, as well as exactly who you had it with. 
 
->"Why would someone [perform X] on a mobile device? "Nobody is ever going to [perform X] on their mobile devices."
+>"Why would someone [perform X] on a mobile device? "Nobody is ever going to [perform X] on their mobile devices."    
 
 Well, if that's true, it's most likely because someone hasn't cared enough to design a good experience for mobile devices. "Never" is a dangerous assumption in a world where monumental shifts happen at any moment. In an industry where so-called "tech experts" unabashedly dismissed the iPhone and even the Internet, is anything really so far fetched anymore? Safe assumptions no longer exist. We have to take every "fad" seriously now.
 
@@ -15,7 +15,7 @@ Well, if that's true, it's most likely because someone hasn't cared enough to de
 The better questions to ask are:     
 
 * "Is the reason people haven't historically [performed X] on a mobile device because no one has designed a good enough experience for it, blindly glossing over a problem they didn't know (or care) they had?"    
-* "What can we do to design a better experience for [performing X], starting at the mobile level?"   
+* "What can we do to design a better experience for [performing X], starting at the mobile level?"     
 
 Approach [X] as if it were designed for the users of **tomorrow**, whether it be web apps, API/SDK documentation, dashboards, and more. Users will always find a way to accomplish a task if they have to, regardless of device. I've signed legally-binding documents, written email rules in a webmail client's preferences, checked domain analytic segments, edited htaccess files on servers, and more, out of necessity and lack of time. Again, these are all tasks that multiple people have said couldn't or wouldn't ever be carried out on a non-desktop device. 
 
