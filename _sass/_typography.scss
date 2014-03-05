@@ -79,13 +79,17 @@ a:hover {
 article {
 	font-size: 1.10em;
 	line-height: 1.6;
+	font-family: $content-font;
+
 	.article-title {
 		line-height: 1.3;
 		font-weight: normal;
 
 		overflow-x:  hidden;
 	}
-	font-family: $content-font;
+	h2 {
+		line-height: 1.3;
+	}
 }
 
 .article-collection {
