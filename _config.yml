@@ -7,5 +7,3 @@ kramdown:
 permalink: /posts/:title
 exclude: ["CNAME", "README.md", "node_modules", "gulpfile.js", "package.json", "config.codekit"]
 url: KevinSuttle.com
-
-destination: _site
