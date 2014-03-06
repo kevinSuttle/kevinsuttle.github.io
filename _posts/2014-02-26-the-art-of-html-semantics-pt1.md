@@ -92,13 +92,14 @@ As I'm currently doing research on developer documentation, I thought I'd look i
 
 Well, those assumptions are mostly true, but as we've seen, there is usually a better, more meaningful element to use. What I found was another pair of elements that were specifically created for code documentation, [`kbd`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-kbd-element) and [`samp`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-samp-element). Why these tags are so special to me is that they solve 2 problems: 
 
-+ I can now use a semantic element to distinguish between code that the user should enter: `kbd` and code that a machine outputs: `samp`
++ I can now use a semantic element to distinguish between code that the user should enter (`kbd`) and code that a machine outputs (`samp`).
 + I now have 2 separate CSS hooks to use to help visually distinguish these two pieces of information in documentation.
 
 I'd never seen those applied to documentation markup before, but now I can't imagine not using them. 
 
 ##Code granularity
-If we want to get really descriptive, there are a couple more elements we can leverage for both machine and human-readable code markup.
+If we want to get really descriptive, there are a couple more elements we can leverage for both machine and human-readable code markup.  
+
 The [`var`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-var-element) tag can be used for marking up variables in code, and the [`data`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-data-element) element is used to delineate pure data, such as the values needed in tabular information.  
 
 You might be asking what the `data` element offers over `data-*` attributes. With the `data` element's `value`  attribute present, browsers will someday be able to use it with the [`sortable`](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#attr-table-sortable) attribute of the `table` element to provide a mechanism for authors and users to [sort tables](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#table-sorting-model). 
