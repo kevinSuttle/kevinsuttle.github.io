@@ -99,21 +99,13 @@ I'd never seen those applied to documentation markup before, but now I can't ima
 
 ##Code granularity
 If we want to get really descriptive, there are a couple more elements we can leverage for both machine and human-readable code markup.
-The [`var`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-var-element) tag can be used for marking up variables in code, and the [`data`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-data-element) element is used to delineate pure data, such as the values needed in tabular information. 
+The [`var`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-var-element) tag can be used for marking up variables in code, and the [`data`](http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-data-element) element is used to delineate pure data, such as the values needed in tabular information.  
 
-You might be asking what the `data` element offers over `data-*` attributes. With the `data` element's `value`  attribute present, browsers can use it with the [`sortable`](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#attr-table-sortable) attribute of the `table` element to provide [UI controls to sort tables](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#table-sorting-model). Here's an example from the spec:
+You might be asking what the `data` element offers over `data-*` attributes. With the `data` element's `value`  attribute present, browsers will someday be able to use it with the [`sortable`](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#attr-table-sortable) attribute of the `table` element to provide a mechanism for authors and users to [sort tables](http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#table-sorting-model). 
 
-```
-<table sortable>
- <thead> <tr> <th> Game <th> Corporations <th> Map Size
- <tbody>
-  <tr> <td> 1830 <td> <data value="8">Eight</data> <td> <data value="93">19+74 hexes (93 total)</data>
-  <tr> <td> 1856 <td> <data value="11">Eleven</data> <td> <data value="99">12+87 hexes (99 total)</data>
-  <tr> <td> 1870 <td> <data value="10">Ten</data> <td> <data value="149">4+145 hexes (149 total)</data>
-</table>
-```
-
-**Note:** Not all browsers support the table sorting model yet, but if you do decide to include it, make sure you add the [`aria-sort`](http://www.w3.org/TR/wai-aria/states_and_properties#aria-sort) role to the appropriate table header element. 
+<aside>
+<strong>Note:</strong> Browser support for the table sorting model very hard to come by, and I've yet to see a working example. Plus, the HTML 5.1 DOM API spec on it is kind of a mess, but when it does make it into in the wild, make sure you add the <a href="http://www.w3.org/TR/wai-aria/states_and_properties#aria-sort"><code>aria-sort</code></a> role to the appropriate table header element. (Thanks to <a href="http://www.raymondcamden.com/">Ray Camden</a> for shedding some light.)
+</aside>  
 
 Another highly useful element in code documentation semanticsd is the `figure` element, and it can be used for much more than screenshots. 
 
@@ -158,8 +150,7 @@ My favorite HTML element, and in my opinion, the most underrated element in the 
 </dl>
 ```
 
-Astute readers and fellow HTML nerds may be wondering about the rarely-seen [`dfn`](http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element)
-element and where it fits into the semantic uses of description lists. A `dfn` is the element the spec describes as: "the defining instance of a term". In combination with the `abbr` and `a` elements, one can provide a really nice UX for finding the first instance of a definiton. See this example from the spec:
+Astute readers and fellow HTML nerds may be wondering about the rarely-seen [`dfn`](http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element) element and where it fits into the semantic uses of description lists. A `dfn` is the element the spec describes as: "the defining instance of a term". In combination with the `abbr` and `a` elements, one can provide a really nice UX for finding the first instance of a definiton. See this example from the spec:
 
 >
 In the following fragment, the term "Garage Door Opener" is first defined in the first paragraph, then used in the second. In both cases, its abbreviation is what is actually displayed.
