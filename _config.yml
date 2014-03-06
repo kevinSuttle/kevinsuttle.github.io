@@ -5,7 +5,7 @@ markdown: kramdown
 kramdown:
     input: GFM
 permalink: /posts/:title
-exclude: ["CNAME", "README.md", "/node_modules", "gulpfile.js", "package.json"]
+exclude: ["CNAME", "README.md", "node_modules", "gulpfile.js", "package.json", "config.codekit"]
 url: KevinSuttle.com
 
 destination: _site
