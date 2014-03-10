@@ -107,7 +107,7 @@ You might be asking what the `data` element offers over `data-*` attributes. Wit
 <strong>Note:</strong> Browser support for the table sorting model very hard to come by, and I've yet to see a working example. Plus, the HTML 5.1 DOM API spec on it is kind of a mess, but when it does make it into in the wild, make sure you add the <a href="http://www.w3.org/TR/wai-aria/states_and_properties#aria-sort"><code>aria-sort</code></a> role to the appropriate table header element. (Thanks to <a href="http://www.raymondcamden.com/">Ray Camden</a> for shedding some light.)
 </aside>  
 
-Another highly useful element in code documentation semanticsd is the `figure` element, and it can be used for much more than screenshots. 
+Another highly useful element in code documentation semantics is the `figure` element, and it can be used for much more than screenshots.
 
 >
 The figure element represents some flow content, optionally with a caption, that is self-contained (like a complete sentence) and is typically referenced as a single unit from the main flow of the document.
