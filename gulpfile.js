@@ -4,10 +4,15 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 
+function showJekyllBuildNotification () {
+    browserSync.notify("<span style='color: grey'>Running:</span> $ jekyll build");
+}
+
 /**
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (cb) {
+	showJekyllBuildNotification();
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
         .on('close', function () {
             cb();
