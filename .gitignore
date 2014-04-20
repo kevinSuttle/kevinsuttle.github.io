@@ -5,5 +5,6 @@ _drafts/
 *.sass-cache/
 .scssc
 /node_modules
-
+/bower_components
 *.map
+/.idea/
