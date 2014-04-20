@@ -1,0 +1,22 @@
+{
+  "name": "KevinSuttle.com",
+  "version": "2.0.1",
+  "description": "Site source code files",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.6.1",
+    "gulp-sass": "^0.7.1",
+    "browser-sync": "^0.8.1",
+    "gulp-autoprefixer": "0.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinSuttle/kevinsuttle.github.io.git"
+  },
+  "author": "Kevin Suttle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinSuttle/kevinsuttle.github.io/issues"
+  },
+  "homepage": "http://kevinsuttle.github.io"
+}
