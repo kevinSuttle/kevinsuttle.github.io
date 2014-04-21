@@ -164,11 +164,10 @@ article {
   font-size: 0.75em; }
 
 .article-nav-label {
-  font-weight: 600; }
+  font-weight: 300; }
 
 .article-nav-link {
-  font-weight: normal;
-  line-height: 1.5; }
+  font-weight: 500; }
 
 .footer-module-heading {
   font-weight: normal;

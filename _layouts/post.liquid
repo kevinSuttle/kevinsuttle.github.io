@@ -16,11 +16,11 @@ layout: index
 	<nav>
 		<dl>
 			{% if page.previous.url %}
-			<dt class="article-nav-label">Previous article:</dt> <dd><a href={{ page.previous.url }} rel="prev">{{ page.previous.title }}</a></dd>
+			<dt class="article-nav-label">Previous article:</dt><dd class="article-nav-link"><a href={{ page.previous.url }} rel="prev">{{ page.previous.title }}</a></dd>
 			{% endif %}
 
 			{% if page.next.url %}
-			<dt class="article-nav-label">Next article:</dt> <dd><a href={{ page.next.url }} rel="next"> {{ page.next.title }}</a></dd>
+			<dt class="article-nav-label">Next article:</dt><dd class="article-nav-link"><a href={{ page.next.url }} rel="next"> {{ page.next.title }}</a></dd>
 			{% endif %}
 		</dl>
 	</nav>
