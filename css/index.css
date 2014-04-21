@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif; }
 
 code, kbd, pre, samp, .highlight {
-  font-family: 'Fira Mono', 'Source Code Pro', 'PT Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'Monaco', 'Menlo', 'Andale Mono', 'Inconsolata', monospace;
+  font-family: "Fira Mono", "Source Code Pro", "PT Mono", "Bitsream Vera Sans", "Ubuntu Mono", "Droid Sans Mono", "Monaco", "Menlo", "Andale Mono", "Inconsolata", monospace;
   font-style: normal;
   white-space: pre-wrap; }
 
@@ -112,7 +112,8 @@ code, kbd {
 
 blockquote {
   font-style: italic;
-  margin: 0; }
+  margin: 0;
+  font-family: "DIN Next W01"; }
 
 mark {
   background: #ff0;
@@ -129,11 +130,6 @@ a:hover {
   .home-link:hover {
     text-decoration: none; }
 
-.article-pubdate {
-  font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.0625em; }
-
 article {
   font-size: 1.1em;
   line-height: 1.6;
@@ -142,6 +138,11 @@ article {
     line-height: 1.3;
     font-weight: normal;
     overflow-x: hidden; }
+  article .article-pubdate {
+    font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    font-size: 0.75em; }
   article h2 {
     line-height: 1.3; }
   article ul, article ol {
@@ -153,9 +154,13 @@ article {
     font-style: italic; }
 
 .article-collection .article-permalink {
-  line-height: 1.35; }
-
-.article-pubdate {
+  line-height: 1.35;
+  font-weight: 500; }
+.article-collection .article-pubdate {
+  font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
   font-size: 0.75em; }
 
 .article-nav-label {

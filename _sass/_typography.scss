@@ -47,6 +47,7 @@ code, kbd {
 blockquote {
 	font-style: italic;
 	margin: 0;
+	font-family: "DIN Next W01";
 }
 
 mark {
@@ -70,12 +71,6 @@ a:hover {
 	}
 }
 
-.article-pubdate {
-	font-family: $ui-font;
-	text-transform: uppercase;
-	letter-spacing: 0.0625em;
-}
-
 article {
 	font-size: 1.10em;
 	line-height: 1.6;
@@ -86,6 +81,12 @@ article {
 		font-weight: normal;
 
 		overflow-x:  hidden;
+	}
+	.article-pubdate {
+		font-family: $ui-font;
+		text-transform: uppercase;
+		letter-spacing: 0.0625em;
+		font-size: 0.75em;
 	}
 	h2 {
 		line-height: 1.3;
@@ -105,11 +106,17 @@ article {
 .article-collection {
 	.article-permalink {
 		line-height: 1.35;
+		font-weight: 500;
+	}
+	.article-pubdate {
+		font-family: $ui-font;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 0.0625em;
+		font-size: 0.75em;
 	}
 }
-.article-pubdate {
-	font-size: 0.75em;
-}
+
 .article-nav-label {
 	font-weight: 600;
 }
