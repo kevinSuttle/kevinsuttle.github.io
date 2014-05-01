@@ -154,6 +154,8 @@ article {
   article aside {
     font-style: italic; }
 
+.article-collection li {
+  list-style-type: none; }
 .article-collection .article-permalink {
   line-height: 1.35;
   font-weight: 500;
