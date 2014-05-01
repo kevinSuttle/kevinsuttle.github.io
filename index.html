@@ -3,7 +3,7 @@ layout: index
 ---
 
 <section>
-	<ul class="article-collection">
+	<ol class="article-collection">
 		{% for post in site.posts %}
 			<li class="article-collection-item">
 				<time class="article-pubdate" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %e, %Y" }}</time>
@@ -14,5 +14,5 @@ layout: index
 			</li>
 			{% endif %}
 		{% endfor %}
-	</ul>
+	</ol>
 </section>

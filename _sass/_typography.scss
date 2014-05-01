@@ -105,6 +105,9 @@ article {
 }
 
 .article-collection {
+	li {
+		list-style-type: none;
+	}
 	.article-permalink {
 		line-height: 1.35;
 		font-weight: 500;
