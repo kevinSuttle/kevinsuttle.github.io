@@ -34,10 +34,12 @@ code, kbd {
   color: #dd731c; }
 
 pre, samp {
-  background-color: #686865;
-  color: #F5F5F5; }
-  pre code, samp code {
-    color: #F5F5F5; }
+  background-color: #F5F5F5;
+  color: #686865; }
+
+pre code {
+  font-size: 0.75em;
+  color: #686865; }
 
 a.home-link {
   color: white;
@@ -76,14 +78,15 @@ html {
   line-height: 1.5; }
 
 body {
-  font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
+  font-family: "Felbridge W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
   font-size: 1em; }
 
 h1 {
   font-size: 1.53125em; }
 
 h2 {
-  font-size: 1.3125em; }
+  font-size: 1.3125em;
+  font-weight: 800; }
 
 h3 {
   font-size: 0.65625em; }
@@ -100,7 +103,7 @@ h6 {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif; }
+  font-family: "Felbridge W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif; }
 
 code, kbd, pre, samp, .highlight {
   font-family: "Fira Mono", "Source Code Pro", "PT Mono", "Bitsream Vera Sans", "Ubuntu Mono", "Droid Sans Mono", "Monaco", "Menlo", "Andale Mono", "Inconsolata", monospace;
@@ -113,7 +116,8 @@ code, kbd {
 blockquote {
   font-style: italic;
   margin: 0;
-  font-family: "DIN Next W01"; }
+  font-weight: 200;
+  font-family: "Felbridge W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif; }
 
 mark {
   background: #ff0;
@@ -133,14 +137,14 @@ a:hover {
 article {
   font-size: 1.1em;
   line-height: 1.6;
-  font-family: "Amasis eText W02", "IowanOldStyle-Roman", "Palatino-Roman", "PT Serif", "Droid Serif", "Cambria", serif; }
+  font-family: "ITC Charter W01", "IowanOldStyle-Roman", "Palatino-Roman", "PT Serif", "Droid Serif", "Cambria", serif; }
   article .article-title {
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: normal;
     overflow-x: hidden; }
   article .article-pubdate {
-    font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
+    font-family: "Felbridge W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.0625em;
     font-size: 0.75em; }
@@ -161,7 +165,7 @@ article {
   font-weight: 500;
   font-size: 1.15em; }
 .article-collection .article-pubdate {
-  font-family: "DIN Next W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
+  font-family: "Felbridge W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.0625em;

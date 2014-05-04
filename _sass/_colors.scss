@@ -35,11 +35,13 @@ code, kbd {
 }
 
 pre, samp {
-	background-color: #686865;
-	color: #F5F5F5;
-	code {
-		color: #F5F5F5;
-	}
+	background-color: #F5F5F5;
+	color: #686865;
+}
+
+pre code {
+	font-size: 0.75em;
+	color: #686865;
 }
 
 a.home-link {

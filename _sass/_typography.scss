@@ -12,6 +12,7 @@ h1 {
 }
 h2 {
 	font-size: $base-font-size * 1.5;
+	font-weight: 800;
 }
 h3 {
 	font-size: $base-font-size * 0.75;
@@ -47,7 +48,9 @@ code, kbd {
 blockquote {
 	font-style: italic;
 	margin: 0;
-	font-family: "DIN Next W01";
+	font-weight: 200;
+	font-family: $ui-font;
+
 }
 
 mark {
