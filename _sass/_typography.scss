@@ -42,7 +42,7 @@ samp,
 }
 
 code, kbd {
-	font-size: smaller;
+	font-size: 0.95em;
 }
 
 blockquote {
@@ -50,7 +50,6 @@ blockquote {
 	margin: 0;
 	font-weight: 200;
 	font-family: $ui-font;
-
 }
 
 mark {
@@ -68,6 +67,7 @@ a:hover {
 
 .home-link {
 	font-weight: 600;
+	font-style: normal;
 
 	&:hover {
 		text-decoration: none;

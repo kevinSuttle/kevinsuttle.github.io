@@ -111,7 +111,7 @@ code, kbd, pre, samp, .highlight {
   white-space: pre-wrap; }
 
 code, kbd {
-  font-size: smaller; }
+  font-size: 0.95em; }
 
 blockquote {
   font-style: italic;
@@ -130,14 +130,15 @@ a:hover {
   text-decoration: underline; }
 
 .home-link {
-  font-weight: 600; }
+  font-weight: 600;
+  font-style: normal; }
   .home-link:hover {
     text-decoration: none; }
 
 article {
   font-size: 1.1em;
   line-height: 1.6;
-  font-family: "ITC Charter W01", "IowanOldStyle-Roman", "Palatino-Roman", "PT Serif", "Droid Serif", "Cambria", serif; }
+  font-family: "Iowan Old Style BT W03", "IowanOldStyle-Roman", "Palatino-Roman", "PT Serif", "Droid Serif", "Cambria", serif; }
   article .article-title {
     line-height: 1.2;
     font-weight: 500;
