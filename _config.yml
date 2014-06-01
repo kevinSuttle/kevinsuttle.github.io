@@ -1,9 +1,10 @@
 name: Kevin Suttle
 tagline: Designer. Developer. Writer. Presenter.
-highlighter: pygments
-markdown: kramdown
-kramdown:
-    input: GFM
 permalink: /posts/:title
-exclude: ["CNAME", "README.md", "node_modules", "gulpfile.js", "package.json", "config.codekit"]
-url: KevinSuttle.com
+markdown: redcarpet
+highlighter: pygments
+timezone: America/Chicago
+exclude: ["CNAME", "README.md", "node_modules", "bower_components", "gulpfile.js", "package.json"]
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
