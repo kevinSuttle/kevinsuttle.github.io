@@ -1,5 +1,6 @@
 name: Kevin Suttle
 tagline: Designer. Developer. Writer. Presenter.
+baseurl: kevinsuttle.com
 permalink: /posts/:title
 markdown: redcarpet
 highlighter: pygments
