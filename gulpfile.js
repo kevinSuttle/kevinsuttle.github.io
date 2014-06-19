@@ -8,7 +8,7 @@ var rename      = require('gulp-rename');
 var notify      = require('gulp-notify');
 var cp          = require('child_process');
 
-function showJekyllBuildNotification () {
+function showJekyllBuildNotification() {
     browserSync.notify("<span style='color: grey'>Running:</span> $ jekyll build");
 }
 
@@ -20,7 +20,6 @@ gulp.task('jekyll-build', function (cb) {
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
         .on('close', function () {
             cb();
-		    gulp.run('styles');
         });
 });
 
@@ -46,12 +45,12 @@ gulp.task('browser-sync', ['jekyll-build', 'styles'], function() {
  * Compile files from _sass into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('styles', function() {
-	return gulp.src('_sass/index.scss')
+	return gulp.src('_sass/*.scss')
 		.pipe(sass({ style: 'compressed' }))
 		.pipe(prefix('last 2 versions', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
 		.pipe(gulp.dest('css'))
-		.pipe(rename({suffix: '.min'}))
 		.pipe(mincss())
+        .pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest('css'))
 		.pipe(notify({ message: 'Styles task complete' }));
 });
@@ -61,7 +60,7 @@ gulp.task('styles', function() {
  * Watch liquid/md/ files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch(['_layouts/*.liquid', '_posts/*', '*.html'], ['jekyll-rebuild']);
+    gulp.watch(['_layouts/*.liquid', '_posts/*', '*.html'], ['jekyll-rebuild', 'styles']);
     gulp.watch('_sass/*.scss', ['styles']);
 });
 
