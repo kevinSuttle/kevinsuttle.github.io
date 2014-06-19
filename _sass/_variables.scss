@@ -2,7 +2,7 @@
 $base-font-size: 0.875em;
 $base-line-height: 1.5;
 
-$ui-font: "Felbridge W01", "Avenir Next", "Droid Sans", "Calibri", sans-serif;
+$ui-font: "Felbridge W01", "AvenirNext-Medium", "Avenir Next", "Roboto", "Droid Sans", "Calibri", sans-serif;
 $content-font: "Iowan Old Style BT W03", "IowanOldStyle-Roman", "Palatino-Roman", "PT Serif", "Droid Serif", "Cambria", serif;
 $code-font: "Fira Mono", "Source Code Pro", "PT Mono", "Bitsream Vera Sans", "Ubuntu Mono", "Droid Sans Mono", "Monaco", "Menlo", "Andale Mono", "Inconsolata",  monospace;
 
@@ -18,3 +18,35 @@ $medium-orange: #dd731c;
 	margin: 0;
 	padding: 0;
 }
+
+@mixin clearFix {
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.totallyHidden {
+	display: none;
+}
+
+.inline-list li {
+	display: inline;
+	padding-right: 1em;
+	&:last-child {
+		padding-right: 0;
+	}
+}
+
+.plain-list {
+	list-style-type: none;
+}
+
+@mixin animation {
+	transition: all, 0.25s ease-out;
+}
+

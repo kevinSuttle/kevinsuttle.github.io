@@ -4,10 +4,12 @@
   "description": "Site source code files",
   "main": "gulpfile.js",
   "devDependencies": {
-    "gulp": "^3.6.1",
-    "gulp-sass": "^0.7.1",
     "browser-sync": "^0.8.2",
-    "gulp-autoprefixer": "0.0.7"
+    "gulp": "^3.6.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.5.0"
   },
   "repository": {
     "type": "git",

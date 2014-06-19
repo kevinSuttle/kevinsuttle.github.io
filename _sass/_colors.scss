@@ -8,6 +8,10 @@ body {
 	border-top: 0.025em solid $body-copy-color;
 }
 
+details, summary:focus {
+	outline: 0;
+}
+
 blockquote  {
 	border-left: 0.15em solid $bright-grey;
 	color: lighten($medium-grey, 15%);

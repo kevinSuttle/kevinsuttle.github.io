@@ -1,7 +1,11 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
-var sass        = require('gulp-sass');
+var sass        = require('gulp-ruby-sass');
 var prefix      = require('gulp-autoprefixer');
+var mincss      = require('gulp-minify-css');
+var uncss       = require('gulp-uncss-task');
+var rename      = require('gulp-rename');
+var notify      = require('gulp-notify');
 var cp          = require('child_process');
 
 function showJekyllBuildNotification () {
@@ -16,6 +20,7 @@ gulp.task('jekyll-build', function (cb) {
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
         .on('close', function () {
             cb();
+		    gulp.run('styles');
         });
 });
 
@@ -29,7 +34,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['jekyll-build', 'styles'], function() {
     browserSync.init(null, {
         server: {
             baseDir: '_site'
@@ -40,13 +45,15 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 /**
  * Compile files from _sass into both _site/css (for live injecting) and site (for future jekyll builds)
  */
-gulp.task('sass', function () {
-    gulp.src('_sass/index.scss')
-        .pipe(sass({includePaths: ['_sass']}))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+gulp.task('styles', function() {
+	return gulp.src('_sass/index.scss')
+		.pipe(sass({ style: 'compressed' }))
+		.pipe(prefix('last 2 versions', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
+		.pipe(gulp.dest('_site/css'))
+		.pipe(rename({suffix: '.min'}))
+		.pipe(mincss())
+		.pipe(gulp.dest('_site/css'))
+		.pipe(notify({ message: 'Styles task complete' }));
 });
 
 /**
@@ -54,7 +61,7 @@ gulp.task('sass', function () {
  * Watch liquid/md/ files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('_sass/*.scss', ['sass']);
+    gulp.watch('_sass/*.scss', ['styles']);
     gulp.watch(['_layouts/*.liquid', '_posts/*', '*.html'], ['jekyll-rebuild']);
 });
 
@@ -63,3 +70,5 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
+
+module.exports = gulp;
