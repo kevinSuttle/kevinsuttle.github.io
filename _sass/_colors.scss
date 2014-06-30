@@ -1,3 +1,14 @@
+html {
+	background-color: lighten($body-copy-color, 10%);
+}
+
+body {
+
+	background-color: $page-bg-color;
+	color: $body-copy-color;
+	border-top: 0.025em solid $body-copy-color;
+}
+
 details, summary:focus {
 	outline: 0;
 }
