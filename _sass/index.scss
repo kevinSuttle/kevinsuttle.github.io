@@ -3,22 +3,3 @@
 @import "typography";
 @import "layout";
 @import "reflow";
-
-@media print {
-	body {
-		font-size: 12pt !important;
-	}
-	html, .site-header, .site-footer {
-		color: $body-copy-color !important;
-		background-color: $page-bg-color !important;
-	}
-	.site-header {
-		margin-bottom: 1em !important;
-	}
-	#disqus_thread {
-		display: none;
-	}
-	a:link, code, blockquote {
-		color: $body-copy-color !important;
-	}
-}
