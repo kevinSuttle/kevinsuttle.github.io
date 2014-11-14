@@ -6,6 +6,3 @@ markdown: redcarpet
 highlighter: pygments
 timezone: America/Chicago
 exclude: ["CNAME", "README.md", "node_modules", "bower_components", "gulpfile.js", "package.json"]
-gems:
-  - jekyll-mentions
-  - jekyll-sitemap
