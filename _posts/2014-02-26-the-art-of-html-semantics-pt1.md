@@ -77,7 +77,7 @@ The solution is to realise that a paragraph, in HTML terms, is not a logical con
 
 In other words, “[there is no spoon](http://www.youtube.com/watch?v=XO0pcWxcROI)”.
 
-##The single h1-h6 model
+##The multiple h1-h6 model
 The HTML5 Document Outline, that allows for multiple `h1-h6` tags based on sectioning roots, [does *not* exist](http://blog.paciellogroup.com/2013/10/html5-document-outline/).
 
 >
