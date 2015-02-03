@@ -2,7 +2,7 @@ name: Kevin Suttle
 tagline: Designer. Developer. Writer. Presenter.
 url: kevinsuttle.com
 permalink: /posts/:title
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 timezone: America/Chicago
 exclude: ["CNAME", "README.md", "node_modules", "bower_components", "gulpfile.js", "package.json"]
