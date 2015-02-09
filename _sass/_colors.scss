@@ -3,10 +3,9 @@ html {
 }
 
 body {
-
 	background-color: $page-bg-color;
 	color: $body-copy-color;
-	border-top: 0.025em solid $body-copy-color;
+	border-top: .025em solid $body-copy-color;
 }
 
 details, summary:focus {
@@ -14,7 +13,7 @@ details, summary:focus {
 }
 
 blockquote  {
-	border-left: 0.15em solid $bright-grey;
+	border-left: .15em solid $bright-grey;
 	color: lighten($medium-grey, 15%);
 }
 
@@ -31,8 +30,8 @@ a:hover {
 hr {
 	border: 0;
 	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 code, kbd {
@@ -45,7 +44,7 @@ pre, samp {
 }
 
 pre code {
-	font-size: 0.75em;
+	font-size: .75em;
 	color: #686865;
 }
 
@@ -72,7 +71,7 @@ article header {
 }
 
 .article-collection-item {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
 
 	&:last-child {
 		border-bottom: none;

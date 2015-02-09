@@ -1,16 +1,16 @@
 // Typography
-$base-font-size: 0.875em;
+$base-font-size: .875em;
 $base-line-height: 1.5;
 
-$ui-font: "RobotoDraft", "Roboto", "Open Sans", "Source Sans Pro", "Lato", "PT Sans", "Droid Sans", "Calibri", "Ubuntu", sans-serif;
-$content-font: "Source Serif",  "IowanOldStyle-Roman", "Iowan Old Style", "PT Serif", "Droid Serif", "Cambria", serif;
-$code-font: "Fira Mono", "Source Code Pro", "PT Mono", "Bitsream Vera Sans", "Ubuntu Mono", "Droid Sans Mono", "Inconsolata", "Monaco", "Menlo", "Andale Mono",  monospace;
+$ui-font: 'Roboto', sans-serif;
+$content-font: 'IowanOldStyle-Roman, Iowan Old Style, Droid Serif, Cambria', serif;
+$code-font: 'Consolas', monospace;
 
 // Colors
-$page-bg-color: #FDFDFD;
-$body-copy-color: #1A1919;
+$page-bg-color: #fdfdfd;
+$body-copy-color: #1a1919;
 $body-link-color: #459dbf;
-$bright-grey: #B3B3B3;
+$bright-grey: #b3b3b3;
 $medium-grey: #505050;
 $medium-orange: #dd731c;
 
@@ -22,7 +22,7 @@ $medium-orange: #dd731c;
 @mixin clearFix {
 	&:before,
 	&:after {
-		content: " ";
+		content: ' ';
 		display: table;
 	}
 	&:after {
@@ -47,6 +47,5 @@ $medium-orange: #dd731c;
 }
 
 @mixin animation {
-	transition: all, 0.25s ease-out;
+	transition: all, .25s ease-out;
 }
-

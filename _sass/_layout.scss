@@ -35,7 +35,7 @@ blockquote {
 }
 
 pre, samp {
-	padding: 0.5em;
+	padding: .5em;
 	padding-left: 1em;
 	border-radius: 6px;
 }
@@ -56,7 +56,7 @@ dd {
 
 .page-wrapper, .footer-wrapper {
 	margin: 0 auto;
-	padding: 0 0.5em 1em;
+	padding: 0 .5em 1em;
 	width: 90%;
 }
 
@@ -74,7 +74,7 @@ dd {
 	margin: 0;
 	width: 100%;
 	display: block;
-	padding: 1em 0 0.5em 1em;
+	padding: 1em 0 .5em 1em;
 }
 
 .article-collection {
@@ -99,7 +99,7 @@ article header {
 
 .article-collection-item {
 	margin: 0;
-	padding-bottom: 0.375em;
+	padding-bottom: .375em;
 }
 
 article {
@@ -113,7 +113,7 @@ article {
 		margin-top: 1em;
 	}
 	h2 {
-		padding-bottom: 0.25em;
+		padding-bottom: .25em;
 	}
 	ul, & ol{
 		margin-left: 1em;
@@ -128,7 +128,7 @@ article {
 }
 
 .article-footer {
-	padding-top: 0.5em;
+	padding-top: .5em;
 }
 
 .article-nav-link {
