@@ -1,9 +1,9 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var del = require('del');
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
-var cp          = require('child_process');
+var cp = require('child_process');
 var reload = browserSync.reload;
 
 var AUTOPREFIXER_BROWSERS = [
@@ -64,9 +64,9 @@ gulp.task('styles', function () {
       onError: console.error.bind(console, 'Sass error:')
     }))
     .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
-    .pipe($.size({title: 'styles'}))
-    .pipe(gulp.dest('css/'))
     .pipe($.csso('css/*.css'))
+    .pipe(gulp.dest('css/'))
+    .pipe($.size({title: 'styles'}))
 });
 /**
  * Watch scss files for changes & recompile
