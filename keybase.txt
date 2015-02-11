@@ -1,0 +1,83 @@
+
+==================================================================
+https://keybase.io/kevinsuttle
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kevinsuttle.com
+  * I am kevinsuttle (https://keybase.io/kevinsuttle) on keybase.
+  * I have a public key with fingerprint 55B8 E4E3 F751 FAB4 22FB  36AE 23F1 B6E0 E9D8 CF86
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.5"
+        },
+        "key": {
+            "fingerprint": "55b8e4e3f751fab422fb36ae23f1b6e0e9d8cf86",
+            "host": "keybase.io",
+            "key_id": "23F1B6E0E9D8CF86",
+            "uid": "d12d6ef8fa613c8c4c48dc535aadd100",
+            "username": "kevinsuttle"
+        },
+        "merkle_root": {
+            "ctime": 1423674900,
+            "hash": "dce588406cab7f4952633fff914584b3b85f90bf65b7c6528cfffbfa0865f3f9ac2f4906815cd45dfc873b50f0c9a5eb70c9bc87ac61742f2a09f70ee58499bd",
+            "seqno": 153665
+        },
+        "service": {
+            "hostname": "kevinsuttle.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423675046,
+    "expire_in": 157680000,
+    "prev": "672aaab1fa0a94dcb251e0580810d4b435badeaa92ec0d273c0751f2859f1c94",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFlUmtQVVUUBsIHt8tIpmRNKR3AHL2D+zz2eSBawhUJaQrFEQrCvc/ZG0/APdd7
+L+AdlJhkEGZMKUGzFIwhzPEZEMFQOl4dsLHBTEcxM0Utx0dloOaDtHMYezj92nuv
+/a1vfd9aqyb8sSBbcPTv7ecu9x2pDD58GQdlnF7TXMpgQ/Mz8aWMWqATl8+6uVAh
+YeKZfOLHyEvidCPKZWgk7i1v1EOMgykmHq9uuEwUiJPiILPCYcGtZKq78ojH7dEt
+LgZCLBOB8FSCLEVY4DiKeRERjqcsFgkgiiarVBZNyiWG1/dIVWaYM1fXzCjHJ7OJ
+4hwwR3HKScnD+KLhD43lNJFQmSKR5VVZFVRB1lTIQ4Q0jQXAAnqJ5x9LxbrLW+Tz
+FRBLciHx5BeQXI9hDPtWfbqFYgWOFyVBAcAUhbxLrCoqgbIsAFFFWKKCAjmR5yml
+CitAWcA8liFVAKYixJIqQs70RCmmCMgipDxVkMqZWUCUWahqAtSoKks8hoACVUGQ
+YMk8sRlDqshKAkc5BBQqAWJWFRQFa6YLL1nqMkxxkBdFuMJ6e4p1lVi6rc7932Cc
+ahSaeW6P4TNUo8D8XOLzueMt3z6/mzCt8UwJwbkPeXKx7tLM0f13tqwJfaQnEAii
+gyHL3LqH5OoWAkqiDIDVKbeHFJs1RIlDCGFz2AApgqZiDrIEQBnILNAELPAQI40g
+pHBEBRon8SqwVoOToUJZVRH+dSqYOlGeSenV81zIV+QxR1Yd8mxoULAtaOSIEGt5
+g2xhEX9v9MhlYx4Un++wyWu2kIsyDBqdqtvHac3Xh+rnlq88mJ0z7dv1o7PvHN16
+sXlC7291V+xpb8QW3Liw8Yeq7l8XB+d/5Q2J/HNz00Ic+Lzm5+p3w8oWP1hV4bad
+cpYkDHS2PfVZ547EExMzGrIciWsX7Zr+wUeNg1OTtqX9EqxOM0KSy8vGTVpVrlR3
+aqfmrzsegZXaxN70ux9vO3Mz4eLmE4fBgfELevZf7anj20a9SV/zJzvr3z6emZQa
+XLiv6cO9syeW1W+qTkiMaQ23767KqN8xYmDB4rqNE5RT88HTE85+0rJdmJt+6Ehj
+xwayI/C9wx7of271rcayg8cCV6YytTHrnpcmRYvP9FbWLLqzj0Y4w24FxiwKV0r7
+vgt0dxc4d05f9WPF/VevffPT2cjMKmfTrK67yJ96P2rd5LP15wuXpwwsPdfl3+M4
+bU8dst17Z+wmd2BUT1Ts7Ij9qV+/fjqnZm63kxncmmd/IWVMfztXurzpAh++Zh6f
+nLYip/VomVRROw9PaZzS8GLFjLCr7/Nb8tP3nlt42/9l6mQQWcHP6vs0d/yuSbWh
+x1J2H4r1vnzJbusZKjkZfem97Jb6P+5dW+k81jmjqvKVOt/OmP6GwfDQOVkHyr1G
+X39L2EB7Rtb6nO1nrl7PeGJgz0t7uvZnZdbcrKtauGBmqVh5e3mTAz1eVtI1s63k
+yeQNa7+41H596GTHjbF/AQ==
+=SIAV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kevinsuttle
+
+==================================================================
