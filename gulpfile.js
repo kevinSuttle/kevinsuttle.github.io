@@ -56,7 +56,6 @@ gulp.task('clean', del.bind(null, ['.tmp', 'dist/*', '!dist/.git'], {dot: true})
 
 // Compile and Automatically Prefix Stylesheets
 gulp.task('styles', function () {
-  // For best performance, don't add Sass partials to `gulp.src`
   return gulp.src([
     '_sass/index.scss'
   ])
@@ -70,7 +69,7 @@ gulp.task('styles', function () {
 });
 /**
  * Watch scss files for changes & recompile
- * Watch liquid/md/ files, run jekyll & reload BrowserSync
+ * Watch liquid files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
     gulp.watch(['_layouts/*.liquid', '_posts/*', '*.html'], ['jekyll-rebuild']);
@@ -81,9 +80,7 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-//gulp.task('default', ['browser-sync', 'watch']);
 
-// Build Production Files, the Default Task
 gulp.task('default', ['clean'], function (cb) {
   runSequence('browser-sync', ['styles', 'jekyll-build', 'watch'], cb);
 });
