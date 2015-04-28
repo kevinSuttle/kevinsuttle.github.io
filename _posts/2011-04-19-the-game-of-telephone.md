@@ -41,11 +41,11 @@ You might be asking yourself, "what's the big deal? I thought you were all about
 
 Earlier this evening I was helping a friend who is super intelligent, but not totally familiar with the latest and greatest in web development, dig in and figure out how he could trigger some animations in CSS3 based on a demo whose source we'd been perusing. At one point he sent this IM:
 
-"this is frustrating.. yay html5 ;)" 
+"this is frustrating.. yay html5 ;)"
 
 And it's not his fault. It's the kind of game-of-telephone fact-checking that gets an article published in a "tech blog" these days. This is how misinformation spreads and eventually money changes hands. I'm petrified to think that modern executives are operating based on this kind of hearsay and lack of research.
 
-I LOVE what the HTML5 (now just HTML) spec has brought to the table and the kinds of things we're able to do. I just wish that folks knew how to appropriately describe and label them. 
+I LOVE what the HTML5 (now just HTML) spec has brought to the table and the kinds of things we're able to do. I just wish that folks knew how to appropriately describe and label them.
 
 To be honest, it's not the authors, Netflix, or tech blogs' fault. The W3C couldn't even <a href="http://adactio.com/journal/4289/">make up their minds</a> about what "HTML5" was and wasn't.
 

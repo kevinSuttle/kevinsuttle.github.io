@@ -6,14 +6,15 @@ title: Apple Reaffirms Control Issues with iPhone 4
 Apple announced iPhone 4 today, a markedly more aggressive OS overhaul than the previous 3. "Aggressive" in that Steve Jobs pretty much gave the proverbial middle finger to Adobe, Google, Sony, Nintendo and Microsoft. I'll quickly go over a few of the iPhone 4 "tentpoles," an ironic term Apple is using in place of the word 'features'. The term "<a title="Brian Fling - Mobile Design and Development" href="http://my.safaribooksonline.com/9780596806231/the_mobile_design_tent-pole">tentpole</a>" in mobile development is defined here by <a title="Twitter - Brian Fling" href="http://twitter.com/fling">Brian Fling</a>, author of <a title="Mobile Design and Development" href="http://www.mobiledesign.org/book/">Mobile Design and Development</a> (review coming soon here):
 
 > "In Hollywood, executives like to use the term &ldquo;tent-pole&rdquo; to describe their movies and television shows. The term has dual meanings: one is business, and the other creative. The business goal of a tent-pole production is to support or prop up the losses from other productions. However, to create a tent-pole production, the creators involved must make an artistic work that they know will appeal to the largest possible audience, providing something for everyone. You probably know tent-pole movies as &ldquo;blockbusters&rdquo;; in television, they are known as &ldquo;anchor&rdquo; shows."
+
 All quotes are from <a title="GDGT - iPhone 4 Coverage" href="http://live.gdgt.com/2010/04/08/live-iphone-os-4-0-event-coverage/">GDGT</a> and <a title="Gizmodo - iPhone 4 New Features" href="http://gizmodo.com/5512635/iphone-os-40-all-the-new-features">Gizmodo</a>'s live blogs. 1. Mutltitasking Middle Finger to: Google, Palm, Microsoft
 
 > &ldquo;We weren&rsquo;t the first to this party, but we&rsquo;re going to be the best. Like cut and paste &mdash; it&rsquo;s better than any other implementation. It&rsquo;s really easy to implement it in a way that really drains battery life. And, it&rsquo;s really easy to implement it in a way that reduces the performance of the foreground app and makes your phone feel sluggish. We figured out how to implement multitasking for third party apps and avoid those things. That&rsquo;s what took us a little longer, but I think we nailed it."
-> 
+>
 Essentially Apple is saying that they sat back and listened to the complaints of modern mobile users (Android, WebOS, WinMo) and just one-upped them. Great reasoning. NOT. 2. "Game Center" Middle Finger to: Adobe, Microsoft, Sony, Nintendo
 
 > &ldquo;Gaming is extremely popular on the iPhone and iPod touch. In fact, we have over 50k titles&hellip; let&rsquo;s look at the competition. If you look at dedicated gaming devices like the PSP and DS, this just blows them out of the water."
-> 
+>
 > &ldquo;We wanted to make this even better &mdash; we&rsquo;ve added a social gaming network. We do automatic matchmaking, we&rsquo;ll find others with a similar ability and match them against you. You can see how you&rsquo;re progressing in a game with achievements.&rdquo;
 
 > "There are 50,000 game and &ldquo;entertainment&rdquo; titles. Compared to DS and PSP, there&rsquo;s 4321 games on the DS and 2477 on the PSP."
