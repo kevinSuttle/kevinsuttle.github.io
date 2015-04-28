@@ -123,13 +123,13 @@ Notice nothing about images specifically was mentioned. The spec then goes on to
  <figcaption>Listing 4. The primary core interface API declaration.</figcaption>
 {% endhighlight %}
 
-<pre>
+{% highlight java %}
  interface PrimaryCore {
  boolean verifyDataLine();
  void sendData(in sequence&amp;lt;byte> data);
  void initSelfDestruct();
 }
-</pre>
+{% endhighlight %}
 
 {% highlight html %}
 </figure>
@@ -141,7 +141,7 @@ Wow, that totally makes sense, doesn't it? Think about how many books you've rea
 ##Description Lists: the unsung workhorses
 My favorite HTML element, and in my opinion, the most underrated element in the spec, is the decription list ([`dl`](http://www.w3.org/TR/html5/grouping-content.html#the-dl-element)). It's intended for marking up name-value pairs of content. This could apply to anything from a list of services offered and their accompanying descriptions, to a simple 'previous article/next article' component, like the one at the bottom of every article on my blog here. It's perfect for documenting a page's edit history, causes and effects, or, surprisingly, any list data that needs a group heading. I had no idea before reading the spec, but it's entirely valid to have one `dt` (decription term) and multiple `dd`s (description definitions). Here's a great example from the spec, marking up variations in spelling across the English language, though the definition is the same.
 
-```
+{% highlight html %}
 <dl>
  <dt lang="en-US"> <dfn>color</dfn> </dt>
  <dt lang="en-GB"> <dfn>colour</dfn> </dt>
@@ -149,7 +149,7 @@ My favorite HTML element, and in my opinion, the most underrated element in the 
  the fine structure of the eye to distinguish three differently
  filtered analyses of a view. </dd>
 </dl>
-```
+{% endhighlight %}
 
 Astute readers and fellow HTML nerds may be wondering about the rarely-seen [`dfn`](http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element) element and where it fits into the semantic uses of description lists. A `dfn` is the element the spec describes as: "the defining instance of a term". In combination with the `abbr` and `a` elements, one can provide a really nice UX for finding the first instance of a definiton. See this example from the spec:
 
@@ -157,7 +157,7 @@ Astute readers and fellow HTML nerds may be wondering about the rarely-seen [`df
 In the following fragment, the term "Garage Door Opener" is first defined in the first paragraph, then used in the second. In both cases, its abbreviation is what is actually displayed.
 >
 
-```
+{% highlight html %}
 <p>The <dfn><abbr title="Garage Door Opener">GDO</abbr></dfn>
 is a device that allows off-world teams to open the iris.</p>
 <!-- ... later in the document: -->
@@ -170,7 +170,7 @@ is a device that allows off-world teams to open the iris.</p>
 <!-- ... later in the document: -->
 <p>Teal'c activated his <a href=#gdo><abbr title="Garage Door Opener">GDO</abbr></a>
 and so Hammond ordered the iris to be opened.</p>
-```
+{% endhighlight %}
 
 If you've ever read an ebook that has footnote or index functionality, this is exactly the same idea.
 
