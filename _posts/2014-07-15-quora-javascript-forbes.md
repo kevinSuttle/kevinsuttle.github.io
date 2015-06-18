@@ -14,4 +14,4 @@ So, of course, I agreed, and now I have [content I'm proud of on Forbes](forbes.
 <blockquote class="twitter-tweet" lang="en"><p>We live in crazy times. That last tweet sounds like the result of a Madlib.</p>&mdash; Kevin Suttle (@kevinSuttle) <a href="https://twitter.com/kevinSuttle/statuses/488748327328960512">July 14, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-*Update:* the post on Forbes has since been viewed over _100,000_ times, and I just received a job offer because of it. Like I said, crazy times we live in.
+**Update:** the post on Forbes has since been viewed over _100,000_ times, and I just received a job offer because of it. Like I said, crazy times we live in.
