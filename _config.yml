@@ -4,5 +4,5 @@ url: kevinsuttle.com
 permalink: /posts/:title
 markdown: kramdown
 highlighter: pygments
-timezone: America/Chicago
+timezone: America/New_York
 exclude: ["CNAME", "README.md", "node_modules", "bower_components", "gulpfile.js", "package.json"]

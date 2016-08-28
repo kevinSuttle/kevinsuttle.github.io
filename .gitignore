@@ -1,10 +1,7 @@
 .DS_Store
-_site/
-_drafts/
 .swp
-*.sass-cache/
-.scssc
 /node_modules
-/bower_components
-*.map
-/.idea/
+_site
+.sass-cache
+.jekyll-metadata
+*.log
