@@ -3,6 +3,5 @@ tagline: Designer. Developer. Writer. Presenter.
 url: kevinsuttle.com
 permalink: /posts/:title
 markdown: kramdown
-highlighter: pygments
 timezone: America/New_York
 exclude: ["CNAME", "README.md", "node_modules", "bower_components", "gulpfile.js", "package.json"]
