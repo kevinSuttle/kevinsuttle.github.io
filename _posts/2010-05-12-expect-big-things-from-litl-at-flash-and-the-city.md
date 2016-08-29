@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Expect BIG things from litl at Flash and the City
 ---
 

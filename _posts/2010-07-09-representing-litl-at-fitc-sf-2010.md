@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Representing litl at FITC San Francisco 2010!
 ---
 

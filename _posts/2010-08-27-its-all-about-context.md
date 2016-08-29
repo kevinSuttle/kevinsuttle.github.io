@@ -1,5 +1,4 @@
 ---
-layout: post
 title: It's All About Context
 ---
 

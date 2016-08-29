@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Site updates&#58; New blog title, About page
 ---
 

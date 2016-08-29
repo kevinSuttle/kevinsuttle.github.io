@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Looking back, looking forward
 ---
 

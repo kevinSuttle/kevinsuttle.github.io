@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Beyond Emotion&#58; Designing for Visceral Allure
 external: true
 ---

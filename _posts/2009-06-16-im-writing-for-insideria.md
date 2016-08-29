@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I'm Writing for Inside RIA
 ---
 

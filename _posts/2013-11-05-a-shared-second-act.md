@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A Shared Second Act
 ---
 

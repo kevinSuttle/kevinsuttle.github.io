@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How Adobe Made the Flash Platform Beyond Future-Proof
 ---
 

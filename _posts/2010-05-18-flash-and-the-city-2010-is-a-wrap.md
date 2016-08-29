@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Flash and the City 2010 is a Wrap!
 ---
 

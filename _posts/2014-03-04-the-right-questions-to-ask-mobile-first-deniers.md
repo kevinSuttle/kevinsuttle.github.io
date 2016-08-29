@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The right questions to ask mobile-first deniers"
 ---
 
@@ -10,15 +9,15 @@ If you've ever pushed for a mobile-first approach to product design in your orga
 Ah yes, the vague numbers person. Throw out some semi-accurate data and the squeaking wheel will quiet down.
 
 ## Data should inform decisions, not make them
-Imagine you are tasked with building a roadway system that feeds into a city. You decide to spend all your time making a wide highway, smoothly paved, expertly graded, with reflective paint and impact-reducing guardrails (I don't even know if this is how you build a road—just stay with me here). The thing is, people come in from all directions and travel all over. They won't always be coming from that pristine freeway. You decide to help them out, but you've spent all your energy, time, and money on the slick mega highway. You carve a muddy path through a wooded ravine to the south, and call it a day. 
+Imagine you are tasked with building a roadway system that feeds into a city. You decide to spend all your time making a wide highway, smoothly paved, expertly graded, with reflective paint and impact-reducing guardrails (I don't even know if this is how you build a road—just stay with me here). The thing is, people come in from all directions and travel all over. They won't always be coming from that pristine freeway. You decide to help them out, but you've spent all your energy, time, and money on the slick mega highway. You carve a muddy path through a wooded ravine to the south, and call it a day.
 
 A year later, the people from the southern towns come to the Civil Engineering team, asking for better access and experience to. Your response:
 
 >"According to analytics, 98% of our visitors take the highway."
 
-Do you see my point here? Of course those numbers will be true, because that's where you've decided to focus all your effort. You never stopped to think about *how* people wanted to get where they wanted. You build a wide, smooth, super highway, and a treacherous, ragged dirt path: which one did you *think* they were going to take? Use metrics responsibily, and ask the right questions. 
+Do you see my point here? Of course those numbers will be true, because that's where you've decided to focus all your effort. You never stopped to think about *how* people wanted to get where they wanted. You build a wide, smooth, super highway, and a treacherous, ragged dirt path: which one did you *think* they were going to take? Use metrics responsibily, and ask the right questions.
 
-Here's another assumption that people seem to suddenly be experts in: 
+Here's another assumption that people seem to suddenly be experts in:
 
 >"Why would someone [perform X] on a mobile device? "Nobody is ever going to [perform X] on their mobile devices."
 

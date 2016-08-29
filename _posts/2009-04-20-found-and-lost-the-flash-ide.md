@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Found and Lost&#58; The Flash IDE
 ---
 

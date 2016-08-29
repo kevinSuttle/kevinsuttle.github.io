@@ -1,5 +1,4 @@
 ---
-layout: post
 title: See litl in action at Flash on the Beach 2010!
 ---
 

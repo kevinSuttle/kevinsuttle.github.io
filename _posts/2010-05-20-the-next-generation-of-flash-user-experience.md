@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Next Generation of Flash User Experience
 ---
 

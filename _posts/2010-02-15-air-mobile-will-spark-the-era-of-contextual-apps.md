@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AIR Mobile Will Spark the Era of Contextual Applications
 ---
 

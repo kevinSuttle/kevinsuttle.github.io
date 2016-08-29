@@ -1,5 +1,4 @@
 ---
-layout: post
 title: My 2&cent; on Microsoft Expression Blend
 ---
 

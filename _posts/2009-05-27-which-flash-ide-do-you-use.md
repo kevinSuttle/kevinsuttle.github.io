@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Follow-up poll&#58; Which IDE do you use to create Flash content?
 ---
 

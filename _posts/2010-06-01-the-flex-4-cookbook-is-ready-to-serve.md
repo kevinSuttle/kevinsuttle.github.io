@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Flex 4 Cookbook is Ready to Serve
 ---
 

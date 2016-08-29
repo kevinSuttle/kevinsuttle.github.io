@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Re&#58; Is Canvas the End of Flash?
 ---
 

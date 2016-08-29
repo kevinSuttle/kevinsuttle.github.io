@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Apple Reaffirms Control Issues with iPhone 4
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Looking Back, Looking Forward&#58; 2010-2011 Edition
 ---
 

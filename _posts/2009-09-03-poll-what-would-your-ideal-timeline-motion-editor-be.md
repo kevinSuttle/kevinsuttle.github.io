@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Poll&#58; What would your ideal timeline&frasl;motion editor be in Flash Professional?
 ---
 

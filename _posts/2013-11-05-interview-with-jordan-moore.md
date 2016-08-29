@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Interviewed for Jordan Moore's Transcripts Series
 ---
 

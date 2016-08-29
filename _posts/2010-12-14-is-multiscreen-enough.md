@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Is Multiscreen Enough? Why 'Write Once' Shouldn't be the Goal
 external: true
 ---

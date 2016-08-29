@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I've joined litl
 ---
 

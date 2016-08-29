@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Frame of Reference&#58; The real issues at the heart of modern interface design.
 external: true
 ---

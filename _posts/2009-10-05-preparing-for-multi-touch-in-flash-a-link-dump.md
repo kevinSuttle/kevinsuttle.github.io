@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Preparing for Multi-touch in Flash&#58; A Link Dump
 ---
 
