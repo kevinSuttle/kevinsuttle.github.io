@@ -5,3 +5,5 @@ _site
 .sass-cache
 .jekyll-metadata
 *.log
+/Gemfile.lock
+/.bundle
