@@ -3,7 +3,7 @@ title: 'The End of Excuses: Developer Experience on Mobile Devices'
 date: '2016-08-03 02:37:09'
 ---
 
-###### Why it's time to stop making assumptions, and put in the work.
+<p>Why it's time to stop making assumptions, and put in the work.</p>
 
 Developer Experience is a primary hurdle between ideas and implementation. Yet, consistently, designers and product managers can be heard making statements—confidently, no less—like the following:
 
