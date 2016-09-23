@@ -1,13 +1,19 @@
-name: Kevin Suttle
+---
+title: Kevin Suttle
 tagline: Designer. Developer. Writer. Presenter.
-url: kevinsuttle.com
-permalink: /posts/:title
+url: http://kevinsuttle.com
+permalink: "/posts/:title"
 timezone: America/New_York
-exclude: ["CNAME", "README.md", "node_modules", "bower_components", "gulpfile.js", "package.json"]
+exclude:
+- CNAME
+- README.md
+- node_modules
+- bower_components
+- gulpfile.js
+- package.json
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post

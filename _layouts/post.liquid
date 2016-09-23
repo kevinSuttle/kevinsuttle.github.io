@@ -2,9 +2,10 @@
 layout: index
 ---
 
-<article role="article" class="article">
+<article class="article" itemscope itemtype="http://schema.org/BlogPosting" role="article">
 	<header class="article-header">
-		<h1 class="article-title"><a class="article-permalink" href="{{page.url}}">{{ page.title }}</a></h1>
+
+		<h1 class="article-title" itemprop="name"><a class="article-permalink" href="{{page.url}}" itemprop="url">{{ page.title }}</a></h1>
 		<time class="article-pubdate" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %e, %Y" }}</time>
 	</header>
 

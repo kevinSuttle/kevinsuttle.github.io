@@ -1,22 +1,14 @@
 var gulp = require('gulp');
-var $ = require('gulp-load-plugins')();
+var notify =  require('gulp-notify');
+var sass = require('gulp-sass');
+var cleanCSS = require('gulp-clean-css');
+var rename = require("gulp-rename");
+var run = require('gulp-run');
 var del = require('del');
+var size = require('gulp-size');
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
-var cp = require('child_process');
 var reload = browserSync.reload;
-
-var AUTOPREFIXER_BROWSERS = [
-    'ie >= 10',
-    'ie_mob >= 10',
-    'ff >= 30',
-    'chrome >= 34',
-    'safari >= 7',
-    'opera >= 23',
-    'ios >= 7',
-    'android >= 4.4',
-    'bb >= 10'
-];
 
 function showJekyllBuildNotification() {
     browserSync.notify("<span style='color: grey'>Running:</span> $ jekyll build");
@@ -27,10 +19,10 @@ function showJekyllBuildNotification() {
  */
 gulp.task('jekyll-build', function (cb) {
 	showJekyllBuildNotification();
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-        .on('close', function () {
-            cb();
-        });
+	var runJekyll = new run.Command('bundle exec jekyll serve --incremental');
+	return run(runJekyll)
+    .pipe(gulp.dest('output'))
+	// cb();
 });
 
 /**
@@ -52,28 +44,25 @@ gulp.task('browser-sync', function() {
 });
 
 // Clean Output Directory
-gulp.task('clean', del.bind(null, ['.tmp', 'dist/*', '!dist/.git'], {dot: true}));
+gulp.task('clean', del.bind(null, '_includes/', {dot: true}));
 
-// Compile and Automatically Prefix Stylesheets
-gulp.task('styles', function () {
-  return gulp.src([
-    '_sass/index.scss'
-  ])
-    .pipe($.sass({
-      onError: console.error.bind(console, 'Sass error:')
+gulp.task('minify-css', function() {
+  return gulp.src('css/index.css')
+    .pipe(cleanCSS())
+    .pipe(size({title: 'styles'}))
+    .pipe(rename({
+      suffix: '.min'
     }))
-    .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
-    .pipe($.csso('css/*.css'))
-    .pipe(gulp.dest('css/'))
-    .pipe($.size({title: 'styles'}))
+    .pipe(gulp.dest('_includes/css/'));
 });
+
 /**
  * Watch scss files for changes & recompile
  * Watch liquid files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
     gulp.watch(['_layouts/*.liquid', '_posts/*', '*.html'], ['jekyll-rebuild']);
-    gulp.watch('_sass/*.scss', ['styles', 'jekyll-rebuild']);
+    gulp.watch(['css/*.css', '_sass/*.scss'], ['minify-css', 'jekyll-rebuild']);
 });
 
 /**
@@ -82,7 +71,7 @@ gulp.task('watch', function () {
  */
 
 gulp.task('default', ['clean'], function (cb) {
-  runSequence('browser-sync', ['styles', 'jekyll-build', 'watch'], cb);
+  runSequence('browser-sync', ['minify-css', 'jekyll-build', 'watch'], cb);
 });
 
 
