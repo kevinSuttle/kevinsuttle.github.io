@@ -435,7 +435,7 @@ That depth of polymorphism also meant that with the creation of every child clas
 
 #### Performance and progressive-enhancement weren't really a primary focus
 
-You could feature detect based on Flash Player version, and almost everything had a progress loader, but at the end of the day, we were writing for a specific platform. The debate rages over whether or not the "[~~W~~_web](http://www.wired.com/2016/04/ap-finally-realizes-2016-will-let-us-stop-capitalizing-internet/)" is a "[platform](https://adactio.com/journal/6692)".
+You could feature detect based on Flash Player version, and almost everything had a progress loader, but at the end of the day, we were writing for a specific platform. The debate rages over whether or not the "[~~W~~web](http://www.wired.com/2016/04/ap-finally-realizes-2016-will-let-us-stop-capitalizing-internet/)" is a "[platform](https://adactio.com/journal/6692)".
 
 #### Every component had its own state
 The React community strongly pushes "stateless" components, which again, are just the rendered UI views. In this approach, Flex components each lived in a defined state. As such, this might cause some headaches and overhead management that may not be worth it in terms of costs-to-benefits ratio.
