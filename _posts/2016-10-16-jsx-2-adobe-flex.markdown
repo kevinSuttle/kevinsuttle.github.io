@@ -4,7 +4,7 @@ title: What JSX 2.0 could glean from Adobe Flex
 
 <summary>
 <h2>TL;DR:</h2>
-<em>React-style component development is awesome. But let's not get ahead of ourselves when we start defining new "best practices", by dismissing old techniques and architectures. Let's leverage the work done by super-intelligent people from ecosystems of the recent past. In this case, Adobe Flex.</em></summary>
+React-style component development is awesome. But let's not get ahead of ourselves when we start defining new "best practices", by dismissing old techniques and architectures. Let's leverage the work done by super-intelligent people from ecosystems of the recent past. In this case, Adobe Flex.</summary></br>
 
 It's fashionable to take shots at Adobe and Flash these days, but at one point in pre-HTML5 time, it was a major player in web, mobile, and even native desktop development. There was a period of about 6-8 years where a LOT of supremely-intelligent people, including several authors from [EggHead.io](http://EggHead.io), made a very good living contributing their massive brainpower to the Adobe Flash Platform Ecosystem.
 
@@ -35,10 +35,10 @@ Would render to:
 
 Lots of "CSS-in-JS" solutions have gotten *close* to this, but not without having to define top-level `style` reference objects, or enumerate each component's style props ahead of time.
 
-<aside>
-<h6>A quick note about the Flex namespaces</h6>
+<h3>A quick note about the Flex namespaces</h3>
 
-Before we begin, you may be wondering about the namespaces like <code>s mx fx</code> in the upcoming examples. Think of them like Android versions—something akin to:</p>
+Before we begin, you may be wondering about the namespaces like <code>s mx fx</code> in the upcoming examples. Think of them like Android versions—something akin to:
+
 ```
 <jb:Button>
 
@@ -49,7 +49,7 @@ Before we begin, you may be wondering about the namespaces like <code>s mx fx</c
 
 where <code>jb</code> represents 'Jelly Bean', and <code>ics</code> represents 'Ice Cream Sandwich'. In Flex, `s` stood for '[Spark](https://github.com/apache/flex-sdk/tree/develop/frameworks/projects/spark/src/spark)', and <code>mx</code>, well, it stood for 'mx'. That was just the name. It was most likely a reference to Macromedia, the company Adobe bought at the end of 2005, which offered the [Macromedia Studio MX](http://www.adobe.com/resources/studiomx/) product suite.
 
-The unique one is <code>fx</code>, which you can think of like the HTML <code>meta</code> tag: not displayed, used for document data, etc.. OK, now that's out of the way. Let's dive in.</aside>
+The unique one is <code>fx</code>, which you can think of like the HTML <code>meta</code> tag: not displayed, used for document data, etc.. OK, now that's out of the way. Let's dive in.
 
 ## Style property binding via lookups
 
@@ -59,7 +59,6 @@ Out of the box, Flex could bind style properties between components. For example
 <s:Panel id="mainPanel">
   // children
 </s:Panel>
-
 
 <s:Button width={mainPanel.width} />
 ```
@@ -97,6 +96,7 @@ Similarly, you could also use the `excludeFrom` attribute to prevent rendering i
 ```
 
 If you had enough view states, you could group them as well.
+
 ```
 <s:states>
   <s:State
@@ -127,6 +127,7 @@ Dynamically changing a component's state was also a predefined method you could 
 ```
 
 This became more useful when you started listing more states as members of a group.
+
 ```
 
 <s:State
@@ -222,6 +223,7 @@ Label:emphasis {
   font-weight: bold;
 }
 ```
+
 ```
 // JS
 <Label variant={{emphasis: true}} />
@@ -236,12 +238,14 @@ Label:prop(mode == "emphasis") {
   font-weight: bold;
 }
 ```
+
 ```
 <Label mode="emphasis" />
 // sets both classes with `color` and `font-weight`
 ```
 
 It compiles down standard HTML and CSS, using CSS Modules ([!](https://kevinsuttle.com/css-modules-a-review/)) to scope the names locally. This is a great improvement to CSS Modules.
+
 ```
 import {Label} from './styles.react.css'
 
