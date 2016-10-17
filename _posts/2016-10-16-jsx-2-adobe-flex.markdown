@@ -4,7 +4,7 @@ title: What JSX 2.0 could glean from Adobe Flex
 
 <summary>
 <h2>TL;DR:</h2>
-React-style component development is awesome. But let's not get ahead of ourselves when we start defining new "best practices", by dismissing old techniques and architectures. Let's leverage the work done by super-intelligent people from ecosystems of the recent past. In this case, Adobe Flex.</summary></br>
+React-style component development is awesome. But let's not get ahead of ourselves when we start defining new "best practices", by dismissing old techniques and architectures. Let's leverage the work done by super-intelligent people from ecosystems of the recent past. In this case, Adobe Flex.</summary>
 
 It's fashionable to take shots at Adobe and Flash these days, but at one point in pre-HTML5 time, it was a major player in web, mobile, and even native desktop development. There was a period of about 6-8 years where a LOT of supremely-intelligent people, including several authors from [EggHead.io](http://EggHead.io), made a very good living contributing their massive brainpower to the Adobe Flash Platform Ecosystem.
 
