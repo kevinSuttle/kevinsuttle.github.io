@@ -83,7 +83,7 @@ Almost all of these are JSON or Markdown.
 config.json and README.md
 
 Here is why I mentioned that JSON-LD is important. Search engines use JSON-LD as a standard for representing almost everything, which is documented on [Schema.org](https://schema.org/).
-This also includes 2 specific schemas, `[SoftwareSourceCode]https://schema.org/SoftwareSourceCode`, and `[SoftwareApplication](https://schema.org/SoftwareApplication)`
+This also includes 2 specific schemas, [`SoftwareSourceCode`](https://schema.org/SoftwareSourceCode), and [`SoftwareApplication`](https://schema.org/SoftwareApplication).
 
 Let's pretend that magically, Node, Java, Swift, Rust, Go, Python, C, and others had their config.json(ld?) files all set and ready to go.
 What would happen to: 
