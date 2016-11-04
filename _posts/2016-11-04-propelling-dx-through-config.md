@@ -5,7 +5,7 @@ title: 'Propelling developer experience through configuration'
 The number of config files per repo is slowly but surely overtaking the number of code files.    
 
 <figure style="border: 1px solid black;">
-  <img src="images/angular-github.png" alt="Angular">	
+  <img src="/images/angular-github.png" alt="Angular">	
   <figcaption>
     <a href="https://cloudup.com/c8BGrAQmmgd">Hi-res source</a>
     <strong>Warning</strong>: large image <em>1.6 MB</em></figcaption>
