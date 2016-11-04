@@ -5,11 +5,11 @@ title: 'Propelling developer experience through configuration'
 The number of config files per repo is slowly but surely overtaking the number of code files.    
 
 <figure>
-  <img src="/images/angular-github.png" alt="Angular">	
-  <figcaption style="margin-top: 1rem; font-size: .875rem; font-family: Helvetica Neue, Helvetica, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;">
+  <img src="/images/angular-github.png" alt="Angular">
+  <figcaption>
     <a href="https://cloudup.com/c8BGrAQmmgd">Hi-res source</a>
     <strong>Warning</strong>: large image <em>1.6 MB</em></figcaption>
-</figure>    
+</figure>
 
 
 A brief, but not in any way exhaustive list of just the ones I've dealt with:

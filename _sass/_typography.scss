@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-	font-size: $base-font-size * 0.75;
+	font-size: $base-font-size * 1.25;
 }
 
 h4 {
@@ -29,10 +29,6 @@ h5 {
 
 h6 {
 	font-size: $base-font-size * 0.5;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	@include zeroOutSpacing;
 }
 
 code,
@@ -121,7 +117,7 @@ a:hover {
 	line-height: 1.35;
 }
 
-.article-pubdate {
+.article-pubdate, figcaption {
 	font-family: $ui-font;
 	text-transform: uppercase;
 	letter-spacing: .0625em;
