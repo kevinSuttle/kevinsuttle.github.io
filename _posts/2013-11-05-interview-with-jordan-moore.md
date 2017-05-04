@@ -23,9 +23,12 @@ I realize that by now that I'm writing this to the smoke silhouettes of where yo
 Still not convinced? Well, because Jordan is such a generous fellow, he wants to give you a taste of the kind of top-notch, one-of-a-kind content a membership affords you by making *my* Transcripts interview available **for free**. Read my story ~~over at Jordan's site~~ below.
 
 ## Thanks Jordan
-I'd also like to take this opportunity to thank Jordan for allowing me to be involved with such top-tier content and interviews with the great pioneers of our time. It is *truly* an honor.
+I'd also like to take this opportunity to thank Jordan for allowing me to be involved with such top-tier content and interviews with the great pioneers of our time. It is *truly* an honor. Now, enjoy the interview. 
+
 
 <hr />
+
+# Interview Transcript
 
 Recently I caught up with one of my good internet friends [Kevin Suttle](kevinsuttle.com). While he's currently a designer, developer, writer, and presenter currently based in Cincinnati, Ohio, he'll soon be joining the rebuilding of [IBM Design](ibm.com/design) in Austin, Texas as a Senior Product Designer. He's got some interesting stories to share, so I thought I would share them with you too.
 
