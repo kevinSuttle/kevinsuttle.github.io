@@ -226,7 +226,7 @@ Label:emphasis {
 
 ```
 // JS
-<Label variant={{emphasis: true}} />
+<Label variant={emphasis: true} />
 
 // sets both classes with `color` and `font-weight`
 ```

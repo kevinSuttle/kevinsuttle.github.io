@@ -6,7 +6,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # Plugins
 group :jekyll_plugins do
-  gem "jekyll-github-metadata", "~> 1.0"
+  gem "jekyll-github-metadata", "~> 2.3.1"
 end
 
 gem 'jekyll-admin', group: :jekyll_plugins
