@@ -5,9 +5,8 @@ title: 'Propelling developer experience through configuration'
 The number of config files per repo is slowly but surely overtaking the number of code files.    
 
 <figure>
-  <img src="/images/angular-github.png" alt="Angular">
+  <a href="https://cloudup.com/c8BGrAQmmgd"><img src="/images/angular-github.png" alt="Angular"></a>
   <figcaption>
-    <a href="https://cloudup.com/c8BGrAQmmgd">Hi-res source</a>
     <strong>Warning</strong>: large image <em>1.6 MB</em></figcaption>
 </figure>
 
@@ -15,57 +14,58 @@ The number of config files per repo is slowly but surely overtaking the number o
 A brief, but not in any way exhaustive list of just the ones I've dealt with:
 
 ### Code meta (dependencies, instructions, declarations)
-- .eslintrc(.json)*
-- .gitconfig
-- .editorconfig
-- package.json
-- bower.json
-- gulpfile.js
-- gruntfile.js
-- project.xml
-- .vscode
-- .flowconfig
-- .tsconfig.json
-- .jsconfig.json
-- Gemfile
-- Gemfile.lock
-- Rakefile
-- .ruby-version
-- config.ru
-- Makefile
-- Dockerfile
-- Vagrantfile
-- _config.yml
-- config/
-- CNAME
-- travis.yml
-- docker-compose.yml
-- requirements.txt
-- manifest.yml
-- sass-lint.yml
-- .stylelint* 
-- Procfile
-- .babelrc*
-- Cargo.toml
+
+* `.eslintrc(.json)`*
+* `.gitconfig`
+* `.editorconfig`
+* `package.json`
+* `bower.json`
+* `gulpfile.js`
+* `gruntfile.js`
+* `project.xml`
+* `.vscode`
+* `.flowconfig`
+* `.tsconfig.json`
+* `.jsconfig.json`
+* `Gemfile`
+* `Gemfile.lock`
+* `Rakefile`
+* `.ruby-version`
+* `config.ru`
+* `Makefile`
+* `Dockerfile`
+* `Vagrantfile`
+* `_config.yml`
+* `config/`
+* `CNAME`
+* `travis.yml`
+* `docker-compose.yml`
+* `requirements.txt`
+* `manifest.yml`
+* `sass-lint.yml`
+* `.stylelint`*
+* `Procfile`
+* `.babelrc`*
+* `Cargo.toml`
 
 _* Can also be embedded into package.json_
 
-#### Ignore files
-- .cfignore
-- .eslintignore
-- .npmignore
-- .gitignore
+### Ignore files
+* `.cfignore`
+* `.eslintignore`
+* `.npmignore`
+* `.gitignore`
 
 ### Docs
-- README
-- CONTRIBUTING
-- DOCS
-- CODE OF CONDUCT
-- HISTORY/CHANGELOG
-- LICENSE
-- .github
-- .github/ISSUE_TEMPLATE.md
-- .github/PULL_REQUEST.md
+* `README`
+* `CONTRIBUTING`
+* `DOCS`
+* `CODE OF CONDUCT`
+* `HISTORY/CHANGELOG`
+* `LICENSE`
+* `.github`
+* `.github/ISSUE_TEMPLATE.md`
+* `.github/PULL_REQUEST.md`
 
 
 ## The Problems
@@ -130,15 +130,15 @@ on top of already supporting the aforementioned HTML5 Microdata, and [RDFa](http
 Why does it matter that HTML likes this kind of structured data? UX. Therer are multiple tools that have emerged in recent years that help people navigate dependencies and understand code at a better level. 
 
 Two such that come to mind, recalling that the "LD" stands for "Linked Data". 
- - http://octolinker.github.io/
- - https://sourcegraph.com/
+ - [Octolinker](http://octolinker.github.io/)
+ - [Sourcegraph](https://sourcegraph.com/)
  
 Now, think of the projects that span runtimes, leveraging web languages.
- - http://electron.atom.io/
- - https://facebook.github.io/react-native/
- - http://ionicframework.com/
+ - [Electron](http://electron.atom.io/)
+ - [React Native](https://facebook.github.io/react-native/)
+ - [Ionic](http://ionicframework.com/)
  - tons more
- 
+    
 There's no way I could even speculate the possibilties. 
 
 ### Other potential benefits

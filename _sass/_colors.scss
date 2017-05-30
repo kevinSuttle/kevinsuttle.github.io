@@ -61,6 +61,8 @@ a.home-link {
 article header {
 	.article-title {
 		color: lighten($body-copy-color, 50%);
+		margin-bottom: 0.25em;
+		
 		.article-permalink {
 			text-decoration: none;
 		}
