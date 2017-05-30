@@ -1,0 +1,17 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<meta name="author" content="Kevin Suttle">
+	<link rel="canonical" href={{site.url}}{{page.url}}>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+
+	<title>
+		{% if page.title %}
+		{{ page.title }} &ndash; {{ site.url }}
+		{% else %}
+		{{ site.title }}. {{ site.tagline }}
+		{% endif %}
+	</title>
+
+</head>

@@ -1,52 +1,18 @@
 <!doctype html>
-<html ⚡>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-	<meta name="author" content="Kevin Suttle">
-	<link rel="canonical" href={{site.url}}{{page.url}}>
-	<link rel="shortcut icon" href="./favicon.ico" />
+<html>
 
-	<title>
-		{% if page.title %}
-		{{ page.title }} &ndash; {{ site.url }}
-		{% else %}
-		{{ site.title }}. {{ site.tagline }}
-		{% endif %}
-	</title>
+	{% include head.html %}
 
-	<style amp-custom>
-		{% include /css/index.min.css %}
-	</style>
-
-</head>
 <body>
 
 	<div class="page-wrapper">
-		<header class="site-header" role="banner">
-			<a class="home-link" href="/">KS</a>
-		</header>
+		
+		{% include banner.html %}
 
 		{{ content }}
 
 	</div>
 
-	<footer class="site-footer" role="contentinfo">
-		<div class="footer-wrapper">
-			<aside class="footer-module" role="complementary">
-				<h2 class="footer-module-heading">About me</h2>
-				<p class="footer-module-content">I'm Kevin Suttle. I'm a Design and Front-end Development Lead. <a href="/about">Learn more about me</a>, or <a href="mailto:kevin@suttle.email">get in touch</a>.</p>
-			</aside>
-
-			<aside class="footer-module" role="complementary">
-				<h2 class="footer-module-heading">Elsewhere</h2>
-				<ul class="footer-module-content">
-					<li><a href="https://twitter.com/kevinSuttle" title="You should follow me on Twitter." rel="external">Twitter</a></li>
-					<li><a href="https://github.com/kevinSuttle" title="Check out my code on Github. See what I did there?" rel="external">GitHub</a></li>
-					<li><a href="https://linkedin.com/in/kevinsuttle" title="I'm open to connect on LinkedIn" rel="external">LinkedIn</a></li>
-				</ul>
-			</aside>
-		</div>
-	</footer>
+	{% include footer.html %}
 </body>
 </html>
