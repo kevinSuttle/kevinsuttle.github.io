@@ -12,7 +12,7 @@ We're now at a point in our industry where whether we want to admit it or not, t
 
 > Someone is going to unify these three different syntaxes and write a language that just addresses the web platform directly and it's going to be insanely popular.
 
--[Jeremy Ashkenas](https://www.youtube.com/watch?v=DspYurD75Ns)
+<cite>-[Jeremy Ashkenas](https://www.youtube.com/watch?v=DspYurD75Ns)</cite>
 
 It's already happening with JSX, but there is still a large amount of room for improvement and fulfilling of that vision. When looking towards the future, it helps to study the past.
 

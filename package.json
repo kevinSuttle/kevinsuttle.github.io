@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "Site source code files",
   "main": "gulpfile.js",
+  "private": true,
   "devDependencies": {
     "browser-sync": "2.16.0",
     "del": "^2.2.2",
