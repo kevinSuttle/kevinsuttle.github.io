@@ -1,49 +1,50 @@
-@media screen and (min-width: 32.941176471em) {
-	body {
-		font-size: 100%;
-		margin-top: .5em;
-	}
-	.site-header {
-		margin-left: 0;
-	}
-	.home-link {
-		padding: .5em;
-	}
-	.page-wrapper, .footer-wrapper {
-		max-width: 35em;
-	}
+@media screen and (min-width: 28em) {
+  .page-wrapper,
+  .footer-wrapper {
+    max-width: 25em;
+  }
 }
 
+@media screen and (min-width: 32.941176471em) {
+  body {
+    font-size: 100%;
+    margin-top: 0.5em;
+  }
+  .site-header {
+    margin-left: 0;
+  }
+  .home-link {
+    padding: 0.5em;
+  }
+  .page-wrapper,
+  .footer-wrapper {
+    max-width: 35em;
+  }
+}
 
 @media all and (min-width: 41.875em) {
-	body {
-		font-size: 110%;
-	}
+  body {
+    font-size: 110%;
+  }
 
-	.page-wrapper, .footer-wrapper {
-		max-width: 37.5em;
-	}
-	.footer-module {
-
-		&:first-child {
-			width: 76%;
-			padding-right: 8%;
-			float: left;
-		}
-		&:last-child {
-			float: right;
-		}
-	}
-	.home-link {
-		width: auto;
-	}
+  .page-wrapper,
+  .footer-wrapper {
+    max-width: 37.5em;
+  }
+  .footer-module {
+    padding-right: 10%;
+  }
+  .home-link {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 75em) {
-	body {
-		font-size: 125%;
-	}
-	.page-wrapper, .footer-wrapper {
-		max-width: 30em;
-	}
+  body {
+    font-size: 125%;
+  }
+  .page-wrapper,
+  .footer-wrapper {
+    max-width: 30em;
+  }
 }
