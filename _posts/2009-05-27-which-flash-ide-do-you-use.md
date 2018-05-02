@@ -12,7 +12,7 @@ However, the most interesting tidbit was which program was in the 2nd place slot
 
 Thanks again to [Rich Tretola][8] for picking my poll idea!
 
-[1]: http://kevinsuttle.com/posts/found-and-lost-the-flash-ide/ (Found and Lost: The Flash IDE)
+[1]: https://kevinsuttle.com/posts/found-and-lost-the-flash-ide/ (Found and Lost: The Flash IDE)
 [2]: http://twitter.com/richtretola/statuses/1846624356 (Twitter- Rich Treolta)
 [3]: http://insideria.com/index.htm (InsideRIA)
 [4]: http://www.insideria.com/2009/05/new-poll-what-ide-do-you-use-t.html (InsideRIA poll)

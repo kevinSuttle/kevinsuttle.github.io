@@ -1,37 +1,37 @@
 {
-  "name": "KevinSuttle.com",
-  "version": "2.0.1",
-  "description": "Site source code files",
-  "main": "gulpfile.js",
-  "private": true,
-  "devDependencies": {
-    "browser-sync": "2.16.0",
-    "del": "^2.2.2",
-    "gulp": "3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-changed": "^1.1.1",
-    "gulp-clean-css": "^2.0.12",
-    "gulp-csso": "^2.0.0",
-    "gulp-load-plugins": "^1.3.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-run": "^1.7.1",
-    "gulp-sass": "^2.3.2",
-    "gulp-size": "^2.1.0",
-    "node-sass": "^3.10.0",
-    "run-sequence": "^1.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kevinSuttle/kevinsuttle.github.io"
-  },
-  "author": "Kevin Suttle",
-  "license": "MIT",
-  "issues": {
-    "url": "https://github.com/kevinSuttle/kevinsuttle.github.io/issues"
-  },
-  "homepage": "http://kevinsuttle.com",
-  "dependencies": {
-    "gulp-clean-css": "^2.0.12"
-  }
+	"name": "kevinsuttle-dot-com",
+	"version": "2.0.1",
+	"description": "Site source code files",
+	"main": "gulpfile.js",
+	"private": true,
+	"devDependencies": {
+		"browser-sync": "2.16.0",
+		"del": "^2.2.2",
+		"gulp": "3.9.1",
+		"gulp-autoprefixer": "^3.1.1",
+		"gulp-changed": "^1.1.1",
+		"gulp-clean-css": "^2.0.12",
+		"gulp-csso": "^2.0.0",
+		"gulp-load-plugins": "^1.3.0",
+		"gulp-notify": "^2.2.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-run": "^1.7.1",
+		"gulp-sass": "^2.3.2",
+		"gulp-size": "^2.1.0",
+		"node-sass": "^3.10.0",
+		"run-sequence": "^1.0.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kevinSuttle/kevinsuttle.github.io"
+	},
+	"author": "Kevin Suttle",
+	"license": "MIT",
+	"issues": {
+		"url": "https://github.com/kevinSuttle/kevinsuttle.github.io/issues"
+	},
+	"homepage": "https://kevinsuttle.com",
+	"dependencies": {
+		"gulp-clean-css": "^2.0.12"
+	}
 }

@@ -57,7 +57,7 @@ These are just off of the top of my head, but I think it's a good benchmark to s
 Update: David Tucker has done [a much better job][40] of conveying most of what I was trying to say here.
 
 	[1]: http://code.google.com/events/io/ (Google I/O)
-	[2]: http://kevinsuttle.com/2009/05/02/re-is-canvas-the-end-of-flash/ (RE: Is Canvas the End of Flash)
+	[2]: https://kevinsuttle.com/2009/05/02/re-is-canvas-the-end-of-flash/ (RE: Is Canvas the End of Flash)
 	[3]: http://cjedaudio.wordpress.com/2009/02/07/apple-webkithtml5-end-of-flash-and-gears/ (Webkit and HTML5: The end of Flash and Gears?)
 	[4]: http://news.zdnet.co.uk/software/0,1000000121,39655473,00.htm (Opera: Web Standards Could Eclipse Flash)
 	[5]: http://news.zdnet.com/2100-3515_22-199508.html (Mozilla Warns of Flash and Silverlight 'Agenda')

@@ -10,7 +10,7 @@ So, with regards to my ongoing effort to make this a quality, read-worthy blog, 
 
 Then, I got all excited and thought about trying to register another domain, but someone else has it already, and honestly, the last thing I want to do right now is try to set up another domain, though it does expire at the end of this month.
 
-So to summarize, the domain is still the same: [http://kevinsuttle.com][1] The RSS feed is now [http://kevinsuttle.com/feed][2], and the FeedBurner url has changed to [http://feeds2.feedburner.com/CommentedOut][3].
+So to summarize, the domain is still the same: [https://kevinsuttle.com][1] The RSS feed is now [https://kevinsuttle.com/feed][2], and the FeedBurner url has changed to [http://feeds2.feedburner.com/CommentedOut][3].
 
 This shouldn't affect anyone, especially since I just set up FeedBurner two nights ago, and the old parameter-formatted [feed link][4] still seems to work.
 
@@ -23,10 +23,10 @@ There are also some new links to some of the sites I belong to on the About page
 Update: AXNA has updated the feed URL and Blog title! Check it out [here][8].
 
 [1]: http://# (You're already here)
-[2]: http://kevinsuttle.com/feed (RSS Feed - KevinSuttle.com)
+[2]: https://kevinsuttle.com/feed (RSS Feed - KevinSuttle.com)
 [3]: http://feeds2.feedburner.com/CommentedOut (FeedBurner - Commented Out)
-[4]: http://kevinsuttle.com/?feed=rss2 (Old RSS Feed to KevinSuttle.com)
+[4]: https://kevinsuttle.com/?feed=rss2 (Old RSS Feed to KevinSuttle.com)
 [5]: mailto:kevin@kevinsuttle.com?subject=Kevin%20your%20site%20is%20AWESOME (Send me your mail!)
 [6]: http://feeds.adobe.com (Adobe XML News Aggregator)
-[7]: http://kevinsuttle.com/about (Kevin Suttle - About)
+[7]: https://kevinsuttle.com/about (Kevin Suttle - About)
 [8]: http://feeds.adobe.com/index.cfm?query=byFeed&feedId=8610&feedName=Commented%20Out (Commnented Out on AXNA)

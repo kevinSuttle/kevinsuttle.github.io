@@ -40,7 +40,7 @@ Frustrated by a lack of creativity and poor usability on the web, I opened up Il
 
 Eventually though, I had to get my hands into a code editor, because honestly, I needed the money. I had lived in the Philippines for awhile after college and was pretty much broke upon return. I got a couple of freelance contracts doing Flash for my alma mater, the University of Cincinnati, where I designed and built interfaces for classroom simulations.
 
-A couple of years later, I found myself so frustrated by the lack of thought in the software I was using, and once again, I decided to [do something](http://kevinsuttle.com/posts/found-and-lost-the-flash-ide/) about it. That was a major turning point in my career, as I was quickly enveloped into various circles of Adobe and other large-scale software companies, beta and alpha testing many of their products.
+A couple of years later, I found myself so frustrated by the lack of thought in the software I was using, and once again, I decided to [do something](https://kevinsuttle.com/posts/found-and-lost-the-flash-ide/) about it. That was a major turning point in my career, as I was quickly enveloped into various circles of Adobe and other large-scale software companies, beta and alpha testing many of their products.
 
 Through the constant process of testing, bug reporting, documenting, and designing features, I found that I seemed to have a knack for writing, and others enjoyed reading what I had to say. 
 
@@ -85,7 +85,7 @@ My personal work mostly involves hacking on my [dev environment](https://github.
 Writing is also a major area of focus for me now. I’ve got several large-scale publications under way, including one piece that’s taking shape at Smashing Magazine, (that you were of great help in reviewing). 
 My Evernote is densely-packed with article stubs and topics that I’ve been meaning to write about, which will be publishing in the very near future.
 
-I'm also incredibly excited to [begin my journey](http://kevinsuttle.com/posts/a-shared-second-act/) to Austin, and my role at [IBM Design](IBM). It still feels like a dream, and I can't wait to get started. 
+I'm also incredibly excited to [begin my journey](https://kevinsuttle.com/posts/a-shared-second-act/) to Austin, and my role at [IBM Design](IBM). It still feels like a dream, and I can't wait to get started. 
 
 **JM**: What legacy to you want to leave behind?
 
