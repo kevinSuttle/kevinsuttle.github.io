@@ -1,4 +1,3 @@
----
 title: Kevin Suttle
 tagline: Product Designer
 url: https://kevinsuttle.com
@@ -6,15 +5,11 @@ permalink: "/posts/:title"
 timezone: America/New_York
 include: [".well-known"]
 exclude:
-- CNAME
-- README.md
-- node_modules
-- bower_components
-- gulpfile.js
-- package.json
+    - CNAME
+    - README.md
 defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: post

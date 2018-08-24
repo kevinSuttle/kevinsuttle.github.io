@@ -1,11 +1,9 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
-# To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# Plugins
-group :jekyll_plugins do
-  gem "jekyll-github-metadata", "~> 2.3.1"
-  gem "jekyll-feed", "~> 0.6"
-end
+gem "jekyll", "~> 3.8"
+gem "jekyll-github-metadata", "~> 2.9"
+gem "jekyll-feed", "~> 0.10"
