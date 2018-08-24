@@ -12,7 +12,7 @@ For "...the only real defining factor that sets flash apart from plain Javascrip
 
 > "One using SVG (Scalable Vector Graphics) [http://me.eae.net/archive/2005/12/29/canvas-in-ie/][12]"
 
-For the comment "One ironically using Flash as a bridge: [ http://www.azarask.in/blog/post/flash-canvas/][13]". Ironically? Did I mention that Adobe hosts and open sources a [Flash-AJAX Video Component][14]? Don't get me wrong. The real issue here is the fact this Flash vs AJAX/Canvas rift even exists. I LOVE Mozilla and what they are doing to push the browser envelope with [Bespin][15], [Thunderhead][16], [Fennec][17], and [Ubiquity][18]. I have a ton of respect and love for John Resig, Aza Raskin, and Dion Almaer, Jeremy Keith and tons of other notable people who are pioneering the new web tech.
+For the comment "One ironically using Flash as a bridge: [http://www.azarask.in/blog/post/flash-canvas/][13]". Ironically? Did I mention that Adobe hosts and open sources a [Flash-AJAX Video Component][14]? Don't get me wrong. The real issue here is the fact this Flash vs AJAX/Canvas rift even exists. I LOVE Mozilla and what they are doing to push the browser envelope with [Bespin][15], [Thunderhead][16], [Fennec][17], and [Ubiquity][18]. I have a ton of respect and love for John Resig, Aza Raskin, and Dion Almaer, Jeremy Keith and tons of other notable people who are pioneering the new web tech.
 
 I also really love the fact that there are alternatives to Flash. How boring would it be if all content on the web was scripted in the same editor in the same language? I also think we're missing the point that, no one technology is going to single-handedly take down another. And why should it? We should be working to see what these two powerful technologies can do together and what we can learn from one another to benefit our respective environments and technologies. Remember, ActionScript was based on the same ECMAScript standard as JavaScript. This however, has since changed, but only recently.
 
@@ -20,22 +20,22 @@ The point of all this is not to show how pro-Flash I am or to dismiss HTML5 or A
 
 Update - Serge Jespers has written a fantastic post entited "[Adobe vs. the Open Web][19]' ". Go check it out!
 
-[1]: http://stairwellblog.com/2009/03/is-canvas-the-end-of-flash/ (http://stairwellblog.com/2009/03/is-canvas-the-end-of-flash/)
-[2]: http://twitter.com/seantheflexguy/status/ (SeanTheFlexGuy - Twitter)
-[3]: http://opensource.adobe.com/wiki/display/site/Projects#Projects-Tamarin (http://opensource.adobe.com/wiki/display/site/Projects#Projects-Tamarin)
-[4]: http://opensource.adobe.com/wiki/display/site/Home (http://opensource.adobe.com/wiki/display/site/Home)
-[5]: http://www.openscreenproject.org/partners/ (http://www.openscreenproject.org/partners/)
-[6]: http://www.jonnymac.com/blog/2008/06/22/swfobject-2-to-be-default-publish-method-in-cs4/ (http://www.jonnymac.com/blog/2008/06/22/swfobject-2-to-be-default-publish-method-in-cs4/)
-[7]: http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK (http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK)
-[8]: http://opensource.adobe.com/wiki/display/webkit/Webkit (http://opensource.adobe.com/wiki/display/webkit/Webkit)
-[9]: http://opensource.adobe.com/wiki/display/blazeds/Overview (http://opensource.adobe.com/wiki/display/blazeds/Overview)
-[10]: http://www.adobe.com/flashplatform/ (http://www.adobe.com/flashplatform/)
-[11]: http://blog.digitalbackcountry.com/2008/11/the-flex-builder-identity-crisis-and-the-flash-platform/ (http://blog.digitalbackcountry.com/2008/11/the-flex-builder-identity-crisis-and-the-flash-platform/)
-[12]: http://me.eae.net/archive/2005/12/29/canvas-in-ie/ (http://me.eae.net/archive/2005/12/29/canvas-in-ie/)
-[13]: http://www.azarask.in/blog/post/flash-canvas/ (http://www.azarask.in/blog/post/flash-canvas/)
-[14]: http://opensource.adobe.com/wiki/display/site/Projects#Projects-FlashAjaxVideoComponent (http://opensource.adobe.com/wiki/display/site/Projects#Projects-FlashAjaxVideoComponent)
+[1]: http://stairwellblog.com/2009/03/is-canvas-the-end-of-flash/ "http://stairwellblog.com/2009/03/is-canvas-the-end-of-flash/"
+[2]: http://twitter.com/seantheflexguy/status/ "SeanTheFlexGuy - Twitter"
+[3]: http://opensource.adobe.com/wiki/display/site/Projects#Projects-Tamarin "http://opensource.adobe.com/wiki/display/site/Projects#Projects-Tamarin"
+[4]: http://opensource.adobe.com/wiki/display/site/Home "http://opensource.adobe.com/wiki/display/site/Home"
+[5]: http://www.openscreenproject.org/partners/ "http://www.openscreenproject.org/partners/"
+[6]: http://www.jonnymac.com/blog/2008/06/22/swfobject-2-to-be-default-publish-method-in-cs4/ "http://www.jonnymac.com/blog/2008/06/22/swfobject-2-to-be-default-publish-method-in-cs4/"
+[7]: http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK "http://opensource.adobe.com/wiki/display/flexsdk/Flex+SDK"
+[8]: http://opensource.adobe.com/wiki/display/webkit/Webkit "http://opensource.adobe.com/wiki/display/webkit/Webkit"
+[9]: http://opensource.adobe.com/wiki/display/blazeds/Overview "http://opensource.adobe.com/wiki/display/blazeds/Overview"
+[10]: http://www.adobe.com/flashplatform/ "http://www.adobe.com/flashplatform/"
+[11]: http://blog.digitalbackcountry.com/2008/11/the-flex-builder-identity-crisis-and-the-flash-platform/ "http://blog.digitalbackcountry.com/2008/11/the-flex-builder-identity-crisis-and-the-flash-platform/"
+[12]: http://me.eae.net/archive/2005/12/29/canvas-in-ie/ "http://me.eae.net/archive/2005/12/29/canvas-in-ie/"
+[13]: http://www.azarask.in/blog/post/flash-canvas/ "http://www.azarask.in/blog/post/flash-canvas/"
+[14]: http://opensource.adobe.com/wiki/display/site/Projects#Projects-FlashAjaxVideoComponent "http://opensource.adobe.com/wiki/display/site/Projects#Projects-FlashAjaxVideoComponent"
 [15]: http://mozillalabs.com/bespin/
 [16]: http://benzilla.galbraiths.org/2009/02/
 [17]: https://wiki.mozilla.org/Fennec
 [18]: https://wiki.mozilla.org/Labs/Ubiquity/
-[19]: http://www.webkitchen.be/2009/05/27/adobe-versus-the-open-web/ (Serge Jespers - Adobe vs the Open Web)
+[19]: http://www.webkitchen.be/2009/05/27/adobe-versus-the-open-web/ "Serge Jespers - Adobe vs the Open Web"

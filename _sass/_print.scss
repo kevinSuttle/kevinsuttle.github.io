@@ -2,7 +2,9 @@
 	body {
 		font-size: 12pt !important;
 	}
-	html, .site-header, .site-footer {
+	html,
+	.site-header,
+	.site-footer {
 		color: $body-copy-color !important;
 		background-color: $page-bg-color !important;
 	}
@@ -12,7 +14,9 @@
 	#disqus_thread {
 		display: none;
 	}
-	a:link, code, blockquote {
+	a:link,
+	code,
+	blockquote {
 		color: $body-copy-color !important;
 	}
 }

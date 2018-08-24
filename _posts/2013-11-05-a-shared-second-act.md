@@ -2,7 +2,7 @@
 title: A Shared Second Act
 ---
 
-In the Summer of 2013, as I faced a crossroads in my career, I heard about a familiar brand who was embracing a long-lost legacy in order to pave a path into the future. IBM—once a juggernaut of design thanks to its dream team of architects, brand identity specialists, and industrial designers—Charles and Ray Eames, Paul Rand, Eero Saarinen, and Eliot Noyes, formed the superhero design core that propelled IBM to the forefront of enterprise design. Decades later, the group's members  had each gone their separate ways, and as a result, IBM strayed far from its design roots. Then in 2010, a man by the name of Phil Gilbert would change the course of the company once more.
+In the Summer of 2013, as I faced a crossroads in my career, I heard about a familiar brand who was embracing a long-lost legacy in order to pave a path into the future. IBM—once a juggernaut of design thanks to its dream team of architects, brand identity specialists, and industrial designers—Charles and Ray Eames, Paul Rand, Eero Saarinen, and Eliot Noyes, formed the superhero design core that propelled IBM to the forefront of enterprise design. Decades later, the group's members had each gone their separate ways, and as a result, IBM strayed far from its design roots. Then in 2010, a man by the name of Phil Gilbert would change the course of the company once more.
 
 You can read all about Phil by way of your favorite search engine, but it's the direction Mr. Gilbert has taken IBM Design that affects my story. As head of IBM Design, Phil has now positioned the company to return to its glory days of elite product experiences by issuing a company-wide mandate to focus on [design and mobile-first](http://redmonk.com/jgovernor/2013/02/21/ibm-goes-all-in-on-mobile-design-first-for-mobilefirst/) thinking.
 
@@ -10,7 +10,7 @@ The scope of this shift cannot be overstated. As of 2012, IBM employed 433,362 p
 
 > "We live in the shadow of what Eliot Noyes and the Eameses, Rand and Saarinen have done… It’s the same mission. It’s just different people."
 
--*Keith Yamashita, IBM Charles and Ray Eames Brand Fellow*
+-_Keith Yamashita, IBM Charles and Ray Eames Brand Fellow_
 
 I can't explain the level of excitement that it brings me to finally share that I will be one of those people. I have the privilege of being a part of that design renaissance, starting in December of this year. I've joined [IBM Design](http://www.ibm.com/design/) as a Senior Product Designer/Front-end Developer, where I'll be surrounded by teams of hungry, talented, hard-working professionals and students who are just as thrilled to be a part of this history in the making as I am.
 

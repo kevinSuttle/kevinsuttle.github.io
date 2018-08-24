@@ -50,16 +50,16 @@ UPDATE: I was going to save this for another post, but since it now seems approp
 
 I'm just thinking off the cuff here, to fuel the discussion. These aren't ideas I'm necessarily pushing. Now, I can't talk about Flash without bringing up the recent re-launch of the Flash Platform and the topic of Flex being rebranded. I understand why it's happening and that Adobe needs to make money, but without getting into detail, I personally think it creates more confusion than it adds.
 
-When it comes down to it, what are the real differences between Flex, Catalyst, and Flash, and why should we keep so many of the overlaps? Why do we need 2 products with timelines that publish to swf? Do we really need 3 applications (Flash Catalyst, Flex, Fireworks) that write MXML, HTML, and CSS? Should Fireworks and Flash Catalyst be combined? *(Needs reference. Not my idea, give me the link if you come across it so I can give credit.)*
+When it comes down to it, what are the real differences between Flex, Catalyst, and Flash, and why should we keep so many of the overlaps? Why do we need 2 products with timelines that publish to swf? Do we really need 3 applications (Flash Catalyst, Flex, Fireworks) that write MXML, HTML, and CSS? Should Fireworks and Flash Catalyst be combined? _(Needs reference. Not my idea, give me the link if you come across it so I can give credit.)_
 
-Will Captivate be called Flash E-learning Creator now since it publishes to swf? *[Not my idea. Can't name source at this time for NDA reasons.)* Should there be a standalone ActionScript/MXML editor that ties into any program you want? Should Flash Catalyst be the new Design View or States Manager in Flex?
+Will Captivate be called Flash E-learning Creator now since it publishes to swf? _[Not my idea. Can't name source at this time for NDA reasons.)_ Should there be a standalone ActionScript/MXML editor that ties into any program you want? Should Flash Catalyst be the new Design View or States Manager in Flex?
 
 Lots of questions to think about, all affecting the future of the Flash IDE. Nothing of real substance, just trying to get the ball rolling here.
 
-[1]: http://www.jonnymac.com/blog/2008/11/04/flash-cs4-bug-with-os-x-spaces/ (Link to JonnyMac Blog)
-[2]: http://labs.adobe.com/technologies/textlayout/ (Adobe Labs - Text Layout Framework)
-[3]: http://www.moock.org/blog/archives/000269.html (Link to Colin Moock's blog)
-[4]: http://blogs.adobe.com/rgalvan/2009/01/concerns_and_issues_with_flash.html (Richard Galvan's blog)
-[5]: http://blogs.adobe.com/rgalvan/2009/03/a_few_flash_updates.html (Link to Richard Galvan's blog)
-[6]: http://fdt.powerflasher.com/ (FDT Editor)
-[7]: http://www.flashdevelop.org/community/ (FlashDevelop editor)
+[1]: http://www.jonnymac.com/blog/2008/11/04/flash-cs4-bug-with-os-x-spaces/ "Link to JonnyMac Blog"
+[2]: http://labs.adobe.com/technologies/textlayout/ "Adobe Labs - Text Layout Framework"
+[3]: http://www.moock.org/blog/archives/000269.html "Link to Colin Moock's blog"
+[4]: http://blogs.adobe.com/rgalvan/2009/01/concerns_and_issues_with_flash.html "Richard Galvan's blog"
+[5]: http://blogs.adobe.com/rgalvan/2009/03/a_few_flash_updates.html "Link to Richard Galvan's blog"
+[6]: http://fdt.powerflasher.com/ "FDT Editor"
+[7]: http://www.flashdevelop.org/community/ "FlashDevelop editor"

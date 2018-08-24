@@ -6,6 +6,6 @@ I've been offered an opportunity to write for [O'Reilly Media][1]'s [InsideRIA][
 
 My first post is entitled "[SkyFire Mobile Browser 1.0 and the Flash User Experience.][3]" Be sure to check it out and give me some feedback!
 
-[1]: http://oreilly.com/ (O'Reilly Media)
-[2]: http://insideria.com/index.htm (InsideRIA - Home Page)
-[3]: http://www.insideria.com/2009/06/ux-discussion-skyfire-mobile-b.html (InsideRIA - My first post)
+[1]: http://oreilly.com/ "O'Reilly Media"
+[2]: http://insideria.com/index.htm "InsideRIA - Home Page"
+[3]: http://www.insideria.com/2009/06/ux-discussion-skyfire-mobile-b.html "InsideRIA - My first post"

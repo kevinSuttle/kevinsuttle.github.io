@@ -5,19 +5,22 @@ html {
 body {
 	background-color: $page-bg-color;
 	color: $body-copy-color;
-	border-top: .025em solid $body-copy-color;
+	border-top: 0.025em solid $body-copy-color;
 }
 
-details, summary:focus {
+details,
+summary:focus {
 	outline: 0;
 }
 
-blockquote  {
-	border-left: .15em solid $bright-grey;
+blockquote {
+	border-left: 0.15em solid $bright-grey;
 	color: lighten($medium-grey, 15%);
 }
 
-a, a:visited, a code {
+a,
+a:visited,
+a code {
 	color: $body-link-color;
 	transition: color 200ms linear;
 }
@@ -30,21 +33,23 @@ a:hover {
 hr {
 	border: 0;
 	height: 0;
-	border-top: 1px solid rgba(0, 0, 0, .1);
-	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-code, kbd {
+code,
+kbd {
 	color: $medium-orange;
 }
 
-pre, samp {
-	background-color: #F5F5F5;
+pre,
+samp {
+	background-color: #f5f5f5;
 	color: #686865;
 }
 
 pre code {
-	font-size: .75em;
+	font-size: 0.75em;
 	color: #686865;
 }
 
@@ -62,7 +67,7 @@ article header {
 	.article-title {
 		color: lighten($body-copy-color, 50%);
 		margin-bottom: 0.25em;
-		
+
 		.article-permalink {
 			text-decoration: none;
 		}
@@ -73,7 +78,7 @@ article header {
 }
 
 .article-collection-item {
-	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
 	&:last-child {
 		border-bottom: none;

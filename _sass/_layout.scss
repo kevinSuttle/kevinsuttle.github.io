@@ -34,8 +34,9 @@ blockquote {
 	padding: 0 0 0 1em;
 }
 
-pre, samp {
-	padding: .5em;
+pre,
+samp {
+	padding: 0.5em;
 	padding-left: 1em;
 	border-radius: 6px;
 }
@@ -53,12 +54,13 @@ dd {
 	margin-bottom: 1em;
 }
 
-.page-wrapper, .footer-wrapper {
+.page-wrapper,
+.footer-wrapper {
 	margin: 0 auto;
-	padding: 0 .5em 1em;
+	padding: 0 0.5em 1em;
 	width: 90%;
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .site-header {
@@ -70,7 +72,7 @@ dd {
 .home-link {
 	margin: 0;
 	display: block;
-	padding: 1em 0 .5em 1em;
+	padding: 1em 0 0.5em 1em;
 }
 
 .article-collection {
@@ -79,7 +81,7 @@ dd {
 
 	.article-pubdate {
 		display: block;
-		padding-bottom:4px;
+		padding-bottom: 4px;
 	}
 
 	.article-collection-item {
@@ -99,7 +101,7 @@ dd {
 
 .article-collection-item {
 	margin: 0;
-	padding-bottom: .375em;
+	padding-bottom: 0.375em;
 }
 
 article {
@@ -107,16 +109,18 @@ article {
 	margin-bottom: 3em;
 	p {
 		margin-top: 0;
-		margin-bottom: $base-line-height +em;
+		margin-bottom: $base-line-height + em;
 	}
 	details > p {
 		margin-top: 1em;
 	}
-	h2, h3 {
+	h2,
+	h3 {
 		margin-top: 1.5em;
-		margin-bottom: .5em;
+		margin-bottom: 0.5em;
 	}
-	ul, & ol{
+	ul,
+	& ol {
 		margin-left: 1em;
 	}
 	overflow: hidden;
@@ -125,12 +129,14 @@ article {
 
 .article-bio ul {
 	padding-left: 0;
-	li { padding-bottom: 0.5em }
+	li {
+		padding-bottom: 0.5em;
+	}
 	margin-bottom: 1em;
 }
 
 .article-footer {
-	padding-top: .5em;
+	padding-top: 0.5em;
 }
 
 .article-nav-link {
@@ -147,6 +153,7 @@ article {
 	}
 }
 
-.site-footer ol, ul {
+.site-footer ol,
+ul {
 	padding-left: 0;
 }

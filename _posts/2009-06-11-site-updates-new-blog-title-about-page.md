@@ -22,11 +22,11 @@ There are also some new links to some of the sites I belong to on the About page
 
 Update: AXNA has updated the feed URL and Blog title! Check it out [here][8].
 
-[1]: http://# (You're already here)
-[2]: https://kevinsuttle.com/feed (RSS Feed - KevinSuttle.com)
-[3]: http://feeds2.feedburner.com/CommentedOut (FeedBurner - Commented Out)
-[4]: https://kevinsuttle.com/?feed=rss2 (Old RSS Feed to KevinSuttle.com)
-[5]: mailto:kevin@kevinsuttle.com?subject=Kevin%20your%20site%20is%20AWESOME (Send me your mail!)
-[6]: http://feeds.adobe.com (Adobe XML News Aggregator)
-[7]: https://kevinsuttle.com/about (Kevin Suttle - About)
-[8]: http://feeds.adobe.com/index.cfm?query=byFeed&feedId=8610&feedName=Commented%20Out (Commnented Out on AXNA)
+[1]: http://# "You're already here"
+[2]: https://kevinsuttle.com/feed "RSS Feed - KevinSuttle.com"
+[3]: http://feeds2.feedburner.com/CommentedOut "FeedBurner - Commented Out"
+[4]: https://kevinsuttle.com/?feed=rss2 "Old RSS Feed to KevinSuttle.com"
+[5]: mailto:kevin@kevinsuttle.com?subject=Kevin%20your%20site%20is%20AWESOME "Send me your mail!"
+[6]: http://feeds.adobe.com "Adobe XML News Aggregator"
+[7]: https://kevinsuttle.com/about "Kevin Suttle - About"
+[8]: http://feeds.adobe.com/index.cfm?query=byFeed&feedId=8610&feedName=Commented%20Out "Commnented Out on AXNA"

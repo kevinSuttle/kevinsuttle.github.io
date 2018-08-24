@@ -2,9 +2,13 @@
 $base-font-size: 14px;
 $base-line-height: 1.5;
 
-$serif-font: "Merriweather", "Charter", "Cambria", "Noto Serif", "Droid Serif", "Georgia", serif;
-$sans-font: -apple-system-font, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Noto Sans", "Noto", "Droid Sans", "Open Sans", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
-$code-font: "Fira Code", "SF Mono", "Roboto Mono", "Noto Mono", "Droid Mono", "Monaco", "Inconsolata", "Ubuntu Mono", "Liberation Mono", monospace;
+$serif-font: "Merriweather", "Charter", "Cambria", "Noto Serif", "Droid Serif",
+	"Georgia", serif;
+$sans-font: -apple-system-font, -apple-system, BlinkMacSystemFont, "Roboto",
+	"Segoe UI", "Noto Sans", "Noto", "Droid Sans", "Open Sans", "Oxygen",
+	"Ubuntu", "Cantarell", sans-serif;
+$code-font: "Fira Code", "SF Mono", "Roboto Mono", "Noto Mono", "Droid Mono",
+	"Monaco", "Inconsolata", "Ubuntu Mono", "Liberation Mono", monospace;
 
 // Colors
 $page-bg-color: #fdfdfd;
@@ -22,7 +26,7 @@ $medium-orange: #dd731c;
 @mixin clearFix {
 	&:before,
 	&:after {
-		content: ' ';
+		content: " ";
 		display: table;
 	}
 	&:after {
@@ -47,5 +51,5 @@ $medium-orange: #dd731c;
 }
 
 @mixin animation {
-	transition: all, .25s ease-out;
+	transition: all, 0.25s ease-out;
 }

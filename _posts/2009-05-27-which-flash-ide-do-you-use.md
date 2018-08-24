@@ -12,11 +12,11 @@ However, the most interesting tidbit was which program was in the 2nd place slot
 
 Thanks again to [Rich Tretola][8] for picking my poll idea!
 
-[1]: https://kevinsuttle.com/posts/found-and-lost-the-flash-ide/ (Found and Lost: The Flash IDE)
-[2]: http://twitter.com/richtretola/statuses/1846624356 (Twitter- Rich Treolta)
-[3]: http://insideria.com/index.htm (InsideRIA)
-[4]: http://www.insideria.com/2009/05/new-poll-what-ide-do-you-use-t.html (InsideRIA poll)
-[5]: http://www.insideria.com/2009/05/poll-results-which-ide-do-you.html (InsideRIA poll results)
-[6]: http://www.flashdevelop.org/wikidocs/index.php?title=Main_Page (FlashDevelop - Main Page)
-[7]: http://www.insideria.com/2009/05/poll-results-which-ide-do-you.html (InsideRIA Poll Results)
-[8]: http://blog.everythingflex.com/ (Rich Trelota - EverythingFlex)
+[1]: https://kevinsuttle.com/posts/found-and-lost-the-flash-ide/ "Found and Lost: The Flash IDE"
+[2]: http://twitter.com/richtretola/statuses/1846624356 "Twitter- Rich Treolta"
+[3]: http://insideria.com/index.htm "InsideRIA"
+[4]: http://www.insideria.com/2009/05/new-poll-what-ide-do-you-use-t.html "InsideRIA poll"
+[5]: http://www.insideria.com/2009/05/poll-results-which-ide-do-you.html "InsideRIA poll results"
+[6]: http://www.flashdevelop.org/wikidocs/index.php?title=Main_Page "FlashDevelop - Main Page"
+[7]: http://www.insideria.com/2009/05/poll-results-which-ide-do-you.html "InsideRIA Poll Results"
+[8]: http://blog.everythingflex.com/ "Rich Trelota - EverythingFlex"
