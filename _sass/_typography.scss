@@ -6,6 +6,7 @@ body {
 	font-family: $serif-font;
 	font-synthesis: none;
 	-moz-font-feature-settings: "kern";
+	font-feature-settings: "kern";
 	-moz-osx-font-smoothing: grayscale;
 	direction: ltr;
 	text-align: left;
@@ -86,7 +87,6 @@ a:hover {
 .article {
 	font-family: $serif-font;
 	line-height: 1.6;
-	font-size: $base-font-size;
 
 	h2,
 	h3 {
